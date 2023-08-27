@@ -1,0 +1,490 @@
+@font-face {
+  font-family: NotoSansCJKkr;
+  font-weight: 700;
+  src: local("NotoSansCJKkr"), url("../media/NotoSansKR-Bold.58d116cc.woff2") format("woff2"), url("../media/NotoSansKR-Bold.4bd6c88d.woff") format("woff"),
+    url("../_next/static/media/NotoSansKR-Bold.f10c5e1a.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: NotoSansCJKkr;
+  font-weight: 500;
+  src: local("NotoSansCJKkr"), url("../media/NotoSansKR-Medium.ec258ace.woff2") format("woff2"), url("../media/NotoSansKR-Medium.573a4834.woff") format("woff"),
+    url("../media/NotoSansKR-Medium.d3b0ebd1.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: NotoSansCJKkr;
+  font-weight: 400;
+  src: local("NotoSansCJKkr"), url("../media/NotoSansKR-Regular.e1ffcc34.woff2") format("woff2"), url("../media/NotoSansKR-Regular.96745a23.woff") format("woff"),
+    url("../media/NotoSansKR-Regular.fc3b615d.ttf") format("truetype");
+}
+* {
+  box-sizing: border-box;
+  .wrap {
+    width: 100%;
+    min-width: 1080px;
+  }
+}
+html {
+  line-height: 1.15;
+  text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  color: #191919;
+  letter-spacing: -0.05em;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: "Noto Sans KR", sans-serif;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  color: inherit;
+}
+ol,
+ul,
+li,
+dl,
+dd,
+dt,
+p {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.btn {
+  height: 36px;
+  display: inline-block;
+  background-color: transparent;
+  border: 1px solid transparent;
+  line-height: 16px;
+  user-select: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 0;
+  font-family: "Noto Sans KR", sans-serif;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  cursor: pointer;
+  &:active:focus {
+    box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.1rem rgb(0, 0, 0);
+  }
+  &_sm {
+    height: 30px;
+    padding: 0 12px;
+    min-width: 70px;
+  }
+  &_lg {
+    height: 45px;
+    min-width: 200px;
+    line-height: 1;
+  }
+  &_bd {
+    border-radius: 50rem;
+  }
+}
+.icon_only {
+  font-size: 0;
+  border: 0;
+  padding: 0;
+  background: #fff;
+}
+.icon_arrow {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.main_tit {
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  padding: 75px 0 33px 0;
+}
+.none {
+  display: none;
+}
+.act {
+  display: block !important;
+}
+.overflow {
+  overflow: hidden;
+}
+.top_event {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  color: #fff;
+  .top_banner {
+    font-family: "NotoSansCJKkr";
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    margin: 0 auto;
+    background: rgb(0, 0, 0);
+    padding: 0 10px 0 15px;
+    display: flex;
+  }
+  .banner_txt {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: -0.3px;
+    color: rgb(255, 255, 255);
+  }
+  .banner_cont {
+    margin-left: auto;
+    width: 64px;
+    height: 26px;
+    font-size: 11px;
+    border-radius: 13px;
+    font-weight: 500;
+    letter-spacing: -0.33px;
+    line-height: 12px;
+    padding: 8px 11px 7px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  .btn_delete {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+  }
+}
+.skip a {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  color: #fff;
+  z-index: 100;
+  line-height: 40px;
+  top: -40px;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.skip :focus {
+  opacity: 1;
+  top: 0;
+}
+header {
+  position: sticky;
+  width: 100%;
+  height: 56px;
+  font-size: 13px;
+  margin: 0 auto;
+  z-index: 90;
+  padding: 16px 15px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(237, 237, 237);
+  .header_wrap {
+    position: relative;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    font-size: 0;
+    .btn_menu {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 24px;
+      height: 24px;
+      cursor: pointer;
+    }
+    .menu_right {
+      position: absolute;
+      top: 0;
+      right: 0;
+      display: flex;
+      li {
+        margin-right: 15px;
+        cursor: pointer;
+        &:last-child {
+          margin-right: 0;
+        }
+        > img {
+          width: 24px;
+          height: 24px;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+}
+.amondz_logo {
+  font-size: 0;
+  display: flex;
+  align-items: center;
+}
+.modal_menu {
+  font-family: "NotoSansCJKkr";
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  z-index: 100;
+  display: none;
+  .modal_box {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    bottom: 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    z-index: 102;
+    .modal_header_top .modal_top_area {
+      padding: 16px 15px;
+      height: 56px;
+      img {
+        height: 24px;
+        width: 24px;
+        cursor: pointer;
+      }
+    }
+    .modal_body {
+      text-align: left;
+      padding: 10px 25px 10px;
+      height: 100%;
+      .modal_head_contents {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 56px;
+      }
+      .mymenu {
+        padding-right: 5px;
+        display: flex;
+        // align-items: center;
+        > li:not(:last-child) {
+          margin-right: 30px;
+        }
+        li a {
+          display: inline-block;
+          height: 100%;
+          font-family: NotoSansCJKkr;
+          font-size: 15px;
+          font-weight: 500;
+          letter-spacing: -0.58px;
+          color: rgb(155, 155, 155);
+          cursor: pointer;
+        }
+      }
+      .modal_body_contents {
+        height: calc(100% - 112px);
+        padding-bottom: 48px;
+        overflow: auto;
+        .product_list_area {
+          padding-bottom: 20px;
+          .product_category {
+            margin: 20px 0px 10px;
+            padding: 21px 0px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            letter-spacing: -0.5px;
+            border-bottom: 1px solid rgb(237, 237, 237);
+            &_list li .btn_item {
+              height: 100%;
+              width: 100%;
+            }
+            &_list .btn_more a {
+              cursor: pointer;
+              position: relative;
+              font-size: 13px;
+              font-weight: 500;
+              color: rgb(155, 155, 155);
+            }
+          }
+          .product_category_list {
+            padding-left: 16px;
+            li {
+              display: inline-block;
+              width: 49%;
+              line-height: 42px;
+              height: 42px;
+              font-size: 15px;
+              letter-spacing: -0.5px;
+            }
+            .btn_more a:after {
+              content: " +";
+            }
+          }
+        }
+        .brand_list_area {
+          cursor: pointer;
+          margin-bottom: 25px;
+          border-bottom: 1px solid rgb(237, 237, 237);
+          .brand_page {
+            display: block;
+            width: 100%;
+            height: 100%;
+            padding: 21px 0px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            letter-spacing: -0.5px;
+          }
+        }
+        .download_banner_area {
+          height: 95px;
+          border-radius: 13px;
+          background-color: rgb(247, 247, 247);
+          display: inline-block;
+          padding: 15px;
+          width: 100%;
+          height: 100%;
+          .app_tit {
+            font-size: 13px;
+            letter-spacing: -0.5px;
+            margin: 12px 0px 3px;
+            line-height: 1.54;
+            font-weight: 500;
+          }
+          .sub_tit {
+            font-size: 13px;
+            letter-spacing: -0.5px;
+          }
+          .download_banner {
+            position: relative;
+            width: 100%;
+            > span {
+              position: absolute;
+              top: 0px;
+              right: 0px;
+              font-size: 12px;
+              letter-spacing: -0.3px;
+              font-weight: 500;
+              color: rgb(155, 155, 155);
+              &:after {
+                content: "";
+                display: inline-block;
+                margin-left: 4px;
+                width: 16px;
+                height: 16px;
+                vertical-align: text-bottom;
+                background: url("../img/download_arrow_btn_w16.svg");
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.mobile_nav {
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 50px;
+  border-top: 1px solid rgb(237, 237, 237);
+  padding: 5px 24px 6px;
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    a {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      span {
+        font-family: NotoSansCJKkr;
+        font-size: 10px;
+        font-weight: normal;
+        color: rgb(188, 188, 188);
+      }
+    }
+  }
+}
+.footer {
+  font-family: NotoSansCJKkr;
+  background-color: rgb(255, 255, 255);
+  border-top: 1px solid rgb(237, 237, 237);
+  .footer_info {
+    padding: 15px 15px 90px;
+    .amondz_logo {
+      margin-bottom: 15px;
+    }
+    ul {
+      li {
+        line-height: 17px;
+        font-size: 11px;
+        letter-spacing: -0.3px;
+        color: rgb(0, 0, 0);
+        margin-bottom: 3px;
+        > li:not(:last-child) {
+          margin-bottom: 0;
+        }
+        &.address span + span,
+        &.executive span + span {
+          margin-left: 14px;
+        }
+        span {
+          opacity: 0.7;
+        }
+        .biznumber {
+          margin-left: 14px;
+          opacity: 1;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .footer_area {
+    width: 1080px;
+    margin: 0 auto;
+    padding: 33px 0;
+  }
+  .footer_menu {
+    font-size: 14px;
+    margin-bottom: 30px;
+    .footer_title span,
+    .footer_list {
+      color: rgb(0, 0, 0);
+      letter-spacing: -0.3px;
+      border-bottom: 1px solid rgb(237, 237, 237);
+      font-size: 13px;
+      line-height: 19px;
+      cursor: pointer;
+    }
+    .footer_title {
+      position: relative;
+      span {
+        position: relative;
+        display: flex;
+        width: 100%;
+        padding: 15px;
+        line-height: 18px;
+        font-size: 12px;
+        font-weight: 500;
+      }
+      img {
+        position: absolute;
+        right: 15px;
+        width: 16px;
+        height: 16px;
+        object-fit: contain;
+      }
+    }
+    .footer_list {
+      display: flex;
+      flex-direction: column;
+      padding: 25px 15px;
+      gap: 24px;
+      li {
+        p {
+          line-height: 17px;
+          font-size: 11px;
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+}

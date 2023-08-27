@@ -1,0 +1,8 @@
+{
+  "items": [
+    { "id": 0, "brand": "마마카사르", "thumb": "./amondz/img/sale_first_01.png", "name": "14K목걸이", "price": { "ori": 20000, "sale": 10000 } },
+    { "id": 1, "brand": "위아몬즈", "thumb": "./amondz/img/sale_first_01.png", "name": "14K 팔찌", "price": { "ori": 20000, "sale": 18000 } },
+    { "id": 0, "brand": "안녕", "thumb": "./amondz/img/sale_first_01.png", "name": "14K목걸이", "price": { "ori": 20000, "sale": 10000 } },
+    { "id": 0, "brand": "하세요", "thumb": "./amondz/img/sale_first_01.png", "name": "14K목걸이", "price": { "ori": 20000, "sale": 10000 } }
+  ]
+}
