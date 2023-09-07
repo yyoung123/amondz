@@ -1,8 +1,184 @@
 {
   "items": [
-    { "id": 0, "brand": "마마카사르", "thumb": "./amondz/img/sale_first_01.png", "name": "14K목걸이", "price": { "ori": 20000, "sale": 10000 } },
-    { "id": 1, "brand": "위아몬즈", "thumb": "./amondz/img/sale_first_01.png", "name": "14K 팔찌", "price": { "ori": 20000, "sale": 18000 } },
-    { "id": 0, "brand": "안녕", "thumb": "./amondz/img/sale_first_01.png", "name": "14K목걸이", "price": { "ori": 20000, "sale": 10000 } },
-    { "id": 0, "brand": "하세요", "thumb": "./amondz/img/sale_first_01.png", "name": "14K목걸이", "price": { "ori": 20000, "sale": 10000 } }
+    {
+      "id": 0,
+      "cate": 0,
+      "brand": "마마카사르",
+      "thumb": "./img/main/PSI_910972_50.jpeg",
+      "name": "[아몬즈 단독] 하트 세이프핀 투웨이 진주 목걸이 - 화이트,그레이",
+      "price": { "ori": 86000, "sale": 73100 },
+      "delivery": 1
+    },
+    {
+      "id": 1,
+      "cate": 0,
+      "brand": "위아몬즈",
+      "thumb": "./img/main/PSI_478407.jpeg",
+      "name": "실버 하트 볼 위아몬즈 팔찌",
+      "price": { "ori": 49900, "sale": 37420 },
+      "delivery": 1
+    },
+    {
+      "id": 2,
+      "cate": 0,
+      "brand": "워크룸희수",
+      "thumb": "./img/main/PSI_719382_50.jpeg",
+      "name": "미니바 각인팔찌 plea",
+      "price": { "ori": 18000, "sale": 16740 },
+      "delivery": 0
+    },
+    {
+      "id": 3,
+      "cate": 0,
+      "brand": "텐타클",
+      "thumb": "./img/main/PSI_805465_50.jpeg",
+      "name": "델마르 실버 반지",
+      "price": { "ori": 87000, "sale": 78300 },
+      "delivery": 1
+    },
+    {
+      "id": 4,
+      "cate": 0,
+      "brand": "a14",
+      "thumb": "./img/main/PSI_1037743_50.jpeg",
+      "name": "14k 플래인 슬림 플랫 반지",
+      "price": { "ori": 141000, "sale": 141000 },
+      "delivery": 1
+    },
+    {
+      "id": 5,
+      "cate": 0,
+      "brand": "유월",
+      "thumb": "./img/main/PSI_511502_50.jpeg",
+      "name": "[트와이스 나연 착용] Heart bear 목걸이",
+      "price": { "ori": 38000, "sale": 38000 },
+      "delivery": 0
+    },
+    {
+      "id": 6,
+      "cate": 0,
+      "brand": "스테이잼",
+      "thumb": "./img/main/PSI_482525_50.jpeg",
+      "name": "14K 클린 오픈 뱅글 팔찌",
+      "price": { "ori": 490000, "sale": 490000 },
+      "delivery": 1
+    },
+    {
+      "id": 7,
+      "cate": 0,
+      "brand": "드네브",
+      "thumb": "./img/main/PSI_877914_50.jpeg",
+      "name": "14k 미니 프레임 원터치 귀걸이",
+      "price": { "ori": 128000, "sale": 84480 },
+      "delivery": 0
+    },
+    {
+      "id": 8,
+      "cate": 1,
+      "brand": "수리움",
+      "thumb": "./img/main/PSI_1027906_50.jpeg",
+      "name": "SUMMER GLASS HEART NECKLACE(CLEAR)",
+      "price": { "ori": 77000, "sale": 73150 },
+      "delivery": 1
+    },
+    {
+      "id": 9,
+      "cate": 1,
+      "brand": "수리움",
+      "thumb": "./img/main/PSI_1027938_50.jpeg",
+      "name": "SUNLIGHT RING",
+      "price": { "ori": 85000, "sale": 85000 },
+      "delivery": 1
+    },
+    {
+      "id": 10,
+      "cate": 1,
+      "brand": "수리움",
+      "thumb": "./img/main/PSI_1027882_50.jpeg",
+      "name": "WATER DROP NECKLACE(CLEAR)",
+      "price": { "ori": 72000, "sale": 72000 },
+      "delivery": 1
+    },
+    {
+      "id": 11,
+      "cate": 1,
+      "brand": "엠엠이",
+      "thumb": "./img/main/PSI_695560.jpeg",
+      "name": "[아몬즈 단독] m.m.e _c",
+      "price": { "ori": 125000, "sale": 112500 },
+      "delivery": 1
+    },
+    {
+      "id": 11,
+      "cate": 2,
+      "brand": "따스한기록",
+      "thumb": "./img/main/PSI_677267_50.jpeg",
+      "name": "[아몬즈 단독] N046_Like a star, White&Topaz",
+      "price": { "ori": 60800, "sale": 64000 },
+      "delivery": 1
+    },
+    {
+      "id": 12,
+      "cate": 2,
+      "brand": "멕코이",
+      "thumb": "./img/main/PSI_509317_50.jpeg",
+      "name": "[아몬즈 단독] 14k/18k RIPPLE RING (2size)",
+      "price": { "ori": 300000, "sale": 255000 },
+      "delivery": 1
+    },
+    {
+      "id": 13,
+      "cate": 2,
+      "brand": "플릿",
+      "thumb": "./img/main/PSI_995916_50.jpeg",
+      "name": "해류 TEXTURE RING NECKLACE",
+      "price": { "ori": 84000, "sale": 84000 },
+      "delivery": 1
+    },
+    {
+      "id": 14,
+      "cate": 2,
+      "brand": "시에가",
+      "thumb": "./img/main/PSI_1024528_50.jpeg",
+      "name": "#02Fab. Antique Knot Ring (G)",
+      "price": { "ori": 74000, "sale": 62900 },
+      "delivery": 0
+    },
+    {
+      "id": 15,
+      "cate": 3,
+      "brand": "타티아나",
+      "thumb": "./img/main/PSI_572764_50.jpeg",
+      "name": "셀리아 진주 벨벳 헤어밴드_HB0103",
+      "price": { "ori": 42000, "sale": 33600 },
+      "delivery": 1
+    },
+    {
+      "id": 16,
+      "cate": 3,
+      "brand": "카인더베이비",
+      "thumb": "./img/main/PSI_760389_50.jpeg",
+      "name": "cream organdy scrunch",
+      "price": { "ori": 16000, "sale": 16000 },
+      "delivery": 0
+    },
+    {
+      "id": 17,
+      "cate": 3,
+      "brand": "센티멍",
+      "thumb": "./img/main/PSI_911932_50.jpeg",
+      "name": "no.353 hair pin 2set XXL silver 푸쉬핀 클립",
+      "price": { "ori": 28000, "sale": 28000 },
+      "delivery": 0
+    },
+    {
+      "id": 18,
+      "cate": 3,
+      "brand": "아이엠조이",
+      "thumb": "./img/main/PSI_351685_50.jpeg",
+      "name": "페이크퍼 니트 겨울 데일리 꼬임 집게 헤어핀",
+      "price": { "ori": 9900, "sale": 9900 },
+      "delivery": 0
+    }
   ]
 }

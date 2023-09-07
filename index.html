@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/common.css" />
     <script src="./js/jquery-3.6.1.min.js"></script>
-    <script src="./js/swiper.min.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
     <script src="./js/common.js" defer></script>
     <script src="./js/main.js" defer></script>
   </head>
@@ -31,91 +31,84 @@
       <a href="#mainApp">본문바로가기</a>
     </div>
     <div id="mainWrap" class="">
-      <div class="header_area">
-        <a href="" class="top_event">
-          <div class="top_banner">
-            <span class="banner_txt">첫 구매라면 최대 8만원 할인<span
-              style="font-size: 16px;"> 🙋🏻‍♀️</span></span>
-            <div class="banner_cont">할인 받기</div>
-            <img src="./img/common/delete_white_btn.png" alt="닫기버튼" class="btn_delete">
-          </div>
-        </a>
-        <header class="header">
-          <div class="header_wrap">
-            <img src="./img/header/header_menu_black_btn.svg" alt="메뉴버튼" class="btn_menu">
-            <a href="" class="amondz_logo">아몬즈로고
-              <svg role="img" aria-label="amondz-logo" width="97" height="20" viewBox="0 0 97 20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="r7gwngiowa" d="M0 0h14.473v14.59H0z"></path></defs><g fill-rule="evenodd"><path d="M86.457 5.188v2.815h6.567l-6.847 9.376v1.992H97v-2.816h-6.96l6.68-9.375V5.188zM76.088 5.188c2.12 0 3.725.887 4.759 2.33V0h2.938v19.417h-2.938v-1.995c-1.034 1.47-2.639 2.356-4.76 2.356-3.7 0-6.775-3.19-6.775-7.296 0-4.132 3.075-7.294 6.776-7.294m4.759 7.294c0-2.579-1.85-4.438-4.298-4.438-2.45 0-4.298 1.86-4.298 4.438 0 2.58 1.849 4.44 4.298 4.44s4.298-1.86 4.298-4.44M67.668 10.902v8.515h-2.94v-8.211c0-2.108-1.197-3.217-3.045-3.217-1.931 0-3.454 1.167-3.454 3.996v7.432h-2.94V5.547h2.94v1.775c.897-1.44 2.366-2.134 4.215-2.134 3.047 0 5.224 2.108 5.224 5.714M51.02 11.543c.015-1.285-.45-2.393-1.308-3.13-.65-.557-1.48-.851-2.398-.851-1.514 0-3.08.802-4.187 2.15-1.846 2.244-1.897 5.313-.11 6.84.65.558 1.48.852 2.398.852 1.514 0 3.08-.802 4.187-2.15.9-1.092 1.404-2.412 1.418-3.71m-4.657-6.578c4.15 0 7.4 3.3 7.4 7.516 0 4.215-3.25 7.518-7.4 7.518-4.148 0-7.398-3.303-7.398-7.518 0-4.216 3.25-7.516 7.398-7.516M37.134 10.819v8.598h-2.94v-8.405c0-1.94-1.033-3.023-2.638-3.023-1.741 0-2.964 1.138-2.964 3.661v7.767h-2.939v-8.405c0-1.94-.951-3.023-2.556-3.023-1.66 0-3.021 1.138-3.021 3.661v7.767H17.14V5.547h2.936v1.665c.872-1.36 2.205-2.024 3.89-2.024 1.77 0 3.074.803 3.864 2.192.898-1.444 2.339-2.192 4.162-2.192 3.072 0 5.142 2.163 5.142 5.63"></path><g transform="translate(0 5.188)"><mask id="59awzkkpeb" fill="#fff"><use xlink:href="#r7gwngiowa"></use></mask><path d="M11.534 7.293c0-2.578-1.849-4.437-4.298-4.437-2.448 0-4.297 1.859-4.297 4.437 0 2.582 1.849 4.44 4.297 4.44 2.45 0 4.298-1.858 4.298-4.44zM14.473.358v13.87h-2.939v-1.995c-1.033 1.47-2.639 2.356-4.76 2.356C3.075 14.59 0 11.4 0 7.293 0 3.162 3.075 0 6.775 0c2.12 0 3.726.887 4.76 2.33V.358h2.938z" mask="url(#59awzkkpeb)"></path></g></g></svg>
-            </a>
-            <ul class="menu_right">
-              <li><img src="./img/header/header_search_black_btn.svg" alt="검색버튼" class="btn_search">검색</li>
-              <li><img src="./img/header/header_cart_btn.svg" alt="장바구니버튼" class="btn_cart">장바구니</img></li>
-            </ul>
-          </div>
-        </header>
-        <div class="modal_menu">
-          <div class="modal_box">
-            <div class="modal_header_top">
-              <div class="modal_top_area">
-                <img src="./img/common/modal_close_btn.png" alt="닫기버튼" class="modal_btn_close">
-              </div>
+      <a href="" class="top_event">
+        <div class="top_banner">
+          <span class="banner_txt">첫 구매라면 최대 8만원 할인<span
+            style="font-size: 16px;"> 🙋🏻‍♀️</span></span>
+          <div class="banner_cont">할인 받기</div>
+          <img src="./img/common/delete_white_btn.png" alt="닫기버튼" class="btn_delete">
+        </div>
+      </a>
+      <header class="header">
+        <div class="header_wrap">
+          <img src="./img/header/header_menu_black_btn.svg" alt="메뉴버튼" class="btn_menu">
+          <a href="" class="amondz_logo">아몬즈로고
+            <svg role="img" aria-label="amondz-logo" width="97" height="20" viewBox="0 0 97 20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="r7gwngiowa" d="M0 0h14.473v14.59H0z"></path></defs><g fill-rule="evenodd"><path d="M86.457 5.188v2.815h6.567l-6.847 9.376v1.992H97v-2.816h-6.96l6.68-9.375V5.188zM76.088 5.188c2.12 0 3.725.887 4.759 2.33V0h2.938v19.417h-2.938v-1.995c-1.034 1.47-2.639 2.356-4.76 2.356-3.7 0-6.775-3.19-6.775-7.296 0-4.132 3.075-7.294 6.776-7.294m4.759 7.294c0-2.579-1.85-4.438-4.298-4.438-2.45 0-4.298 1.86-4.298 4.438 0 2.58 1.849 4.44 4.298 4.44s4.298-1.86 4.298-4.44M67.668 10.902v8.515h-2.94v-8.211c0-2.108-1.197-3.217-3.045-3.217-1.931 0-3.454 1.167-3.454 3.996v7.432h-2.94V5.547h2.94v1.775c.897-1.44 2.366-2.134 4.215-2.134 3.047 0 5.224 2.108 5.224 5.714M51.02 11.543c.015-1.285-.45-2.393-1.308-3.13-.65-.557-1.48-.851-2.398-.851-1.514 0-3.08.802-4.187 2.15-1.846 2.244-1.897 5.313-.11 6.84.65.558 1.48.852 2.398.852 1.514 0 3.08-.802 4.187-2.15.9-1.092 1.404-2.412 1.418-3.71m-4.657-6.578c4.15 0 7.4 3.3 7.4 7.516 0 4.215-3.25 7.518-7.4 7.518-4.148 0-7.398-3.303-7.398-7.518 0-4.216 3.25-7.516 7.398-7.516M37.134 10.819v8.598h-2.94v-8.405c0-1.94-1.033-3.023-2.638-3.023-1.741 0-2.964 1.138-2.964 3.661v7.767h-2.939v-8.405c0-1.94-.951-3.023-2.556-3.023-1.66 0-3.021 1.138-3.021 3.661v7.767H17.14V5.547h2.936v1.665c.872-1.36 2.205-2.024 3.89-2.024 1.77 0 3.074.803 3.864 2.192.898-1.444 2.339-2.192 4.162-2.192 3.072 0 5.142 2.163 5.142 5.63"></path><g transform="translate(0 5.188)"><mask id="59awzkkpeb" fill="#fff"><use xlink:href="#r7gwngiowa"></use></mask><path d="M11.534 7.293c0-2.578-1.849-4.437-4.298-4.437-2.448 0-4.297 1.859-4.297 4.437 0 2.582 1.849 4.44 4.297 4.44 2.45 0 4.298-1.858 4.298-4.44zM14.473.358v13.87h-2.939v-1.995c-1.033 1.47-2.639 2.356-4.76 2.356C3.075 14.59 0 11.4 0 7.293 0 3.162 3.075 0 6.775 0c2.12 0 3.726.887 4.76 2.33V.358h2.938z" mask="url(#59awzkkpeb)"></path></g></g></svg>
+          </a>
+          <ul class="menu_right">
+            <li><img src="./img/header/header_search_black_btn.svg" alt="검색버튼" class="btn_search">검색</li>
+            <li><img src="./img/header/header_cart_btn.svg" alt="장바구니버튼" class="btn_cart">장바구니</img></li>
+          </ul>
+        </div>
+      </header>
+      <div class="modal_menu">
+        <div class="modal_box">
+          <div class="modal_header_top">
+            <div class="modal_top_area">
+              <img src="./img/common/modal_close_btn.png" alt="닫기버튼" class="modal_btn_close">
             </div>
-            <div class="modal_body">
-              <div class="modal_body_area">
-                <div class="modal_head_contents">
-                  <div class="amondz_logo">
-                    <a href="" class="">아몬즈로고
-                      <svg role="img" aria-label="amondz-logo" width="85" height="18" viewBox="0 0 97 20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="r7gwngiowa" d="M0 0h14.473v14.59H0z"></path></defs><g fill-rule="evenodd"><path d="M86.457 5.188v2.815h6.567l-6.847 9.376v1.992H97v-2.816h-6.96l6.68-9.375V5.188zM76.088 5.188c2.12 0 3.725.887 4.759 2.33V0h2.938v19.417h-2.938v-1.995c-1.034 1.47-2.639 2.356-4.76 2.356-3.7 0-6.775-3.19-6.775-7.296 0-4.132 3.075-7.294 6.776-7.294m4.759 7.294c0-2.579-1.85-4.438-4.298-4.438-2.45 0-4.298 1.86-4.298 4.438 0 2.58 1.849 4.44 4.298 4.44s4.298-1.86 4.298-4.44M67.668 10.902v8.515h-2.94v-8.211c0-2.108-1.197-3.217-3.045-3.217-1.931 0-3.454 1.167-3.454 3.996v7.432h-2.94V5.547h2.94v1.775c.897-1.44 2.366-2.134 4.215-2.134 3.047 0 5.224 2.108 5.224 5.714M51.02 11.543c.015-1.285-.45-2.393-1.308-3.13-.65-.557-1.48-.851-2.398-.851-1.514 0-3.08.802-4.187 2.15-1.846 2.244-1.897 5.313-.11 6.84.65.558 1.48.852 2.398.852 1.514 0 3.08-.802 4.187-2.15.9-1.092 1.404-2.412 1.418-3.71m-4.657-6.578c4.15 0 7.4 3.3 7.4 7.516 0 4.215-3.25 7.518-7.4 7.518-4.148 0-7.398-3.303-7.398-7.518 0-4.216 3.25-7.516 7.398-7.516M37.134 10.819v8.598h-2.94v-8.405c0-1.94-1.033-3.023-2.638-3.023-1.741 0-2.964 1.138-2.964 3.661v7.767h-2.939v-8.405c0-1.94-.951-3.023-2.556-3.023-1.66 0-3.021 1.138-3.021 3.661v7.767H17.14V5.547h2.936v1.665c.872-1.36 2.205-2.024 3.89-2.024 1.77 0 3.074.803 3.864 2.192.898-1.444 2.339-2.192 4.162-2.192 3.072 0 5.142 2.163 5.142 5.63"></path><g transform="translate(0 5.188)"><mask id="59awzkkpeb" fill="#fff"><use xlink:href="#r7gwngiowa"></use></mask><path d="M11.534 7.293c0-2.578-1.849-4.437-4.298-4.437-2.448 0-4.297 1.859-4.297 4.437 0 2.582 1.849 4.44 4.297 4.44 2.45 0 4.298-1.858 4.298-4.44zM14.473.358v13.87h-2.939v-1.995c-1.033 1.47-2.639 2.356-4.76 2.356C3.075 14.59 0 11.4 0 7.293 0 3.162 3.075 0 6.775 0c2.12 0 3.726.887 4.76 2.33V.358h2.938z" mask="url(#59awzkkpeb)"></path></g></g></svg>
-                    </a>
-                  </div>
-                  <ul class="mymenu">
-                    <li class="login"><a href="">로그인</a></li>
-                    <li class="mypage"><a href="">마이</a></li>
+          </div>
+          <div class="modal_body">
+            <div class="modal_body_area">
+              <div class="modal_head_contents">
+                <div class="amondz_logo">
+                  <a href="" class="">아몬즈로고
+                    <svg role="img" aria-label="amondz-logo" width="85" height="18" viewBox="0 0 97 20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="r7gwngiowa" d="M0 0h14.473v14.59H0z"></path></defs><g fill-rule="evenodd"><path d="M86.457 5.188v2.815h6.567l-6.847 9.376v1.992H97v-2.816h-6.96l6.68-9.375V5.188zM76.088 5.188c2.12 0 3.725.887 4.759 2.33V0h2.938v19.417h-2.938v-1.995c-1.034 1.47-2.639 2.356-4.76 2.356-3.7 0-6.775-3.19-6.775-7.296 0-4.132 3.075-7.294 6.776-7.294m4.759 7.294c0-2.579-1.85-4.438-4.298-4.438-2.45 0-4.298 1.86-4.298 4.438 0 2.58 1.849 4.44 4.298 4.44s4.298-1.86 4.298-4.44M67.668 10.902v8.515h-2.94v-8.211c0-2.108-1.197-3.217-3.045-3.217-1.931 0-3.454 1.167-3.454 3.996v7.432h-2.94V5.547h2.94v1.775c.897-1.44 2.366-2.134 4.215-2.134 3.047 0 5.224 2.108 5.224 5.714M51.02 11.543c.015-1.285-.45-2.393-1.308-3.13-.65-.557-1.48-.851-2.398-.851-1.514 0-3.08.802-4.187 2.15-1.846 2.244-1.897 5.313-.11 6.84.65.558 1.48.852 2.398.852 1.514 0 3.08-.802 4.187-2.15.9-1.092 1.404-2.412 1.418-3.71m-4.657-6.578c4.15 0 7.4 3.3 7.4 7.516 0 4.215-3.25 7.518-7.4 7.518-4.148 0-7.398-3.303-7.398-7.518 0-4.216 3.25-7.516 7.398-7.516M37.134 10.819v8.598h-2.94v-8.405c0-1.94-1.033-3.023-2.638-3.023-1.741 0-2.964 1.138-2.964 3.661v7.767h-2.939v-8.405c0-1.94-.951-3.023-2.556-3.023-1.66 0-3.021 1.138-3.021 3.661v7.767H17.14V5.547h2.936v1.665c.872-1.36 2.205-2.024 3.89-2.024 1.77 0 3.074.803 3.864 2.192.898-1.444 2.339-2.192 4.162-2.192 3.072 0 5.142 2.163 5.142 5.63"></path><g transform="translate(0 5.188)"><mask id="59awzkkpeb" fill="#fff"><use xlink:href="#r7gwngiowa"></use></mask><path d="M11.534 7.293c0-2.578-1.849-4.437-4.298-4.437-2.448 0-4.297 1.859-4.297 4.437 0 2.582 1.849 4.44 4.297 4.44 2.45 0 4.298-1.858 4.298-4.44zM14.473.358v13.87h-2.939v-1.995c-1.033 1.47-2.639 2.356-4.76 2.356C3.075 14.59 0 11.4 0 7.293 0 3.162 3.075 0 6.775 0c2.12 0 3.726.887 4.76 2.33V.358h2.938z" mask="url(#59awzkkpeb)"></path></g></g></svg>
+                  </a>
+                </div>
+                <ul class="mymenu">
+                  <li class="login"><a href="">로그인</a></li>
+                  <li class="mypage"><a href="">마이</a></li>
+                </ul>
+              </div>
+              <div class="modal_body_contents">
+                <div class="product_list_area">
+                  <div class="product_category">카테고리</div>
+                  <ul class="product_category_list">
+                    <li class="category_item"><a href=""><div class="btn_item"><span>반지</span></div></a></li>
+                    <li class="category_item"><a href=""><div class="btn_item"><span>목걸이</span></div></a></li>
+                    <li class="category_item"><a href=""><div class="btn_item"><span>귀걸이</span></div></a></li>
+                    <li class="category_item"><a href=""><div class="btn_item"><span>이어커프</span></div></a></li>
+                    <li class="category_item"><a href=""><div class="btn_item"><span>팔찌</span></div></a></li>
+                    <li class="category_item"><a href=""><div class="btn_item"><span>발찌</span></div></a></li>
+                    <li class="category_item"><a href=""><div class="btn_item"><span>향수</span></div></a></li>
+                    <li class="category_item"><a href=""><div class="btn_item"><span>헤어</span></div></a></li>
+                    <li class="btn_more"><a href="">더보기</a></li>
                   </ul>
                 </div>
-                <div class="modal_body_contents">
-                  <div class="product_list_area">
-                    <div class="product_category">카테고리</div>
-                    <ul class="product_category_list">
-                      <li class="category_item"><a href=""><div class="btn_item"><span>반지</span></div></a></li>
-                      <li class="category_item"><a href=""><div class="btn_item"><span>목걸이</span></div></a></li>
-                      <li class="category_item"><a href=""><div class="btn_item"><span>귀걸이</span></div></a></li>
-                      <li class="category_item"><a href=""><div class="btn_item"><span>이어커프</span></div></a></li>
-                      <li class="category_item"><a href=""><div class="btn_item"><span>팔찌</span></div></a></li>
-                      <li class="category_item"><a href=""><div class="btn_item"><span>발찌</span></div></a></li>
-                      <li class="category_item"><a href=""><div class="btn_item"><span>향수</span></div></a></li>
-                      <li class="category_item"><a href=""><div class="btn_item"><span>헤어</span></div></a></li>
-                      <li class="btn_more"><a href="">더보기</a></li>
-                    </ul>
-                  </div>
-                  <div class="brand_list_area">
-                    <a href="" class="brand_page">브랜드</a>
-                  </div>
-                  <div class="download_banner_area">
-                    <a href="">
-                      <div class="download_banner">
-                        <div class="app_amondz_logo">
-                          <svg role="img" aria-label="amondz-logo" width="67" height="14" viewBox="0 0 97 20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="r7gwngiowa" d="M0 0h14.473v14.59H0z"></path></defs><g fill-rule="evenodd"><path d="M86.457 5.188v2.815h6.567l-6.847 9.376v1.992H97v-2.816h-6.96l6.68-9.375V5.188zM76.088 5.188c2.12 0 3.725.887 4.759 2.33V0h2.938v19.417h-2.938v-1.995c-1.034 1.47-2.639 2.356-4.76 2.356-3.7 0-6.775-3.19-6.775-7.296 0-4.132 3.075-7.294 6.776-7.294m4.759 7.294c0-2.579-1.85-4.438-4.298-4.438-2.45 0-4.298 1.86-4.298 4.438 0 2.58 1.849 4.44 4.298 4.44s4.298-1.86 4.298-4.44M67.668 10.902v8.515h-2.94v-8.211c0-2.108-1.197-3.217-3.045-3.217-1.931 0-3.454 1.167-3.454 3.996v7.432h-2.94V5.547h2.94v1.775c.897-1.44 2.366-2.134 4.215-2.134 3.047 0 5.224 2.108 5.224 5.714M51.02 11.543c.015-1.285-.45-2.393-1.308-3.13-.65-.557-1.48-.851-2.398-.851-1.514 0-3.08.802-4.187 2.15-1.846 2.244-1.897 5.313-.11 6.84.65.558 1.48.852 2.398.852 1.514 0 3.08-.802 4.187-2.15.9-1.092 1.404-2.412 1.418-3.71m-4.657-6.578c4.15 0 7.4 3.3 7.4 7.516 0 4.215-3.25 7.518-7.4 7.518-4.148 0-7.398-3.303-7.398-7.518 0-4.216 3.25-7.516 7.398-7.516M37.134 10.819v8.598h-2.94v-8.405c0-1.94-1.033-3.023-2.638-3.023-1.741 0-2.964 1.138-2.964 3.661v7.767h-2.939v-8.405c0-1.94-.951-3.023-2.556-3.023-1.66 0-3.021 1.138-3.021 3.661v7.767H17.14V5.547h2.936v1.665c.872-1.36 2.205-2.024 3.89-2.024 1.77 0 3.074.803 3.864 2.192.898-1.444 2.339-2.192 4.162-2.192 3.072 0 5.142 2.163 5.142 5.63"></path><g transform="translate(0 5.188)"><mask id="59awzkkpeb" fill="#fff"><use xlink:href="#r7gwngiowa"></use></mask><path d="M11.534 7.293c0-2.578-1.849-4.437-4.298-4.437-2.448 0-4.297 1.859-4.297 4.437 0 2.582 1.849 4.44 4.297 4.44 2.45 0 4.298-1.858 4.298-4.44zM14.473.358v13.87h-2.939v-1.995c-1.033 1.47-2.639 2.356-4.76 2.356C3.075 14.59 0 11.4 0 7.293 0 3.162 3.075 0 6.775 0c2.12 0 3.726.887 4.76 2.33V.358h2.938z" mask="url(#59awzkkpeb)"></path></g></g></svg>
-                        </div>
-                        <div class="app_tit">
-                          <span>빛나는 나를 위한 주얼리 쇼핑몰</span>
-                        </div>
-                        <div class="sub_tit">
-                          신규회원이라면 전상품 20% 할인
-                        </div>
-                        <span>앱 다운로드</span>
+                <div class="brand_list_area">
+                  <a href="" class="brand_page">브랜드</a>
+                </div>
+                <div class="download_banner_area">
+                  <a href="">
+                    <div class="download_banner">
+                      <div class="app_amondz_logo">
+                        <svg role="img" aria-label="amondz-logo" width="67" height="14" viewBox="0 0 97 20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="r7gwngiowa" d="M0 0h14.473v14.59H0z"></path></defs><g fill-rule="evenodd"><path d="M86.457 5.188v2.815h6.567l-6.847 9.376v1.992H97v-2.816h-6.96l6.68-9.375V5.188zM76.088 5.188c2.12 0 3.725.887 4.759 2.33V0h2.938v19.417h-2.938v-1.995c-1.034 1.47-2.639 2.356-4.76 2.356-3.7 0-6.775-3.19-6.775-7.296 0-4.132 3.075-7.294 6.776-7.294m4.759 7.294c0-2.579-1.85-4.438-4.298-4.438-2.45 0-4.298 1.86-4.298 4.438 0 2.58 1.849 4.44 4.298 4.44s4.298-1.86 4.298-4.44M67.668 10.902v8.515h-2.94v-8.211c0-2.108-1.197-3.217-3.045-3.217-1.931 0-3.454 1.167-3.454 3.996v7.432h-2.94V5.547h2.94v1.775c.897-1.44 2.366-2.134 4.215-2.134 3.047 0 5.224 2.108 5.224 5.714M51.02 11.543c.015-1.285-.45-2.393-1.308-3.13-.65-.557-1.48-.851-2.398-.851-1.514 0-3.08.802-4.187 2.15-1.846 2.244-1.897 5.313-.11 6.84.65.558 1.48.852 2.398.852 1.514 0 3.08-.802 4.187-2.15.9-1.092 1.404-2.412 1.418-3.71m-4.657-6.578c4.15 0 7.4 3.3 7.4 7.516 0 4.215-3.25 7.518-7.4 7.518-4.148 0-7.398-3.303-7.398-7.518 0-4.216 3.25-7.516 7.398-7.516M37.134 10.819v8.598h-2.94v-8.405c0-1.94-1.033-3.023-2.638-3.023-1.741 0-2.964 1.138-2.964 3.661v7.767h-2.939v-8.405c0-1.94-.951-3.023-2.556-3.023-1.66 0-3.021 1.138-3.021 3.661v7.767H17.14V5.547h2.936v1.665c.872-1.36 2.205-2.024 3.89-2.024 1.77 0 3.074.803 3.864 2.192.898-1.444 2.339-2.192 4.162-2.192 3.072 0 5.142 2.163 5.142 5.63"></path><g transform="translate(0 5.188)"><mask id="59awzkkpeb" fill="#fff"><use xlink:href="#r7gwngiowa"></use></mask><path d="M11.534 7.293c0-2.578-1.849-4.437-4.298-4.437-2.448 0-4.297 1.859-4.297 4.437 0 2.582 1.849 4.44 4.297 4.44 2.45 0 4.298-1.858 4.298-4.44zM14.473.358v13.87h-2.939v-1.995c-1.033 1.47-2.639 2.356-4.76 2.356C3.075 14.59 0 11.4 0 7.293 0 3.162 3.075 0 6.775 0c2.12 0 3.726.887 4.76 2.33V.358h2.938z" mask="url(#59awzkkpeb)"></path></g></g></svg>
                       </div>
-                    </a>
-                  </div>
+                      <div class="app_tit">
+                        <span>빛나는 나를 위한 주얼리 쇼핑몰</span>
+                      </div>
+                      <div class="sub_tit">
+                        신규회원이라면 전상품 20% 할인
+                      </div>
+                      <span>앱 다운로드</span>
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <!-- <div class="btn_top" tabindex="0">
-          <div class="top_icon_area">
-          <img src="./img/header/header_menu_black_btn.svg" alt="탑버튼"class="btn_top_icon">
-        </div>
-        </div> -->
       </div>
       <main id="mainApp" class="">
         <div class="main_container">
@@ -192,7 +185,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="">
+                  <a href="#">
                     <img src="./img/main/HMAI_322_50.jpeg" alt="">
                     <span>이벤트</span>
                   </a>
@@ -230,64 +223,144 @@
                         <li class="shortform_item box_img">
                           <a href="">
                             <div class="thumbnail">
-                              <!-- <img src="./img/main/s-2.jpg" alt="쇼퍼 버블 바 미러 목걸이"> -->
                               <div class="shortform_player">
-                                <video src="./img/main/320p_1692767375969.mp4" poster="./img/main/s-2.jpg" autoplay muted loop playsinline></video>
+                                <video src="./img/main/card_0_1693394913503.mp4" poster="./img/main/s-1.jpg" autoplay muted loop playsinline></video>
                               </div>
                               <div class="thumb_preview">
                                 <button>
-                                  <img src="./img/main/sp-1.jpeg" alt="프리뷰">
+                                  <img src="./img/main/sp-1.jpeg" alt="실버 러브텍 슬라이드 위아몬즈 목걸이">
                                 </button>
                               </div>
                               
                             </div>
                             <div class="thumb_tit">
-                              <h3>쇼퍼 버블 바 미러 목걸이</h3>
+                              <h3>실버 러브텍 슬라이드 위아몬즈 목걸이</h3>
                             </div>
                           </a>
                         </li>
                         <li class="shortform_item box_img">
                           <a href="">
                             <div class="thumbnail">
-                              <img src="./img/main/s-1.jpg" alt="14k 그린 마퀴즈 볼륨 목걸이">
+                              <div class="shortform_player">
+                                <video src="./img/main/card_0_1693394913503.mp4" poster="./img/main/s-1.jpg" autoplay muted loop playsinline></video>
+                              </div>
                               <div class="thumb_preview">
                                 <button>
-                                  <img src="./img/main/sp-1.jpeg" alt="프리뷰">
+                                  <img src="./img/main/sp-1.jpeg" alt="실버 러브텍 슬라이드 위아몬즈 목걸이">
                                 </button>
                               </div>
+                              
                             </div>
                             <div class="thumb_tit">
-                              <h3>14k 그린 마퀴즈 볼륨 목걸이</h3>
+                              <h3>실버 러브텍 슬라이드 위아몬즈 목걸이</h3>
                             </div>
                           </a>
                         </li>
                         <li class="shortform_item box_img">
                           <a href="">
                             <div class="thumbnail">
-                              <img src="./img/main/s-1.jpg" alt="14k 그린 마퀴즈 볼륨 목걸이">
+                              <div class="shortform_player">
+                                <video src="./img/main/card_0_1693394913503.mp4" poster="./img/main/s-1.jpg" autoplay muted loop playsinline></video>
+                              </div>
                               <div class="thumb_preview">
                                 <button>
-                                  <img src="./img/main/sp-1.jpeg" alt="프리뷰">
+                                  <img src="./img/main/sp-1.jpeg" alt="실버 러브텍 슬라이드 위아몬즈 목걸이">
                                 </button>
                               </div>
+                              
                             </div>
                             <div class="thumb_tit">
-                              <h3>14k 그린 마퀴즈 볼륨 목걸이</h3>
+                              <h3>실버 러브텍 슬라이드 위아몬즈 목걸이</h3>
                             </div>
                           </a>
                         </li>
                         <li class="shortform_item box_img">
                           <a href="">
                             <div class="thumbnail">
-                              <img src="./img/main/s-1.jpg" alt="14k 그린 마퀴즈 볼륨 목걸이">
+                              <div class="shortform_player">
+                                <video src="./img/main/card_0_1693394913503.mp4" poster="./img/main/s-1.jpg" autoplay muted loop playsinline></video>
+                              </div>
                               <div class="thumb_preview">
                                 <button>
-                                  <img src="./img/main/sp-1.jpeg" alt="프리뷰">
+                                  <img src="./img/main/sp-1.jpeg" alt="실버 러브텍 슬라이드 위아몬즈 목걸이">
                                 </button>
                               </div>
+                              
                             </div>
                             <div class="thumb_tit">
-                              <h3>14k 그린 마퀴즈 볼륨 목걸이</h3>
+                              <h3>실버 러브텍 슬라이드 위아몬즈 목걸이</h3>
+                            </div>
+                          </a>
+                        </li>
+                        <li class="shortform_item box_img">
+                          <a href="">
+                            <div class="thumbnail">
+                              <div class="shortform_player">
+                                <video src="./img/main/card_0_1693394913503.mp4" poster="./img/main/s-1.jpg" autoplay muted loop playsinline></video>
+                              </div>
+                              <div class="thumb_preview">
+                                <button>
+                                  <img src="./img/main/sp-1.jpeg" alt="실버 러브텍 슬라이드 위아몬즈 목걸이">
+                                </button>
+                              </div>
+                              
+                            </div>
+                            <div class="thumb_tit">
+                              <h3>실버 러브텍 슬라이드 위아몬즈 목걸이</h3>
+                            </div>
+                          </a>
+                        </li>
+                        <li class="shortform_item box_img">
+                          <a href="">
+                            <div class="thumbnail">
+                              <div class="shortform_player">
+                                <video src="./img/main/card_0_1693394913503.mp4" poster="./img/main/s-1.jpg" autoplay muted loop playsinline></video>
+                              </div>
+                              <div class="thumb_preview">
+                                <button>
+                                  <img src="./img/main/sp-1.jpeg" alt="실버 러브텍 슬라이드 위아몬즈 목걸이">
+                                </button>
+                              </div>
+                              
+                            </div>
+                            <div class="thumb_tit">
+                              <h3>실버 러브텍 슬라이드 위아몬즈 목걸이</h3>
+                            </div>
+                          </a>
+                        </li>
+                        <li class="shortform_item box_img">
+                          <a href="">
+                            <div class="thumbnail">
+                              <div class="shortform_player">
+                                <video src="./img/main/card_0_1693394913503.mp4" poster="./img/main/s-1.jpg" autoplay muted loop playsinline></video>
+                              </div>
+                              <div class="thumb_preview">
+                                <button>
+                                  <img src="./img/main/sp-1.jpeg" alt="실버 러브텍 슬라이드 위아몬즈 목걸이">
+                                </button>
+                              </div>
+                              
+                            </div>
+                            <div class="thumb_tit">
+                              <h3>실버 러브텍 슬라이드 위아몬즈 목걸이</h3>
+                            </div>
+                          </a>
+                        </li>
+                        <li class="shortform_item box_img">
+                          <a href="">
+                            <div class="thumbnail">
+                              <div class="shortform_player">
+                                <video src="./img/main/card_0_1693394913503.mp4" poster="./img/main/s-1.jpg" autoplay muted loop playsinline></video>
+                              </div>
+                              <div class="thumb_preview">
+                                <button>
+                                  <img src="./img/main/sp-1.jpeg" alt="실버 러브텍 슬라이드 위아몬즈 목걸이">
+                                </button>
+                              </div>
+                              
+                            </div>
+                            <div class="thumb_tit">
+                              <h3>실버 러브텍 슬라이드 위아몬즈 목걸이</h3>
                             </div>
                           </a>
                         </li>
@@ -296,448 +369,16 @@
                   </div>
                 </div>
               </article>
-              <article class="">
+              <article>
                 <div class="contents_tit">
                   <strong>당신만을 위한 맞춤 추천</strong>
                 </div>
                 <div class="contents_inner">
-                  <div class="area">
+                  <div class="recommend_area product_area">
                     <div class="swiper swiper-container swiper-grid">
-                      <div class="swiper-wrapper">
-                        <div class="swiper-slide test">
-                          <div class="product_area">
-                            <a href="">
-                              <div class="product_box">
-                                <figure>
-                                  <img src="./img/main/PSI_1.jpeg" alt="" class="product_img">
-                                </figure>
-                                <div class="product_info">
-                                  <div class="brand"><strong class="_title">
-                                    위아몬즈
-                                  </strong></div>
-                                  <div class="brand product_name">
-                                    <p class="_title">[슈퍼세일] 14K 라지 블링 체인 위아몬즈 목걸이</p>
-                                  </div>
-                                  <div class="brand product_price">
-                                    <p class="">
-                                      <span class="discount">20</span>
-                                      <span class="final_price">23,000</span>
-                                    </p>
-                                    <div class="delivery">
-                                      <svg role="img" aria-label="오늘 배송 상품" width="48" height="12" fill="#6200f0" viewBox="0 0 48 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute;"><defs><path id="gqczz64tsa" d="M0 0h22.2v12H0z"></path><path id="unexvqbykc" d="M0 0h4.848v1.193H0z"></path></defs><g fill-rule="evenodd"><g><mask id="d8fnmogxyb" fill="#fff"><use xlink:href="#gqczz64tsa"></use></mask><path d="M14.915 11.962 6.548 12C2.36 12.02-.668 8.828.128 5.231.78 2.271 3.836.054 7.284.038L15.652 0c4.189-.02 7.216 3.172 6.42 6.769-.654 2.96-3.709 5.177-7.157 5.193" mask="url(#d8fnmogxyb)"></path></g><g fill="#FFF"><path d="M6.511 5.405c-.154-.193-.207-.444-.15-.726.138-.695.83-1.144 1.764-1.144.533 0 .947.15 1.166.423.157.195.21.448.153.732-.138.69-.83 1.136-1.763 1.136-.537 0-.952-.15-1.17-.42zm1.396 2.527H7.86l.01-.047.204-1.032.007-.032.031-.004c1.37-.198 2.399-1.044 2.62-2.155.105-.526.001-1.002-.299-1.376-.41-.511-1.151-.792-2.09-.792-1.666 0-3.008.896-3.264 2.18-.218 1.096.46 1.938 1.73 2.143l.039.007-.008.04-.205 1.032-.008.036H3.886l-.194.974h6.74l.194-.974H7.907zM12.997 8.443l.008-.036h3.974l.398-2.006h-5.18l-.18.906h3.94l-.01.048-.052.262-.007.036h-3.94l-.406 2.04h5.365l.189-.949H12.937l.01-.047zM17.81 4.567l.185-.931H14.07l.01-.048.254-1.28h-1.24l-.45 2.259zM18.27 5.962l.192-.965h-6.74l-.193.965z"></path></g><path d="m26.8 1.14-.21 1.054h3.268l.21-1.054zM24.337 5.21c1.499 0 2.79-.375 3.454-1.004l.048-.046.034.053c.38.596 1.567.997 2.956.997h.198l.724-1.054h-.088c-1.183 0-1.978-.17-2.364-.506l-.11-.096h2.347l.208-1.043H24.61l-.208 1.043h2.344l-.173.1c-.506.297-1.351.448-2.512.448h-.144l.285 1.108h.135zM26.445 6.658h.062l-.013.062-.067.34-.01.047h-2.592l-.195.977H28.793l-.012.062-.066.33-.01.046h-5.162l-.457 2.294H30.1l.195-.977h-5.403l.013-.062.059-.296.01-.047h5.173l.463-2.327h-2.603l.012-.062.068-.34.01-.047H31.724l.223-1.12H23.19l-.223 1.12zM40.804 3.158h-.062l.012-.062.395-1.978h-1.601L38.575 6h1.6l.302-1.51.009-.048h1.22l.256-1.284zM36.305 3.945l-.133.669-.01.047h-1.59l.012-.062.134-.67.009-.046h1.59l-.012.062zm.448-2.246-.19.951-.01.047H34.964l.012-.061.187-.937h-1.568l-.833 4.18h4.76l.832-4.18h-1.6zM34.614 9.152l.009-.048H39.557l.52-2.611h-6.545l-.23 1.152h4.945l-.012.062-.066.33-.01.047h-4.944l-.525 2.633h13.384a.584.584 0 0 0 .571-.472.586.586 0 0 0-.571-.703H34.536l.012-.061.066-.33z"></path><path d="M45.543 7.73h-3.635a.562.562 0 0 1-.572-.596.643.643 0 0 1 .638-.597h3.636c.334 0 .59.267.572.597a.643.643 0 0 1-.639.596"></path><g transform="translate(43.152 3.602)"><mask id="x459ofzysd" fill="#fff"><use xlink:href="#unexvqbykc"></use></mask><path d="M4.209 1.193H.573A.562.562 0 0 1 .001.596.643.643 0 0 1 .64 0h3.635c.335 0 .59.267.572.596a.643.643 0 0 1-.638.597" mask="url(#x459ofzysd)"></path></g></g></svg>
-                                    </div>
-                                  </div>
-                                  <button class="btn_like">
-                                    <svg role="img" aria-label="좋아요 비활성화" width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                      <path class="fill_heart" d="M15.824 4.005a5.068 5.068 0 0 0-3.753 1.937L12 6.036l-.07-.094A5.066 5.066 0 0 0 7.94 4C5.097 4 2.8 6.386 2.8 9.32a5.42 5.42 0 0 0 1.09 3.275l.124.158.382.449c1.175 1.338 3.37 3.338 6.587 6.004.663.55 1.626.54 2.279-.022l1.002-.869c3.007-2.626 4.895-4.449 5.691-5.505l.154-.215c.16-.208.312-.444.447-.695l.128-.256a.802.802 0 0 0 .059-.133c.294-.65.457-1.41.457-2.192C21.2 6.386 18.903 4 16.06 4l-.236.005zM16.06 5c2.282 0 4.14 1.93 4.14 4.32 0 .549-.098 1.082-.286 1.58l-.119.287-.006.013a4.521 4.521 0 0 1-.355.623l-.136.188c-.68 1.004-2.804 3.055-6.35 6.123l-.34.293a.765.765 0 0 1-.987.009l-1.058-.884c-2.714-2.287-4.564-4.01-5.541-5.155l-.118-.14A4.42 4.42 0 0 1 3.8 9.32C3.8 6.93 5.658 5 7.94 5c1.526 0 2.897.845 3.619 2.196l.441.826.441-.826C13.163 5.845 14.534 5 16.06 5z" fill-rule="evenodd">
-                                    </path>
-                                    </svg>
-                                  </button>
-                                </div>
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                        <!-- <div class="swiper-slide test">
-                          <div class="product_area">
-                            <a href="">
-                              <div class="product_box">
-                                <figure>
-                                  <img src="./img/main/PSI_1.jpeg" alt="" class="product_img">
-                                </figure>
-                                <div class="product_info">
-                                  <div class="brand"><strong class="_title">
-                                    위아몬즈
-                                  </strong></div>
-                                  <div class="brand product_name">
-                                    <p class="_title">[슈퍼세일] 14K 라지 블링 체인 위아몬즈 목걸이</p>
-                                  </div>
-                                  <div class="brand product_price">
-                                    <p class="">
-                                      <span class="discount">20</span>
-                                      <span class="final_price">23,000</span>
-                                    </p>
-                                    <div class="delivery">
-                                      <svg role="img" aria-label="오늘 배송 상품" width="48" height="12" fill="#6200f0" viewBox="0 0 48 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute;"><defs><path id="gqczz64tsa" d="M0 0h22.2v12H0z"></path><path id="unexvqbykc" d="M0 0h4.848v1.193H0z"></path></defs><g fill-rule="evenodd"><g><mask id="d8fnmogxyb" fill="#fff"><use xlink:href="#gqczz64tsa"></use></mask><path d="M14.915 11.962 6.548 12C2.36 12.02-.668 8.828.128 5.231.78 2.271 3.836.054 7.284.038L15.652 0c4.189-.02 7.216 3.172 6.42 6.769-.654 2.96-3.709 5.177-7.157 5.193" mask="url(#d8fnmogxyb)"></path></g><g fill="#FFF"><path d="M6.511 5.405c-.154-.193-.207-.444-.15-.726.138-.695.83-1.144 1.764-1.144.533 0 .947.15 1.166.423.157.195.21.448.153.732-.138.69-.83 1.136-1.763 1.136-.537 0-.952-.15-1.17-.42zm1.396 2.527H7.86l.01-.047.204-1.032.007-.032.031-.004c1.37-.198 2.399-1.044 2.62-2.155.105-.526.001-1.002-.299-1.376-.41-.511-1.151-.792-2.09-.792-1.666 0-3.008.896-3.264 2.18-.218 1.096.46 1.938 1.73 2.143l.039.007-.008.04-.205 1.032-.008.036H3.886l-.194.974h6.74l.194-.974H7.907zM12.997 8.443l.008-.036h3.974l.398-2.006h-5.18l-.18.906h3.94l-.01.048-.052.262-.007.036h-3.94l-.406 2.04h5.365l.189-.949H12.937l.01-.047zM17.81 4.567l.185-.931H14.07l.01-.048.254-1.28h-1.24l-.45 2.259zM18.27 5.962l.192-.965h-6.74l-.193.965z"></path></g><path d="m26.8 1.14-.21 1.054h3.268l.21-1.054zM24.337 5.21c1.499 0 2.79-.375 3.454-1.004l.048-.046.034.053c.38.596 1.567.997 2.956.997h.198l.724-1.054h-.088c-1.183 0-1.978-.17-2.364-.506l-.11-.096h2.347l.208-1.043H24.61l-.208 1.043h2.344l-.173.1c-.506.297-1.351.448-2.512.448h-.144l.285 1.108h.135zM26.445 6.658h.062l-.013.062-.067.34-.01.047h-2.592l-.195.977H28.793l-.012.062-.066.33-.01.046h-5.162l-.457 2.294H30.1l.195-.977h-5.403l.013-.062.059-.296.01-.047h5.173l.463-2.327h-2.603l.012-.062.068-.34.01-.047H31.724l.223-1.12H23.19l-.223 1.12zM40.804 3.158h-.062l.012-.062.395-1.978h-1.601L38.575 6h1.6l.302-1.51.009-.048h1.22l.256-1.284zM36.305 3.945l-.133.669-.01.047h-1.59l.012-.062.134-.67.009-.046h1.59l-.012.062zm.448-2.246-.19.951-.01.047H34.964l.012-.061.187-.937h-1.568l-.833 4.18h4.76l.832-4.18h-1.6zM34.614 9.152l.009-.048H39.557l.52-2.611h-6.545l-.23 1.152h4.945l-.012.062-.066.33-.01.047h-4.944l-.525 2.633h13.384a.584.584 0 0 0 .571-.472.586.586 0 0 0-.571-.703H34.536l.012-.061.066-.33z"></path><path d="M45.543 7.73h-3.635a.562.562 0 0 1-.572-.596.643.643 0 0 1 .638-.597h3.636c.334 0 .59.267.572.597a.643.643 0 0 1-.639.596"></path><g transform="translate(43.152 3.602)"><mask id="x459ofzysd" fill="#fff"><use xlink:href="#unexvqbykc"></use></mask><path d="M4.209 1.193H.573A.562.562 0 0 1 .001.596.643.643 0 0 1 .64 0h3.635c.335 0 .59.267.572.596a.643.643 0 0 1-.638.597" mask="url(#x459ofzysd)"></path></g></g></svg>
-                                    </div>
-                                  </div>
-                                  <button class="btn_like">
-                                    <svg role="img" aria-label="좋아요 비활성화" width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                      <path class="fill_heart" d="M15.824 4.005a5.068 5.068 0 0 0-3.753 1.937L12 6.036l-.07-.094A5.066 5.066 0 0 0 7.94 4C5.097 4 2.8 6.386 2.8 9.32a5.42 5.42 0 0 0 1.09 3.275l.124.158.382.449c1.175 1.338 3.37 3.338 6.587 6.004.663.55 1.626.54 2.279-.022l1.002-.869c3.007-2.626 4.895-4.449 5.691-5.505l.154-.215c.16-.208.312-.444.447-.695l.128-.256a.802.802 0 0 0 .059-.133c.294-.65.457-1.41.457-2.192C21.2 6.386 18.903 4 16.06 4l-.236.005zM16.06 5c2.282 0 4.14 1.93 4.14 4.32 0 .549-.098 1.082-.286 1.58l-.119.287-.006.013a4.521 4.521 0 0 1-.355.623l-.136.188c-.68 1.004-2.804 3.055-6.35 6.123l-.34.293a.765.765 0 0 1-.987.009l-1.058-.884c-2.714-2.287-4.564-4.01-5.541-5.155l-.118-.14A4.42 4.42 0 0 1 3.8 9.32C3.8 6.93 5.658 5 7.94 5c1.526 0 2.897.845 3.619 2.196l.441.826.441-.826C13.163 5.845 14.534 5 16.06 5z" fill-rule="evenodd">
-                                    </path>
-                                    </svg>
-                                  </button>
-                                </div>
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="swiper-slide test">
-                          <div class="product_area">
-                            <a href="">
-                              <div class="product_box">
-                                <figure>
-                                  <img src="./img/main/PSI_1.jpeg" alt="" class="product_img">
-                                </figure>
-                                <div class="product_info">
-                                  <div class="brand"><strong class="_title">
-                                    위아몬즈
-                                  </strong></div>
-                                  <div class="brand product_name">
-                                    <p class="_title">[슈퍼세일] 14K 라지 블링 체인 위아몬즈 목걸이</p>
-                                  </div>
-                                  <div class="brand product_price">
-                                    <p class="">
-                                      <span class="discount">20</span>
-                                      <span class="final_price">23,000</span>
-                                    </p>
-                                    <div class="delivery">
-                                      <svg role="img" aria-label="오늘 배송 상품" width="48" height="12" fill="#6200f0" viewBox="0 0 48 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute;"><defs><path id="gqczz64tsa" d="M0 0h22.2v12H0z"></path><path id="unexvqbykc" d="M0 0h4.848v1.193H0z"></path></defs><g fill-rule="evenodd"><g><mask id="d8fnmogxyb" fill="#fff"><use xlink:href="#gqczz64tsa"></use></mask><path d="M14.915 11.962 6.548 12C2.36 12.02-.668 8.828.128 5.231.78 2.271 3.836.054 7.284.038L15.652 0c4.189-.02 7.216 3.172 6.42 6.769-.654 2.96-3.709 5.177-7.157 5.193" mask="url(#d8fnmogxyb)"></path></g><g fill="#FFF"><path d="M6.511 5.405c-.154-.193-.207-.444-.15-.726.138-.695.83-1.144 1.764-1.144.533 0 .947.15 1.166.423.157.195.21.448.153.732-.138.69-.83 1.136-1.763 1.136-.537 0-.952-.15-1.17-.42zm1.396 2.527H7.86l.01-.047.204-1.032.007-.032.031-.004c1.37-.198 2.399-1.044 2.62-2.155.105-.526.001-1.002-.299-1.376-.41-.511-1.151-.792-2.09-.792-1.666 0-3.008.896-3.264 2.18-.218 1.096.46 1.938 1.73 2.143l.039.007-.008.04-.205 1.032-.008.036H3.886l-.194.974h6.74l.194-.974H7.907zM12.997 8.443l.008-.036h3.974l.398-2.006h-5.18l-.18.906h3.94l-.01.048-.052.262-.007.036h-3.94l-.406 2.04h5.365l.189-.949H12.937l.01-.047zM17.81 4.567l.185-.931H14.07l.01-.048.254-1.28h-1.24l-.45 2.259zM18.27 5.962l.192-.965h-6.74l-.193.965z"></path></g><path d="m26.8 1.14-.21 1.054h3.268l.21-1.054zM24.337 5.21c1.499 0 2.79-.375 3.454-1.004l.048-.046.034.053c.38.596 1.567.997 2.956.997h.198l.724-1.054h-.088c-1.183 0-1.978-.17-2.364-.506l-.11-.096h2.347l.208-1.043H24.61l-.208 1.043h2.344l-.173.1c-.506.297-1.351.448-2.512.448h-.144l.285 1.108h.135zM26.445 6.658h.062l-.013.062-.067.34-.01.047h-2.592l-.195.977H28.793l-.012.062-.066.33-.01.046h-5.162l-.457 2.294H30.1l.195-.977h-5.403l.013-.062.059-.296.01-.047h5.173l.463-2.327h-2.603l.012-.062.068-.34.01-.047H31.724l.223-1.12H23.19l-.223 1.12zM40.804 3.158h-.062l.012-.062.395-1.978h-1.601L38.575 6h1.6l.302-1.51.009-.048h1.22l.256-1.284zM36.305 3.945l-.133.669-.01.047h-1.59l.012-.062.134-.67.009-.046h1.59l-.012.062zm.448-2.246-.19.951-.01.047H34.964l.012-.061.187-.937h-1.568l-.833 4.18h4.76l.832-4.18h-1.6zM34.614 9.152l.009-.048H39.557l.52-2.611h-6.545l-.23 1.152h4.945l-.012.062-.066.33-.01.047h-4.944l-.525 2.633h13.384a.584.584 0 0 0 .571-.472.586.586 0 0 0-.571-.703H34.536l.012-.061.066-.33z"></path><path d="M45.543 7.73h-3.635a.562.562 0 0 1-.572-.596.643.643 0 0 1 .638-.597h3.636c.334 0 .59.267.572.597a.643.643 0 0 1-.639.596"></path><g transform="translate(43.152 3.602)"><mask id="x459ofzysd" fill="#fff"><use xlink:href="#unexvqbykc"></use></mask><path d="M4.209 1.193H.573A.562.562 0 0 1 .001.596.643.643 0 0 1 .64 0h3.635c.335 0 .59.267.572.596a.643.643 0 0 1-.638.597" mask="url(#x459ofzysd)"></path></g></g></svg>
-                                    </div>
-                                  </div>
-                                  <button class="btn_like">
-                                    <svg role="img" aria-label="좋아요 비활성화" width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                      <path class="fill_heart" d="M15.824 4.005a5.068 5.068 0 0 0-3.753 1.937L12 6.036l-.07-.094A5.066 5.066 0 0 0 7.94 4C5.097 4 2.8 6.386 2.8 9.32a5.42 5.42 0 0 0 1.09 3.275l.124.158.382.449c1.175 1.338 3.37 3.338 6.587 6.004.663.55 1.626.54 2.279-.022l1.002-.869c3.007-2.626 4.895-4.449 5.691-5.505l.154-.215c.16-.208.312-.444.447-.695l.128-.256a.802.802 0 0 0 .059-.133c.294-.65.457-1.41.457-2.192C21.2 6.386 18.903 4 16.06 4l-.236.005zM16.06 5c2.282 0 4.14 1.93 4.14 4.32 0 .549-.098 1.082-.286 1.58l-.119.287-.006.013a4.521 4.521 0 0 1-.355.623l-.136.188c-.68 1.004-2.804 3.055-6.35 6.123l-.34.293a.765.765 0 0 1-.987.009l-1.058-.884c-2.714-2.287-4.564-4.01-5.541-5.155l-.118-.14A4.42 4.42 0 0 1 3.8 9.32C3.8 6.93 5.658 5 7.94 5c1.526 0 2.897.845 3.619 2.196l.441.826.441-.826C13.163 5.845 14.534 5 16.06 5z" fill-rule="evenodd">
-                                    </path>
-                                    </svg>
-                                  </button>
-                                </div>
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="swiper-slide test">
-                          <div class="product_area">
-                            <a href="">
-                              <div class="product_box">
-                                <figure>
-                                  <img src="./img/main/PSI_1.jpeg" alt="" class="product_img">
-                                </figure>
-                                <div class="product_info">
-                                  <div class="brand"><strong class="_title">
-                                    위아몬즈
-                                  </strong></div>
-                                  <div class="brand product_name">
-                                    <p class="_title">[슈퍼세일] 14K 라지 블링 체인 위아몬즈 목걸이</p>
-                                  </div>
-                                  <div class="brand product_price">
-                                    <p class="">
-                                      <span class="discount">20</span>
-                                      <span class="final_price">23,000</span>
-                                    </p>
-                                    <div class="delivery">
-                                      <svg role="img" aria-label="오늘 배송 상품" width="48" height="12" fill="#6200f0" viewBox="0 0 48 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute;"><defs><path id="gqczz64tsa" d="M0 0h22.2v12H0z"></path><path id="unexvqbykc" d="M0 0h4.848v1.193H0z"></path></defs><g fill-rule="evenodd"><g><mask id="d8fnmogxyb" fill="#fff"><use xlink:href="#gqczz64tsa"></use></mask><path d="M14.915 11.962 6.548 12C2.36 12.02-.668 8.828.128 5.231.78 2.271 3.836.054 7.284.038L15.652 0c4.189-.02 7.216 3.172 6.42 6.769-.654 2.96-3.709 5.177-7.157 5.193" mask="url(#d8fnmogxyb)"></path></g><g fill="#FFF"><path d="M6.511 5.405c-.154-.193-.207-.444-.15-.726.138-.695.83-1.144 1.764-1.144.533 0 .947.15 1.166.423.157.195.21.448.153.732-.138.69-.83 1.136-1.763 1.136-.537 0-.952-.15-1.17-.42zm1.396 2.527H7.86l.01-.047.204-1.032.007-.032.031-.004c1.37-.198 2.399-1.044 2.62-2.155.105-.526.001-1.002-.299-1.376-.41-.511-1.151-.792-2.09-.792-1.666 0-3.008.896-3.264 2.18-.218 1.096.46 1.938 1.73 2.143l.039.007-.008.04-.205 1.032-.008.036H3.886l-.194.974h6.74l.194-.974H7.907zM12.997 8.443l.008-.036h3.974l.398-2.006h-5.18l-.18.906h3.94l-.01.048-.052.262-.007.036h-3.94l-.406 2.04h5.365l.189-.949H12.937l.01-.047zM17.81 4.567l.185-.931H14.07l.01-.048.254-1.28h-1.24l-.45 2.259zM18.27 5.962l.192-.965h-6.74l-.193.965z"></path></g><path d="m26.8 1.14-.21 1.054h3.268l.21-1.054zM24.337 5.21c1.499 0 2.79-.375 3.454-1.004l.048-.046.034.053c.38.596 1.567.997 2.956.997h.198l.724-1.054h-.088c-1.183 0-1.978-.17-2.364-.506l-.11-.096h2.347l.208-1.043H24.61l-.208 1.043h2.344l-.173.1c-.506.297-1.351.448-2.512.448h-.144l.285 1.108h.135zM26.445 6.658h.062l-.013.062-.067.34-.01.047h-2.592l-.195.977H28.793l-.012.062-.066.33-.01.046h-5.162l-.457 2.294H30.1l.195-.977h-5.403l.013-.062.059-.296.01-.047h5.173l.463-2.327h-2.603l.012-.062.068-.34.01-.047H31.724l.223-1.12H23.19l-.223 1.12zM40.804 3.158h-.062l.012-.062.395-1.978h-1.601L38.575 6h1.6l.302-1.51.009-.048h1.22l.256-1.284zM36.305 3.945l-.133.669-.01.047h-1.59l.012-.062.134-.67.009-.046h1.59l-.012.062zm.448-2.246-.19.951-.01.047H34.964l.012-.061.187-.937h-1.568l-.833 4.18h4.76l.832-4.18h-1.6zM34.614 9.152l.009-.048H39.557l.52-2.611h-6.545l-.23 1.152h4.945l-.012.062-.066.33-.01.047h-4.944l-.525 2.633h13.384a.584.584 0 0 0 .571-.472.586.586 0 0 0-.571-.703H34.536l.012-.061.066-.33z"></path><path d="M45.543 7.73h-3.635a.562.562 0 0 1-.572-.596.643.643 0 0 1 .638-.597h3.636c.334 0 .59.267.572.597a.643.643 0 0 1-.639.596"></path><g transform="translate(43.152 3.602)"><mask id="x459ofzysd" fill="#fff"><use xlink:href="#unexvqbykc"></use></mask><path d="M4.209 1.193H.573A.562.562 0 0 1 .001.596.643.643 0 0 1 .64 0h3.635c.335 0 .59.267.572.596a.643.643 0 0 1-.638.597" mask="url(#x459ofzysd)"></path></g></g></svg>
-                                    </div>
-                                  </div>
-                                  <button class="btn_like">
-                                    <svg role="img" aria-label="좋아요 비활성화" width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                      <path class="fill_heart" d="M15.824 4.005a5.068 5.068 0 0 0-3.753 1.937L12 6.036l-.07-.094A5.066 5.066 0 0 0 7.94 4C5.097 4 2.8 6.386 2.8 9.32a5.42 5.42 0 0 0 1.09 3.275l.124.158.382.449c1.175 1.338 3.37 3.338 6.587 6.004.663.55 1.626.54 2.279-.022l1.002-.869c3.007-2.626 4.895-4.449 5.691-5.505l.154-.215c.16-.208.312-.444.447-.695l.128-.256a.802.802 0 0 0 .059-.133c.294-.65.457-1.41.457-2.192C21.2 6.386 18.903 4 16.06 4l-.236.005zM16.06 5c2.282 0 4.14 1.93 4.14 4.32 0 .549-.098 1.082-.286 1.58l-.119.287-.006.013a4.521 4.521 0 0 1-.355.623l-.136.188c-.68 1.004-2.804 3.055-6.35 6.123l-.34.293a.765.765 0 0 1-.987.009l-1.058-.884c-2.714-2.287-4.564-4.01-5.541-5.155l-.118-.14A4.42 4.42 0 0 1 3.8 9.32C3.8 6.93 5.658 5 7.94 5c1.526 0 2.897.845 3.619 2.196l.441.826.441-.826C13.163 5.845 14.534 5 16.06 5z" fill-rule="evenodd">
-                                    </path>
-                                    </svg>
-                                  </button>
-                                </div>
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="swiper-slide test">
-                          <div class="product_area">
-                            <a href="">
-                              <div class="product_box">
-                                <figure>
-                                  <img src="./img/main/PSI_1.jpeg" alt="" class="product_img">
-                                </figure>
-                                <div class="product_info">
-                                  <div class="brand"><strong class="_title">
-                                    위아몬즈
-                                  </strong></div>
-                                  <div class="brand product_name">
-                                    <p class="_title">[슈퍼세일] 14K 라지 블링 체인 위아몬즈 목걸이</p>
-                                  </div>
-                                  <div class="brand product_price">
-                                    <p class="">
-                                      <span class="discount">20</span>
-                                      <span class="final_price">23,000</span>
-                                    </p>
-                                    <div class="delivery">
-                                      <svg role="img" aria-label="오늘 배송 상품" width="48" height="12" fill="#6200f0" viewBox="0 0 48 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute;"><defs><path id="gqczz64tsa" d="M0 0h22.2v12H0z"></path><path id="unexvqbykc" d="M0 0h4.848v1.193H0z"></path></defs><g fill-rule="evenodd"><g><mask id="d8fnmogxyb" fill="#fff"><use xlink:href="#gqczz64tsa"></use></mask><path d="M14.915 11.962 6.548 12C2.36 12.02-.668 8.828.128 5.231.78 2.271 3.836.054 7.284.038L15.652 0c4.189-.02 7.216 3.172 6.42 6.769-.654 2.96-3.709 5.177-7.157 5.193" mask="url(#d8fnmogxyb)"></path></g><g fill="#FFF"><path d="M6.511 5.405c-.154-.193-.207-.444-.15-.726.138-.695.83-1.144 1.764-1.144.533 0 .947.15 1.166.423.157.195.21.448.153.732-.138.69-.83 1.136-1.763 1.136-.537 0-.952-.15-1.17-.42zm1.396 2.527H7.86l.01-.047.204-1.032.007-.032.031-.004c1.37-.198 2.399-1.044 2.62-2.155.105-.526.001-1.002-.299-1.376-.41-.511-1.151-.792-2.09-.792-1.666 0-3.008.896-3.264 2.18-.218 1.096.46 1.938 1.73 2.143l.039.007-.008.04-.205 1.032-.008.036H3.886l-.194.974h6.74l.194-.974H7.907zM12.997 8.443l.008-.036h3.974l.398-2.006h-5.18l-.18.906h3.94l-.01.048-.052.262-.007.036h-3.94l-.406 2.04h5.365l.189-.949H12.937l.01-.047zM17.81 4.567l.185-.931H14.07l.01-.048.254-1.28h-1.24l-.45 2.259zM18.27 5.962l.192-.965h-6.74l-.193.965z"></path></g><path d="m26.8 1.14-.21 1.054h3.268l.21-1.054zM24.337 5.21c1.499 0 2.79-.375 3.454-1.004l.048-.046.034.053c.38.596 1.567.997 2.956.997h.198l.724-1.054h-.088c-1.183 0-1.978-.17-2.364-.506l-.11-.096h2.347l.208-1.043H24.61l-.208 1.043h2.344l-.173.1c-.506.297-1.351.448-2.512.448h-.144l.285 1.108h.135zM26.445 6.658h.062l-.013.062-.067.34-.01.047h-2.592l-.195.977H28.793l-.012.062-.066.33-.01.046h-5.162l-.457 2.294H30.1l.195-.977h-5.403l.013-.062.059-.296.01-.047h5.173l.463-2.327h-2.603l.012-.062.068-.34.01-.047H31.724l.223-1.12H23.19l-.223 1.12zM40.804 3.158h-.062l.012-.062.395-1.978h-1.601L38.575 6h1.6l.302-1.51.009-.048h1.22l.256-1.284zM36.305 3.945l-.133.669-.01.047h-1.59l.012-.062.134-.67.009-.046h1.59l-.012.062zm.448-2.246-.19.951-.01.047H34.964l.012-.061.187-.937h-1.568l-.833 4.18h4.76l.832-4.18h-1.6zM34.614 9.152l.009-.048H39.557l.52-2.611h-6.545l-.23 1.152h4.945l-.012.062-.066.33-.01.047h-4.944l-.525 2.633h13.384a.584.584 0 0 0 .571-.472.586.586 0 0 0-.571-.703H34.536l.012-.061.066-.33z"></path><path d="M45.543 7.73h-3.635a.562.562 0 0 1-.572-.596.643.643 0 0 1 .638-.597h3.636c.334 0 .59.267.572.597a.643.643 0 0 1-.639.596"></path><g transform="translate(43.152 3.602)"><mask id="x459ofzysd" fill="#fff"><use xlink:href="#unexvqbykc"></use></mask><path d="M4.209 1.193H.573A.562.562 0 0 1 .001.596.643.643 0 0 1 .64 0h3.635c.335 0 .59.267.572.596a.643.643 0 0 1-.638.597" mask="url(#x459ofzysd)"></path></g></g></svg>
-                                    </div>
-                                  </div>
-                                  <button class="btn_like">
-                                    <svg role="img" aria-label="좋아요 비활성화" width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                      <path class="fill_heart" d="M15.824 4.005a5.068 5.068 0 0 0-3.753 1.937L12 6.036l-.07-.094A5.066 5.066 0 0 0 7.94 4C5.097 4 2.8 6.386 2.8 9.32a5.42 5.42 0 0 0 1.09 3.275l.124.158.382.449c1.175 1.338 3.37 3.338 6.587 6.004.663.55 1.626.54 2.279-.022l1.002-.869c3.007-2.626 4.895-4.449 5.691-5.505l.154-.215c.16-.208.312-.444.447-.695l.128-.256a.802.802 0 0 0 .059-.133c.294-.65.457-1.41.457-2.192C21.2 6.386 18.903 4 16.06 4l-.236.005zM16.06 5c2.282 0 4.14 1.93 4.14 4.32 0 .549-.098 1.082-.286 1.58l-.119.287-.006.013a4.521 4.521 0 0 1-.355.623l-.136.188c-.68 1.004-2.804 3.055-6.35 6.123l-.34.293a.765.765 0 0 1-.987.009l-1.058-.884c-2.714-2.287-4.564-4.01-5.541-5.155l-.118-.14A4.42 4.42 0 0 1 3.8 9.32C3.8 6.93 5.658 5 7.94 5c1.526 0 2.897.845 3.619 2.196l.441.826.441-.826C13.163 5.845 14.534 5 16.06 5z" fill-rule="evenodd">
-                                    </path>
-                                    </svg>
-                                  </button>
-                                </div>
-                              </div>
-                            </a>
-                          </div>
-                        </div> -->
-                          <!-- <div class="swiper-slide">
-                            <a href="">
-                              <div class="product_box">
-                                <figure>
-                                  <img src="./img/main/PSI_1.jpeg" alt="" class="product_img">
-                                </figure>
-                                <div class="product_info">
-                                  <div class="brand"><strong class="_title">
-                                    위아몬즈
-                                  </strong></div>
-                                  <div class="brand product_name">
-                                    <p class="_title">[슈퍼세일] 14K 라지 블링 체인 위아몬즈 목걸이</p>
-                                  </div>
-                                  <div class="brand product_price">
-                                    <p class="">
-                                      <span class="discount">20</span>
-                                      <span class="final_price">23,000</span>
-                                    </p>
-                                    <div class="delivery">
-                                      <svg role="img" aria-label="오늘 배송 상품" width="48" height="12" fill="#6200f0" viewBox="0 0 48 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute;"><defs><path id="gqczz64tsa" d="M0 0h22.2v12H0z"></path><path id="unexvqbykc" d="M0 0h4.848v1.193H0z"></path></defs><g fill-rule="evenodd"><g><mask id="d8fnmogxyb" fill="#fff"><use xlink:href="#gqczz64tsa"></use></mask><path d="M14.915 11.962 6.548 12C2.36 12.02-.668 8.828.128 5.231.78 2.271 3.836.054 7.284.038L15.652 0c4.189-.02 7.216 3.172 6.42 6.769-.654 2.96-3.709 5.177-7.157 5.193" mask="url(#d8fnmogxyb)"></path></g><g fill="#FFF"><path d="M6.511 5.405c-.154-.193-.207-.444-.15-.726.138-.695.83-1.144 1.764-1.144.533 0 .947.15 1.166.423.157.195.21.448.153.732-.138.69-.83 1.136-1.763 1.136-.537 0-.952-.15-1.17-.42zm1.396 2.527H7.86l.01-.047.204-1.032.007-.032.031-.004c1.37-.198 2.399-1.044 2.62-2.155.105-.526.001-1.002-.299-1.376-.41-.511-1.151-.792-2.09-.792-1.666 0-3.008.896-3.264 2.18-.218 1.096.46 1.938 1.73 2.143l.039.007-.008.04-.205 1.032-.008.036H3.886l-.194.974h6.74l.194-.974H7.907zM12.997 8.443l.008-.036h3.974l.398-2.006h-5.18l-.18.906h3.94l-.01.048-.052.262-.007.036h-3.94l-.406 2.04h5.365l.189-.949H12.937l.01-.047zM17.81 4.567l.185-.931H14.07l.01-.048.254-1.28h-1.24l-.45 2.259zM18.27 5.962l.192-.965h-6.74l-.193.965z"></path></g><path d="m26.8 1.14-.21 1.054h3.268l.21-1.054zM24.337 5.21c1.499 0 2.79-.375 3.454-1.004l.048-.046.034.053c.38.596 1.567.997 2.956.997h.198l.724-1.054h-.088c-1.183 0-1.978-.17-2.364-.506l-.11-.096h2.347l.208-1.043H24.61l-.208 1.043h2.344l-.173.1c-.506.297-1.351.448-2.512.448h-.144l.285 1.108h.135zM26.445 6.658h.062l-.013.062-.067.34-.01.047h-2.592l-.195.977H28.793l-.012.062-.066.33-.01.046h-5.162l-.457 2.294H30.1l.195-.977h-5.403l.013-.062.059-.296.01-.047h5.173l.463-2.327h-2.603l.012-.062.068-.34.01-.047H31.724l.223-1.12H23.19l-.223 1.12zM40.804 3.158h-.062l.012-.062.395-1.978h-1.601L38.575 6h1.6l.302-1.51.009-.048h1.22l.256-1.284zM36.305 3.945l-.133.669-.01.047h-1.59l.012-.062.134-.67.009-.046h1.59l-.012.062zm.448-2.246-.19.951-.01.047H34.964l.012-.061.187-.937h-1.568l-.833 4.18h4.76l.832-4.18h-1.6zM34.614 9.152l.009-.048H39.557l.52-2.611h-6.545l-.23 1.152h4.945l-.012.062-.066.33-.01.047h-4.944l-.525 2.633h13.384a.584.584 0 0 0 .571-.472.586.586 0 0 0-.571-.703H34.536l.012-.061.066-.33z"></path><path d="M45.543 7.73h-3.635a.562.562 0 0 1-.572-.596.643.643 0 0 1 .638-.597h3.636c.334 0 .59.267.572.597a.643.643 0 0 1-.639.596"></path><g transform="translate(43.152 3.602)"><mask id="x459ofzysd" fill="#fff"><use xlink:href="#unexvqbykc"></use></mask><path d="M4.209 1.193H.573A.562.562 0 0 1 .001.596.643.643 0 0 1 .64 0h3.635c.335 0 .59.267.572.596a.643.643 0 0 1-.638.597" mask="url(#x459ofzysd)"></path></g></g></svg>
-                                    </div>
-                                  </div>
-                                  <button class="btn_like">
-                                    <svg role="img" aria-label="좋아요 비활성화" width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15.824 4.005a5.068 5.068 0 0 0-3.753 1.937L12 6.036l-.07-.094A5.066 5.066 0 0 0 7.94 4C5.097 4 2.8 6.386 2.8 9.32a5.42 5.42 0 0 0 1.09 3.275l.124.158.382.449c1.175 1.338 3.37 3.338 6.587 6.004.663.55 1.626.54 2.279-.022l1.002-.869c3.007-2.626 4.895-4.449 5.691-5.505l.154-.215c.16-.208.312-.444.447-.695l.128-.256a.802.802 0 0 0 .059-.133c.294-.65.457-1.41.457-2.192C21.2 6.386 18.903 4 16.06 4l-.236.005zM16.06 5c2.282 0 4.14 1.93 4.14 4.32 0 .549-.098 1.082-.286 1.58l-.119.287-.006.013a4.521 4.521 0 0 1-.355.623l-.136.188c-.68 1.004-2.804 3.055-6.35 6.123l-.34.293a.765.765 0 0 1-.987.009l-1.058-.884c-2.714-2.287-4.564-4.01-5.541-5.155l-.118-.14A4.42 4.42 0 0 1 3.8 9.32C3.8 6.93 5.658 5 7.94 5c1.526 0 2.897.845 3.619 2.196l.441.826.441-.826C13.163 5.845 14.534 5 16.06 5z" fill="#000000" fill-rule="evenodd"></path></svg>
-                                  </button>
-                                </div>
-                              </div>
-                            </a>
-                          </div>
-                          <div class="swiper-slide">
-                            <a href="">
-                              <div class="product_box">
-                                <figure>
-                                  <img src="./img/main/PSI_1.jpeg" alt="" class="product_img">
-                                </figure>
-                                <div class="product_info">
-                                  <div class="brand"><strong class="_title">
-                                    위아몬즈
-                                  </strong></div>
-                                  <div class="brand product_name">
-                                    <p class="_title">[슈퍼세일] 14K 라지 블링 체인 위아몬즈 목걸이</p>
-                                  </div>
-                                  <div class="brand product_price">
-                                    <p class="">
-                                      <span class="discount">20</span>
-                                      <span class="final_price">23,000</span>
-                                    </p>
-                                    <div class="delivery">
-                                      <svg role="img" aria-label="오늘 배송 상품" width="48" height="12" fill="#6200f0" viewBox="0 0 48 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute;"><defs><path id="gqczz64tsa" d="M0 0h22.2v12H0z"></path><path id="unexvqbykc" d="M0 0h4.848v1.193H0z"></path></defs><g fill-rule="evenodd"><g><mask id="d8fnmogxyb" fill="#fff"><use xlink:href="#gqczz64tsa"></use></mask><path d="M14.915 11.962 6.548 12C2.36 12.02-.668 8.828.128 5.231.78 2.271 3.836.054 7.284.038L15.652 0c4.189-.02 7.216 3.172 6.42 6.769-.654 2.96-3.709 5.177-7.157 5.193" mask="url(#d8fnmogxyb)"></path></g><g fill="#FFF"><path d="M6.511 5.405c-.154-.193-.207-.444-.15-.726.138-.695.83-1.144 1.764-1.144.533 0 .947.15 1.166.423.157.195.21.448.153.732-.138.69-.83 1.136-1.763 1.136-.537 0-.952-.15-1.17-.42zm1.396 2.527H7.86l.01-.047.204-1.032.007-.032.031-.004c1.37-.198 2.399-1.044 2.62-2.155.105-.526.001-1.002-.299-1.376-.41-.511-1.151-.792-2.09-.792-1.666 0-3.008.896-3.264 2.18-.218 1.096.46 1.938 1.73 2.143l.039.007-.008.04-.205 1.032-.008.036H3.886l-.194.974h6.74l.194-.974H7.907zM12.997 8.443l.008-.036h3.974l.398-2.006h-5.18l-.18.906h3.94l-.01.048-.052.262-.007.036h-3.94l-.406 2.04h5.365l.189-.949H12.937l.01-.047zM17.81 4.567l.185-.931H14.07l.01-.048.254-1.28h-1.24l-.45 2.259zM18.27 5.962l.192-.965h-6.74l-.193.965z"></path></g><path d="m26.8 1.14-.21 1.054h3.268l.21-1.054zM24.337 5.21c1.499 0 2.79-.375 3.454-1.004l.048-.046.034.053c.38.596 1.567.997 2.956.997h.198l.724-1.054h-.088c-1.183 0-1.978-.17-2.364-.506l-.11-.096h2.347l.208-1.043H24.61l-.208 1.043h2.344l-.173.1c-.506.297-1.351.448-2.512.448h-.144l.285 1.108h.135zM26.445 6.658h.062l-.013.062-.067.34-.01.047h-2.592l-.195.977H28.793l-.012.062-.066.33-.01.046h-5.162l-.457 2.294H30.1l.195-.977h-5.403l.013-.062.059-.296.01-.047h5.173l.463-2.327h-2.603l.012-.062.068-.34.01-.047H31.724l.223-1.12H23.19l-.223 1.12zM40.804 3.158h-.062l.012-.062.395-1.978h-1.601L38.575 6h1.6l.302-1.51.009-.048h1.22l.256-1.284zM36.305 3.945l-.133.669-.01.047h-1.59l.012-.062.134-.67.009-.046h1.59l-.012.062zm.448-2.246-.19.951-.01.047H34.964l.012-.061.187-.937h-1.568l-.833 4.18h4.76l.832-4.18h-1.6zM34.614 9.152l.009-.048H39.557l.52-2.611h-6.545l-.23 1.152h4.945l-.012.062-.066.33-.01.047h-4.944l-.525 2.633h13.384a.584.584 0 0 0 .571-.472.586.586 0 0 0-.571-.703H34.536l.012-.061.066-.33z"></path><path d="M45.543 7.73h-3.635a.562.562 0 0 1-.572-.596.643.643 0 0 1 .638-.597h3.636c.334 0 .59.267.572.597a.643.643 0 0 1-.639.596"></path><g transform="translate(43.152 3.602)"><mask id="x459ofzysd" fill="#fff"><use xlink:href="#unexvqbykc"></use></mask><path d="M4.209 1.193H.573A.562.562 0 0 1 .001.596.643.643 0 0 1 .64 0h3.635c.335 0 .59.267.572.596a.643.643 0 0 1-.638.597" mask="url(#x459ofzysd)"></path></g></g></svg>
-                                    </div>
-                                  </div>
-                                  <button class="btn_like">
-                                    <svg role="img" aria-label="좋아요 비활성화" width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15.824 4.005a5.068 5.068 0 0 0-3.753 1.937L12 6.036l-.07-.094A5.066 5.066 0 0 0 7.94 4C5.097 4 2.8 6.386 2.8 9.32a5.42 5.42 0 0 0 1.09 3.275l.124.158.382.449c1.175 1.338 3.37 3.338 6.587 6.004.663.55 1.626.54 2.279-.022l1.002-.869c3.007-2.626 4.895-4.449 5.691-5.505l.154-.215c.16-.208.312-.444.447-.695l.128-.256a.802.802 0 0 0 .059-.133c.294-.65.457-1.41.457-2.192C21.2 6.386 18.903 4 16.06 4l-.236.005zM16.06 5c2.282 0 4.14 1.93 4.14 4.32 0 .549-.098 1.082-.286 1.58l-.119.287-.006.013a4.521 4.521 0 0 1-.355.623l-.136.188c-.68 1.004-2.804 3.055-6.35 6.123l-.34.293a.765.765 0 0 1-.987.009l-1.058-.884c-2.714-2.287-4.564-4.01-5.541-5.155l-.118-.14A4.42 4.42 0 0 1 3.8 9.32C3.8 6.93 5.658 5 7.94 5c1.526 0 2.897.845 3.619 2.196l.441.826.441-.826C13.163 5.845 14.534 5 16.06 5z" fill="#000000" fill-rule="evenodd"></path></svg>
-                                  </button>
-                                </div>
-                              </div>
-                            </a>
-                          </div>
-                          <div class="swiper-slide">
-                            <a href="">
-                              <div class="product_box">
-                                <figure>
-                                  <img src="./img/main/PSI_1.jpeg" alt="" class="product_img">
-                                </figure>
-                                <div class="product_info">
-                                  <div class="brand"><strong class="_title">
-                                    위아몬즈
-                                  </strong></div>
-                                  <div class="brand product_name">
-                                    <p class="_title">[슈퍼세일] 14K 라지 블링 체인 위아몬즈 목걸이</p>
-                                  </div>
-                                  <div class="brand product_price">
-                                    <p class="">
-                                      <span class="discount">20</span>
-                                      <span class="final_price">23,000</span>
-                                    </p>
-                                    <div class="delivery">
-                                      <svg role="img" aria-label="오늘 배송 상품" width="48" height="12" fill="#6200f0" viewBox="0 0 48 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute;"><defs><path id="gqczz64tsa" d="M0 0h22.2v12H0z"></path><path id="unexvqbykc" d="M0 0h4.848v1.193H0z"></path></defs><g fill-rule="evenodd"><g><mask id="d8fnmogxyb" fill="#fff"><use xlink:href="#gqczz64tsa"></use></mask><path d="M14.915 11.962 6.548 12C2.36 12.02-.668 8.828.128 5.231.78 2.271 3.836.054 7.284.038L15.652 0c4.189-.02 7.216 3.172 6.42 6.769-.654 2.96-3.709 5.177-7.157 5.193" mask="url(#d8fnmogxyb)"></path></g><g fill="#FFF"><path d="M6.511 5.405c-.154-.193-.207-.444-.15-.726.138-.695.83-1.144 1.764-1.144.533 0 .947.15 1.166.423.157.195.21.448.153.732-.138.69-.83 1.136-1.763 1.136-.537 0-.952-.15-1.17-.42zm1.396 2.527H7.86l.01-.047.204-1.032.007-.032.031-.004c1.37-.198 2.399-1.044 2.62-2.155.105-.526.001-1.002-.299-1.376-.41-.511-1.151-.792-2.09-.792-1.666 0-3.008.896-3.264 2.18-.218 1.096.46 1.938 1.73 2.143l.039.007-.008.04-.205 1.032-.008.036H3.886l-.194.974h6.74l.194-.974H7.907zM12.997 8.443l.008-.036h3.974l.398-2.006h-5.18l-.18.906h3.94l-.01.048-.052.262-.007.036h-3.94l-.406 2.04h5.365l.189-.949H12.937l.01-.047zM17.81 4.567l.185-.931H14.07l.01-.048.254-1.28h-1.24l-.45 2.259zM18.27 5.962l.192-.965h-6.74l-.193.965z"></path></g><path d="m26.8 1.14-.21 1.054h3.268l.21-1.054zM24.337 5.21c1.499 0 2.79-.375 3.454-1.004l.048-.046.034.053c.38.596 1.567.997 2.956.997h.198l.724-1.054h-.088c-1.183 0-1.978-.17-2.364-.506l-.11-.096h2.347l.208-1.043H24.61l-.208 1.043h2.344l-.173.1c-.506.297-1.351.448-2.512.448h-.144l.285 1.108h.135zM26.445 6.658h.062l-.013.062-.067.34-.01.047h-2.592l-.195.977H28.793l-.012.062-.066.33-.01.046h-5.162l-.457 2.294H30.1l.195-.977h-5.403l.013-.062.059-.296.01-.047h5.173l.463-2.327h-2.603l.012-.062.068-.34.01-.047H31.724l.223-1.12H23.19l-.223 1.12zM40.804 3.158h-.062l.012-.062.395-1.978h-1.601L38.575 6h1.6l.302-1.51.009-.048h1.22l.256-1.284zM36.305 3.945l-.133.669-.01.047h-1.59l.012-.062.134-.67.009-.046h1.59l-.012.062zm.448-2.246-.19.951-.01.047H34.964l.012-.061.187-.937h-1.568l-.833 4.18h4.76l.832-4.18h-1.6zM34.614 9.152l.009-.048H39.557l.52-2.611h-6.545l-.23 1.152h4.945l-.012.062-.066.33-.01.047h-4.944l-.525 2.633h13.384a.584.584 0 0 0 .571-.472.586.586 0 0 0-.571-.703H34.536l.012-.061.066-.33z"></path><path d="M45.543 7.73h-3.635a.562.562 0 0 1-.572-.596.643.643 0 0 1 .638-.597h3.636c.334 0 .59.267.572.597a.643.643 0 0 1-.639.596"></path><g transform="translate(43.152 3.602)"><mask id="x459ofzysd" fill="#fff"><use xlink:href="#unexvqbykc"></use></mask><path d="M4.209 1.193H.573A.562.562 0 0 1 .001.596.643.643 0 0 1 .64 0h3.635c.335 0 .59.267.572.596a.643.643 0 0 1-.638.597" mask="url(#x459ofzysd)"></path></g></g></svg>
-                                    </div>
-                                  </div>
-                                  <button class="btn_like">
-                                    <svg role="img" aria-label="좋아요 비활성화" width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15.824 4.005a5.068 5.068 0 0 0-3.753 1.937L12 6.036l-.07-.094A5.066 5.066 0 0 0 7.94 4C5.097 4 2.8 6.386 2.8 9.32a5.42 5.42 0 0 0 1.09 3.275l.124.158.382.449c1.175 1.338 3.37 3.338 6.587 6.004.663.55 1.626.54 2.279-.022l1.002-.869c3.007-2.626 4.895-4.449 5.691-5.505l.154-.215c.16-.208.312-.444.447-.695l.128-.256a.802.802 0 0 0 .059-.133c.294-.65.457-1.41.457-2.192C21.2 6.386 18.903 4 16.06 4l-.236.005zM16.06 5c2.282 0 4.14 1.93 4.14 4.32 0 .549-.098 1.082-.286 1.58l-.119.287-.006.013a4.521 4.521 0 0 1-.355.623l-.136.188c-.68 1.004-2.804 3.055-6.35 6.123l-.34.293a.765.765 0 0 1-.987.009l-1.058-.884c-2.714-2.287-4.564-4.01-5.541-5.155l-.118-.14A4.42 4.42 0 0 1 3.8 9.32C3.8 6.93 5.658 5 7.94 5c1.526 0 2.897.845 3.619 2.196l.441.826.441-.826C13.163 5.845 14.534 5 16.06 5z" fill="#000000" fill-rule="evenodd"></path></svg>
-                                  </button>
-                                </div>
-                              </div>
-                            </a>
-                          </div>
-                          <div class="swiper-slide">
-                            <a href="">
-                              <div class="product_box">
-                                <figure>
-                                  <img src="./img/main/PSI_1.jpeg" alt="" class="product_img">
-                                </figure>
-                                <div class="product_info">
-                                  <div class="brand"><strong class="_title">
-                                    위아몬즈
-                                  </strong></div>
-                                  <div class="brand product_name">
-                                    <p class="_title">[슈퍼세일] 14K 라지 블링 체인 위아몬즈 목걸이</p>
-                                  </div>
-                                  <div class="brand product_price">
-                                    <p class="">
-                                      <span class="discount">20</span>
-                                      <span class="final_price">23,000</span>
-                                    </p>
-                                    <div class="delivery">
-                                      <svg role="img" aria-label="오늘 배송 상품" width="48" height="12" fill="#6200f0" viewBox="0 0 48 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute;"><defs><path id="gqczz64tsa" d="M0 0h22.2v12H0z"></path><path id="unexvqbykc" d="M0 0h4.848v1.193H0z"></path></defs><g fill-rule="evenodd"><g><mask id="d8fnmogxyb" fill="#fff"><use xlink:href="#gqczz64tsa"></use></mask><path d="M14.915 11.962 6.548 12C2.36 12.02-.668 8.828.128 5.231.78 2.271 3.836.054 7.284.038L15.652 0c4.189-.02 7.216 3.172 6.42 6.769-.654 2.96-3.709 5.177-7.157 5.193" mask="url(#d8fnmogxyb)"></path></g><g fill="#FFF"><path d="M6.511 5.405c-.154-.193-.207-.444-.15-.726.138-.695.83-1.144 1.764-1.144.533 0 .947.15 1.166.423.157.195.21.448.153.732-.138.69-.83 1.136-1.763 1.136-.537 0-.952-.15-1.17-.42zm1.396 2.527H7.86l.01-.047.204-1.032.007-.032.031-.004c1.37-.198 2.399-1.044 2.62-2.155.105-.526.001-1.002-.299-1.376-.41-.511-1.151-.792-2.09-.792-1.666 0-3.008.896-3.264 2.18-.218 1.096.46 1.938 1.73 2.143l.039.007-.008.04-.205 1.032-.008.036H3.886l-.194.974h6.74l.194-.974H7.907zM12.997 8.443l.008-.036h3.974l.398-2.006h-5.18l-.18.906h3.94l-.01.048-.052.262-.007.036h-3.94l-.406 2.04h5.365l.189-.949H12.937l.01-.047zM17.81 4.567l.185-.931H14.07l.01-.048.254-1.28h-1.24l-.45 2.259zM18.27 5.962l.192-.965h-6.74l-.193.965z"></path></g><path d="m26.8 1.14-.21 1.054h3.268l.21-1.054zM24.337 5.21c1.499 0 2.79-.375 3.454-1.004l.048-.046.034.053c.38.596 1.567.997 2.956.997h.198l.724-1.054h-.088c-1.183 0-1.978-.17-2.364-.506l-.11-.096h2.347l.208-1.043H24.61l-.208 1.043h2.344l-.173.1c-.506.297-1.351.448-2.512.448h-.144l.285 1.108h.135zM26.445 6.658h.062l-.013.062-.067.34-.01.047h-2.592l-.195.977H28.793l-.012.062-.066.33-.01.046h-5.162l-.457 2.294H30.1l.195-.977h-5.403l.013-.062.059-.296.01-.047h5.173l.463-2.327h-2.603l.012-.062.068-.34.01-.047H31.724l.223-1.12H23.19l-.223 1.12zM40.804 3.158h-.062l.012-.062.395-1.978h-1.601L38.575 6h1.6l.302-1.51.009-.048h1.22l.256-1.284zM36.305 3.945l-.133.669-.01.047h-1.59l.012-.062.134-.67.009-.046h1.59l-.012.062zm.448-2.246-.19.951-.01.047H34.964l.012-.061.187-.937h-1.568l-.833 4.18h4.76l.832-4.18h-1.6zM34.614 9.152l.009-.048H39.557l.52-2.611h-6.545l-.23 1.152h4.945l-.012.062-.066.33-.01.047h-4.944l-.525 2.633h13.384a.584.584 0 0 0 .571-.472.586.586 0 0 0-.571-.703H34.536l.012-.061.066-.33z"></path><path d="M45.543 7.73h-3.635a.562.562 0 0 1-.572-.596.643.643 0 0 1 .638-.597h3.636c.334 0 .59.267.572.597a.643.643 0 0 1-.639.596"></path><g transform="translate(43.152 3.602)"><mask id="x459ofzysd" fill="#fff"><use xlink:href="#unexvqbykc"></use></mask><path d="M4.209 1.193H.573A.562.562 0 0 1 .001.596.643.643 0 0 1 .64 0h3.635c.335 0 .59.267.572.596a.643.643 0 0 1-.638.597" mask="url(#x459ofzysd)"></path></g></g></svg>
-                                    </div>
-                                  </div>
-                                  <button class="btn_like">
-                                    <svg role="img" aria-label="좋아요 비활성화" width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15.824 4.005a5.068 5.068 0 0 0-3.753 1.937L12 6.036l-.07-.094A5.066 5.066 0 0 0 7.94 4C5.097 4 2.8 6.386 2.8 9.32a5.42 5.42 0 0 0 1.09 3.275l.124.158.382.449c1.175 1.338 3.37 3.338 6.587 6.004.663.55 1.626.54 2.279-.022l1.002-.869c3.007-2.626 4.895-4.449 5.691-5.505l.154-.215c.16-.208.312-.444.447-.695l.128-.256a.802.802 0 0 0 .059-.133c.294-.65.457-1.41.457-2.192C21.2 6.386 18.903 4 16.06 4l-.236.005zM16.06 5c2.282 0 4.14 1.93 4.14 4.32 0 .549-.098 1.082-.286 1.58l-.119.287-.006.013a4.521 4.521 0 0 1-.355.623l-.136.188c-.68 1.004-2.804 3.055-6.35 6.123l-.34.293a.765.765 0 0 1-.987.009l-1.058-.884c-2.714-2.287-4.564-4.01-5.541-5.155l-.118-.14A4.42 4.42 0 0 1 3.8 9.32C3.8 6.93 5.658 5 7.94 5c1.526 0 2.897.845 3.619 2.196l.441.826.441-.826C13.163 5.845 14.534 5 16.06 5z" fill="#000000" fill-rule="evenodd"></path></svg>
-                                  </button>
-                                </div>
-                              </div>
-                            </a>
-                          </div> -->
-                          <!-- <div class="swiper-slide">
-                            <a href="">
-                              <div class="product_box">
-                                <figure>
-                                  <img src="./img/main/PSI_1.jpeg" alt="" class="product_img">
-                                </figure>
-                                <div class="product_info">
-                                  <div class="brand"><strong class="_title">
-                                    위아몬즈
-                                  </strong></div>
-                                  <div class="brand product_name">
-                                    <p class="_title">[슈퍼세일] 14K 라지 블링 체인 위아몬즈 목걸이</p>
-                                  </div>
-                                  <div class="brand product_price">
-                                    <p class="">
-                                      <span class="discount">20</span>
-                                      <span class="final_price">23,000</span>
-                                    </p>
-                                    <div class="delivery">
-                                      <svg role="img" aria-label="오늘 배송 상품" width="48" height="12" fill="#6200f0" viewBox="0 0 48 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute;"><defs><path id="gqczz64tsa" d="M0 0h22.2v12H0z"></path><path id="unexvqbykc" d="M0 0h4.848v1.193H0z"></path></defs><g fill-rule="evenodd"><g><mask id="d8fnmogxyb" fill="#fff"><use xlink:href="#gqczz64tsa"></use></mask><path d="M14.915 11.962 6.548 12C2.36 12.02-.668 8.828.128 5.231.78 2.271 3.836.054 7.284.038L15.652 0c4.189-.02 7.216 3.172 6.42 6.769-.654 2.96-3.709 5.177-7.157 5.193" mask="url(#d8fnmogxyb)"></path></g><g fill="#FFF"><path d="M6.511 5.405c-.154-.193-.207-.444-.15-.726.138-.695.83-1.144 1.764-1.144.533 0 .947.15 1.166.423.157.195.21.448.153.732-.138.69-.83 1.136-1.763 1.136-.537 0-.952-.15-1.17-.42zm1.396 2.527H7.86l.01-.047.204-1.032.007-.032.031-.004c1.37-.198 2.399-1.044 2.62-2.155.105-.526.001-1.002-.299-1.376-.41-.511-1.151-.792-2.09-.792-1.666 0-3.008.896-3.264 2.18-.218 1.096.46 1.938 1.73 2.143l.039.007-.008.04-.205 1.032-.008.036H3.886l-.194.974h6.74l.194-.974H7.907zM12.997 8.443l.008-.036h3.974l.398-2.006h-5.18l-.18.906h3.94l-.01.048-.052.262-.007.036h-3.94l-.406 2.04h5.365l.189-.949H12.937l.01-.047zM17.81 4.567l.185-.931H14.07l.01-.048.254-1.28h-1.24l-.45 2.259zM18.27 5.962l.192-.965h-6.74l-.193.965z"></path></g><path d="m26.8 1.14-.21 1.054h3.268l.21-1.054zM24.337 5.21c1.499 0 2.79-.375 3.454-1.004l.048-.046.034.053c.38.596 1.567.997 2.956.997h.198l.724-1.054h-.088c-1.183 0-1.978-.17-2.364-.506l-.11-.096h2.347l.208-1.043H24.61l-.208 1.043h2.344l-.173.1c-.506.297-1.351.448-2.512.448h-.144l.285 1.108h.135zM26.445 6.658h.062l-.013.062-.067.34-.01.047h-2.592l-.195.977H28.793l-.012.062-.066.33-.01.046h-5.162l-.457 2.294H30.1l.195-.977h-5.403l.013-.062.059-.296.01-.047h5.173l.463-2.327h-2.603l.012-.062.068-.34.01-.047H31.724l.223-1.12H23.19l-.223 1.12zM40.804 3.158h-.062l.012-.062.395-1.978h-1.601L38.575 6h1.6l.302-1.51.009-.048h1.22l.256-1.284zM36.305 3.945l-.133.669-.01.047h-1.59l.012-.062.134-.67.009-.046h1.59l-.012.062zm.448-2.246-.19.951-.01.047H34.964l.012-.061.187-.937h-1.568l-.833 4.18h4.76l.832-4.18h-1.6zM34.614 9.152l.009-.048H39.557l.52-2.611h-6.545l-.23 1.152h4.945l-.012.062-.066.33-.01.047h-4.944l-.525 2.633h13.384a.584.584 0 0 0 .571-.472.586.586 0 0 0-.571-.703H34.536l.012-.061.066-.33z"></path><path d="M45.543 7.73h-3.635a.562.562 0 0 1-.572-.596.643.643 0 0 1 .638-.597h3.636c.334 0 .59.267.572.597a.643.643 0 0 1-.639.596"></path><g transform="translate(43.152 3.602)"><mask id="x459ofzysd" fill="#fff"><use xlink:href="#unexvqbykc"></use></mask><path d="M4.209 1.193H.573A.562.562 0 0 1 .001.596.643.643 0 0 1 .64 0h3.635c.335 0 .59.267.572.596a.643.643 0 0 1-.638.597" mask="url(#x459ofzysd)"></path></g></g></svg>
-                                    </div>
-                                  </div>
-                                  <button class="btn_like">
-                                    <svg role="img" aria-label="좋아요 비활성화" width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15.824 4.005a5.068 5.068 0 0 0-3.753 1.937L12 6.036l-.07-.094A5.066 5.066 0 0 0 7.94 4C5.097 4 2.8 6.386 2.8 9.32a5.42 5.42 0 0 0 1.09 3.275l.124.158.382.449c1.175 1.338 3.37 3.338 6.587 6.004.663.55 1.626.54 2.279-.022l1.002-.869c3.007-2.626 4.895-4.449 5.691-5.505l.154-.215c.16-.208.312-.444.447-.695l.128-.256a.802.802 0 0 0 .059-.133c.294-.65.457-1.41.457-2.192C21.2 6.386 18.903 4 16.06 4l-.236.005zM16.06 5c2.282 0 4.14 1.93 4.14 4.32 0 .549-.098 1.082-.286 1.58l-.119.287-.006.013a4.521 4.521 0 0 1-.355.623l-.136.188c-.68 1.004-2.804 3.055-6.35 6.123l-.34.293a.765.765 0 0 1-.987.009l-1.058-.884c-2.714-2.287-4.564-4.01-5.541-5.155l-.118-.14A4.42 4.42 0 0 1 3.8 9.32C3.8 6.93 5.658 5 7.94 5c1.526 0 2.897.845 3.619 2.196l.441.826.441-.826C13.163 5.845 14.534 5 16.06 5z" fill="#000000" fill-rule="evenodd"></path></svg>
-                                  </button>
-                                </div>
-                              </div>
-                            </a>
-                          </div>
-                          <div class="swiper-slide">
-                            <a href="">
-                              <div class="product_box">
-                                <figure>
-                                  <img src="./img/main/PSI_1.jpeg" alt="" class="product_img">
-                                </figure>
-                                <div class="product_info">
-                                  <div class="brand"><strong class="_title">
-                                    위아몬즈
-                                  </strong></div>
-                                  <div class="brand product_name">
-                                    <p class="_title">[슈퍼세일] 14K 라지 블링 체인 위아몬즈 목걸이</p>
-                                  </div>
-                                  <div class="brand product_price">
-                                    <p class="">
-                                      <span class="discount">20</span>
-                                      <span class="final_price">23,000</span>
-                                    </p>
-                                    <div class="delivery">
-                                      <svg role="img" aria-label="오늘 배송 상품" width="48" height="12" fill="#6200f0" viewBox="0 0 48 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute;"><defs><path id="gqczz64tsa" d="M0 0h22.2v12H0z"></path><path id="unexvqbykc" d="M0 0h4.848v1.193H0z"></path></defs><g fill-rule="evenodd"><g><mask id="d8fnmogxyb" fill="#fff"><use xlink:href="#gqczz64tsa"></use></mask><path d="M14.915 11.962 6.548 12C2.36 12.02-.668 8.828.128 5.231.78 2.271 3.836.054 7.284.038L15.652 0c4.189-.02 7.216 3.172 6.42 6.769-.654 2.96-3.709 5.177-7.157 5.193" mask="url(#d8fnmogxyb)"></path></g><g fill="#FFF"><path d="M6.511 5.405c-.154-.193-.207-.444-.15-.726.138-.695.83-1.144 1.764-1.144.533 0 .947.15 1.166.423.157.195.21.448.153.732-.138.69-.83 1.136-1.763 1.136-.537 0-.952-.15-1.17-.42zm1.396 2.527H7.86l.01-.047.204-1.032.007-.032.031-.004c1.37-.198 2.399-1.044 2.62-2.155.105-.526.001-1.002-.299-1.376-.41-.511-1.151-.792-2.09-.792-1.666 0-3.008.896-3.264 2.18-.218 1.096.46 1.938 1.73 2.143l.039.007-.008.04-.205 1.032-.008.036H3.886l-.194.974h6.74l.194-.974H7.907zM12.997 8.443l.008-.036h3.974l.398-2.006h-5.18l-.18.906h3.94l-.01.048-.052.262-.007.036h-3.94l-.406 2.04h5.365l.189-.949H12.937l.01-.047zM17.81 4.567l.185-.931H14.07l.01-.048.254-1.28h-1.24l-.45 2.259zM18.27 5.962l.192-.965h-6.74l-.193.965z"></path></g><path d="m26.8 1.14-.21 1.054h3.268l.21-1.054zM24.337 5.21c1.499 0 2.79-.375 3.454-1.004l.048-.046.034.053c.38.596 1.567.997 2.956.997h.198l.724-1.054h-.088c-1.183 0-1.978-.17-2.364-.506l-.11-.096h2.347l.208-1.043H24.61l-.208 1.043h2.344l-.173.1c-.506.297-1.351.448-2.512.448h-.144l.285 1.108h.135zM26.445 6.658h.062l-.013.062-.067.34-.01.047h-2.592l-.195.977H28.793l-.012.062-.066.33-.01.046h-5.162l-.457 2.294H30.1l.195-.977h-5.403l.013-.062.059-.296.01-.047h5.173l.463-2.327h-2.603l.012-.062.068-.34.01-.047H31.724l.223-1.12H23.19l-.223 1.12zM40.804 3.158h-.062l.012-.062.395-1.978h-1.601L38.575 6h1.6l.302-1.51.009-.048h1.22l.256-1.284zM36.305 3.945l-.133.669-.01.047h-1.59l.012-.062.134-.67.009-.046h1.59l-.012.062zm.448-2.246-.19.951-.01.047H34.964l.012-.061.187-.937h-1.568l-.833 4.18h4.76l.832-4.18h-1.6zM34.614 9.152l.009-.048H39.557l.52-2.611h-6.545l-.23 1.152h4.945l-.012.062-.066.33-.01.047h-4.944l-.525 2.633h13.384a.584.584 0 0 0 .571-.472.586.586 0 0 0-.571-.703H34.536l.012-.061.066-.33z"></path><path d="M45.543 7.73h-3.635a.562.562 0 0 1-.572-.596.643.643 0 0 1 .638-.597h3.636c.334 0 .59.267.572.597a.643.643 0 0 1-.639.596"></path><g transform="translate(43.152 3.602)"><mask id="x459ofzysd" fill="#fff"><use xlink:href="#unexvqbykc"></use></mask><path d="M4.209 1.193H.573A.562.562 0 0 1 .001.596.643.643 0 0 1 .64 0h3.635c.335 0 .59.267.572.596a.643.643 0 0 1-.638.597" mask="url(#x459ofzysd)"></path></g></g></svg>
-                                    </div>
-                                  </div>
-                                  <button class="btn_like">
-                                    <svg role="img" aria-label="좋아요 비활성화" width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15.824 4.005a5.068 5.068 0 0 0-3.753 1.937L12 6.036l-.07-.094A5.066 5.066 0 0 0 7.94 4C5.097 4 2.8 6.386 2.8 9.32a5.42 5.42 0 0 0 1.09 3.275l.124.158.382.449c1.175 1.338 3.37 3.338 6.587 6.004.663.55 1.626.54 2.279-.022l1.002-.869c3.007-2.626 4.895-4.449 5.691-5.505l.154-.215c.16-.208.312-.444.447-.695l.128-.256a.802.802 0 0 0 .059-.133c.294-.65.457-1.41.457-2.192C21.2 6.386 18.903 4 16.06 4l-.236.005zM16.06 5c2.282 0 4.14 1.93 4.14 4.32 0 .549-.098 1.082-.286 1.58l-.119.287-.006.013a4.521 4.521 0 0 1-.355.623l-.136.188c-.68 1.004-2.804 3.055-6.35 6.123l-.34.293a.765.765 0 0 1-.987.009l-1.058-.884c-2.714-2.287-4.564-4.01-5.541-5.155l-.118-.14A4.42 4.42 0 0 1 3.8 9.32C3.8 6.93 5.658 5 7.94 5c1.526 0 2.897.845 3.619 2.196l.441.826.441-.826C13.163 5.845 14.534 5 16.06 5z" fill="#000000" fill-rule="evenodd"></path></svg>
-                                  </button>
-                                </div>
-                              </div>
-                            </a>
-                          </div>
-                          <div class="swiper-slide">
-                            <a href="">
-                              <div class="product_box">
-                                <figure>
-                                  <img src="./img/main/PSI_1.jpeg" alt="" class="product_img">
-                                </figure>
-                                <div class="product_info">
-                                  <div class="brand"><strong class="_title">
-                                    위아몬즈
-                                  </strong></div>
-                                  <div class="brand product_name">
-                                    <p class="_title">[슈퍼세일] 14K 라지 블링 체인 위아몬즈 목걸이</p>
-                                  </div>
-                                  <div class="brand product_price">
-                                    <p class="">
-                                      <span class="discount">20</span>
-                                      <span class="final_price">23,000</span>
-                                    </p>
-                                    <div class="delivery">
-                                      <svg role="img" aria-label="오늘 배송 상품" width="48" height="12" fill="#6200f0" viewBox="0 0 48 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute;"><defs><path id="gqczz64tsa" d="M0 0h22.2v12H0z"></path><path id="unexvqbykc" d="M0 0h4.848v1.193H0z"></path></defs><g fill-rule="evenodd"><g><mask id="d8fnmogxyb" fill="#fff"><use xlink:href="#gqczz64tsa"></use></mask><path d="M14.915 11.962 6.548 12C2.36 12.02-.668 8.828.128 5.231.78 2.271 3.836.054 7.284.038L15.652 0c4.189-.02 7.216 3.172 6.42 6.769-.654 2.96-3.709 5.177-7.157 5.193" mask="url(#d8fnmogxyb)"></path></g><g fill="#FFF"><path d="M6.511 5.405c-.154-.193-.207-.444-.15-.726.138-.695.83-1.144 1.764-1.144.533 0 .947.15 1.166.423.157.195.21.448.153.732-.138.69-.83 1.136-1.763 1.136-.537 0-.952-.15-1.17-.42zm1.396 2.527H7.86l.01-.047.204-1.032.007-.032.031-.004c1.37-.198 2.399-1.044 2.62-2.155.105-.526.001-1.002-.299-1.376-.41-.511-1.151-.792-2.09-.792-1.666 0-3.008.896-3.264 2.18-.218 1.096.46 1.938 1.73 2.143l.039.007-.008.04-.205 1.032-.008.036H3.886l-.194.974h6.74l.194-.974H7.907zM12.997 8.443l.008-.036h3.974l.398-2.006h-5.18l-.18.906h3.94l-.01.048-.052.262-.007.036h-3.94l-.406 2.04h5.365l.189-.949H12.937l.01-.047zM17.81 4.567l.185-.931H14.07l.01-.048.254-1.28h-1.24l-.45 2.259zM18.27 5.962l.192-.965h-6.74l-.193.965z"></path></g><path d="m26.8 1.14-.21 1.054h3.268l.21-1.054zM24.337 5.21c1.499 0 2.79-.375 3.454-1.004l.048-.046.034.053c.38.596 1.567.997 2.956.997h.198l.724-1.054h-.088c-1.183 0-1.978-.17-2.364-.506l-.11-.096h2.347l.208-1.043H24.61l-.208 1.043h2.344l-.173.1c-.506.297-1.351.448-2.512.448h-.144l.285 1.108h.135zM26.445 6.658h.062l-.013.062-.067.34-.01.047h-2.592l-.195.977H28.793l-.012.062-.066.33-.01.046h-5.162l-.457 2.294H30.1l.195-.977h-5.403l.013-.062.059-.296.01-.047h5.173l.463-2.327h-2.603l.012-.062.068-.34.01-.047H31.724l.223-1.12H23.19l-.223 1.12zM40.804 3.158h-.062l.012-.062.395-1.978h-1.601L38.575 6h1.6l.302-1.51.009-.048h1.22l.256-1.284zM36.305 3.945l-.133.669-.01.047h-1.59l.012-.062.134-.67.009-.046h1.59l-.012.062zm.448-2.246-.19.951-.01.047H34.964l.012-.061.187-.937h-1.568l-.833 4.18h4.76l.832-4.18h-1.6zM34.614 9.152l.009-.048H39.557l.52-2.611h-6.545l-.23 1.152h4.945l-.012.062-.066.33-.01.047h-4.944l-.525 2.633h13.384a.584.584 0 0 0 .571-.472.586.586 0 0 0-.571-.703H34.536l.012-.061.066-.33z"></path><path d="M45.543 7.73h-3.635a.562.562 0 0 1-.572-.596.643.643 0 0 1 .638-.597h3.636c.334 0 .59.267.572.597a.643.643 0 0 1-.639.596"></path><g transform="translate(43.152 3.602)"><mask id="x459ofzysd" fill="#fff"><use xlink:href="#unexvqbykc"></use></mask><path d="M4.209 1.193H.573A.562.562 0 0 1 .001.596.643.643 0 0 1 .64 0h3.635c.335 0 .59.267.572.596a.643.643 0 0 1-.638.597" mask="url(#x459ofzysd)"></path></g></g></svg>
-                                    </div>
-                                  </div>
-                                  <button class="btn_like">
-                                    <svg role="img" aria-label="좋아요 비활성화" width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15.824 4.005a5.068 5.068 0 0 0-3.753 1.937L12 6.036l-.07-.094A5.066 5.066 0 0 0 7.94 4C5.097 4 2.8 6.386 2.8 9.32a5.42 5.42 0 0 0 1.09 3.275l.124.158.382.449c1.175 1.338 3.37 3.338 6.587 6.004.663.55 1.626.54 2.279-.022l1.002-.869c3.007-2.626 4.895-4.449 5.691-5.505l.154-.215c.16-.208.312-.444.447-.695l.128-.256a.802.802 0 0 0 .059-.133c.294-.65.457-1.41.457-2.192C21.2 6.386 18.903 4 16.06 4l-.236.005zM16.06 5c2.282 0 4.14 1.93 4.14 4.32 0 .549-.098 1.082-.286 1.58l-.119.287-.006.013a4.521 4.521 0 0 1-.355.623l-.136.188c-.68 1.004-2.804 3.055-6.35 6.123l-.34.293a.765.765 0 0 1-.987.009l-1.058-.884c-2.714-2.287-4.564-4.01-5.541-5.155l-.118-.14A4.42 4.42 0 0 1 3.8 9.32C3.8 6.93 5.658 5 7.94 5c1.526 0 2.897.845 3.619 2.196l.441.826.441-.826C13.163 5.845 14.534 5 16.06 5z" fill="#000000" fill-rule="evenodd"></path></svg>
-                                  </button>
-                                </div>
-                              </div>
-                            </a>
-                          </div>
-                          <div class="swiper-slide">
-                            <a href="">
-                              <div class="product_box">
-                                <figure>
-                                  <img src="./img/main/PSI_1.jpeg" alt="" class="product_img">
-                                </figure>
-                                <div class="product_info">
-                                  <div class="brand"><strong class="_title">
-                                    위아몬즈
-                                  </strong></div>
-                                  <div class="brand product_name">
-                                    <p class="_title">[슈퍼세일] 14K 라지 블링 체인 위아몬즈 목걸이</p>
-                                  </div>
-                                  <div class="brand product_price">
-                                    <p class="">
-                                      <span class="discount">20</span>
-                                      <span class="final_price">23,000</span>
-                                    </p>
-                                    <div class="delivery">
-                                      <svg role="img" aria-label="오늘 배송 상품" width="48" height="12" fill="#6200f0" viewBox="0 0 48 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute;"><defs><path id="gqczz64tsa" d="M0 0h22.2v12H0z"></path><path id="unexvqbykc" d="M0 0h4.848v1.193H0z"></path></defs><g fill-rule="evenodd"><g><mask id="d8fnmogxyb" fill="#fff"><use xlink:href="#gqczz64tsa"></use></mask><path d="M14.915 11.962 6.548 12C2.36 12.02-.668 8.828.128 5.231.78 2.271 3.836.054 7.284.038L15.652 0c4.189-.02 7.216 3.172 6.42 6.769-.654 2.96-3.709 5.177-7.157 5.193" mask="url(#d8fnmogxyb)"></path></g><g fill="#FFF"><path d="M6.511 5.405c-.154-.193-.207-.444-.15-.726.138-.695.83-1.144 1.764-1.144.533 0 .947.15 1.166.423.157.195.21.448.153.732-.138.69-.83 1.136-1.763 1.136-.537 0-.952-.15-1.17-.42zm1.396 2.527H7.86l.01-.047.204-1.032.007-.032.031-.004c1.37-.198 2.399-1.044 2.62-2.155.105-.526.001-1.002-.299-1.376-.41-.511-1.151-.792-2.09-.792-1.666 0-3.008.896-3.264 2.18-.218 1.096.46 1.938 1.73 2.143l.039.007-.008.04-.205 1.032-.008.036H3.886l-.194.974h6.74l.194-.974H7.907zM12.997 8.443l.008-.036h3.974l.398-2.006h-5.18l-.18.906h3.94l-.01.048-.052.262-.007.036h-3.94l-.406 2.04h5.365l.189-.949H12.937l.01-.047zM17.81 4.567l.185-.931H14.07l.01-.048.254-1.28h-1.24l-.45 2.259zM18.27 5.962l.192-.965h-6.74l-.193.965z"></path></g><path d="m26.8 1.14-.21 1.054h3.268l.21-1.054zM24.337 5.21c1.499 0 2.79-.375 3.454-1.004l.048-.046.034.053c.38.596 1.567.997 2.956.997h.198l.724-1.054h-.088c-1.183 0-1.978-.17-2.364-.506l-.11-.096h2.347l.208-1.043H24.61l-.208 1.043h2.344l-.173.1c-.506.297-1.351.448-2.512.448h-.144l.285 1.108h.135zM26.445 6.658h.062l-.013.062-.067.34-.01.047h-2.592l-.195.977H28.793l-.012.062-.066.33-.01.046h-5.162l-.457 2.294H30.1l.195-.977h-5.403l.013-.062.059-.296.01-.047h5.173l.463-2.327h-2.603l.012-.062.068-.34.01-.047H31.724l.223-1.12H23.19l-.223 1.12zM40.804 3.158h-.062l.012-.062.395-1.978h-1.601L38.575 6h1.6l.302-1.51.009-.048h1.22l.256-1.284zM36.305 3.945l-.133.669-.01.047h-1.59l.012-.062.134-.67.009-.046h1.59l-.012.062zm.448-2.246-.19.951-.01.047H34.964l.012-.061.187-.937h-1.568l-.833 4.18h4.76l.832-4.18h-1.6zM34.614 9.152l.009-.048H39.557l.52-2.611h-6.545l-.23 1.152h4.945l-.012.062-.066.33-.01.047h-4.944l-.525 2.633h13.384a.584.584 0 0 0 .571-.472.586.586 0 0 0-.571-.703H34.536l.012-.061.066-.33z"></path><path d="M45.543 7.73h-3.635a.562.562 0 0 1-.572-.596.643.643 0 0 1 .638-.597h3.636c.334 0 .59.267.572.597a.643.643 0 0 1-.639.596"></path><g transform="translate(43.152 3.602)"><mask id="x459ofzysd" fill="#fff"><use xlink:href="#unexvqbykc"></use></mask><path d="M4.209 1.193H.573A.562.562 0 0 1 .001.596.643.643 0 0 1 .64 0h3.635c.335 0 .59.267.572.596a.643.643 0 0 1-.638.597" mask="url(#x459ofzysd)"></path></g></g></svg>
-                                    </div>
-                                  </div>
-                                  <button class="btn_like">
-                                    <svg role="img" aria-label="좋아요 비활성화" width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15.824 4.005a5.068 5.068 0 0 0-3.753 1.937L12 6.036l-.07-.094A5.066 5.066 0 0 0 7.94 4C5.097 4 2.8 6.386 2.8 9.32a5.42 5.42 0 0 0 1.09 3.275l.124.158.382.449c1.175 1.338 3.37 3.338 6.587 6.004.663.55 1.626.54 2.279-.022l1.002-.869c3.007-2.626 4.895-4.449 5.691-5.505l.154-.215c.16-.208.312-.444.447-.695l.128-.256a.802.802 0 0 0 .059-.133c.294-.65.457-1.41.457-2.192C21.2 6.386 18.903 4 16.06 4l-.236.005zM16.06 5c2.282 0 4.14 1.93 4.14 4.32 0 .549-.098 1.082-.286 1.58l-.119.287-.006.013a4.521 4.521 0 0 1-.355.623l-.136.188c-.68 1.004-2.804 3.055-6.35 6.123l-.34.293a.765.765 0 0 1-.987.009l-1.058-.884c-2.714-2.287-4.564-4.01-5.541-5.155l-.118-.14A4.42 4.42 0 0 1 3.8 9.32C3.8 6.93 5.658 5 7.94 5c1.526 0 2.897.845 3.619 2.196l.441.826.441-.826C13.163 5.845 14.534 5 16.06 5z" fill="#000000" fill-rule="evenodd"></path></svg>
-                                  </button>
-                                </div>
-                              </div>
-                            </a>
-                          </div>
-                          <div class="swiper-slide">
-                            <a href="">
-                              <div class="product_box">
-                                <figure>
-                                  <img src="./img/main/PSI_1.jpeg" alt="" class="product_img">
-                                </figure>
-                                <div class="product_info">
-                                  <div class="brand"><strong class="_title">
-                                    위아몬즈
-                                  </strong></div>
-                                  <div class="brand product_name">
-                                    <p class="_title">[슈퍼세일] 14K 라지 블링 체인 위아몬즈 목걸이</p>
-                                  </div>
-                                  <div class="brand product_price">
-                                    <p class="">
-                                      <span class="discount">20</span>
-                                      <span class="final_price">23,000</span>
-                                    </p>
-                                    <div class="delivery">
-                                      <svg role="img" aria-label="오늘 배송 상품" width="48" height="12" fill="#6200f0" viewBox="0 0 48 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute;"><defs><path id="gqczz64tsa" d="M0 0h22.2v12H0z"></path><path id="unexvqbykc" d="M0 0h4.848v1.193H0z"></path></defs><g fill-rule="evenodd"><g><mask id="d8fnmogxyb" fill="#fff"><use xlink:href="#gqczz64tsa"></use></mask><path d="M14.915 11.962 6.548 12C2.36 12.02-.668 8.828.128 5.231.78 2.271 3.836.054 7.284.038L15.652 0c4.189-.02 7.216 3.172 6.42 6.769-.654 2.96-3.709 5.177-7.157 5.193" mask="url(#d8fnmogxyb)"></path></g><g fill="#FFF"><path d="M6.511 5.405c-.154-.193-.207-.444-.15-.726.138-.695.83-1.144 1.764-1.144.533 0 .947.15 1.166.423.157.195.21.448.153.732-.138.69-.83 1.136-1.763 1.136-.537 0-.952-.15-1.17-.42zm1.396 2.527H7.86l.01-.047.204-1.032.007-.032.031-.004c1.37-.198 2.399-1.044 2.62-2.155.105-.526.001-1.002-.299-1.376-.41-.511-1.151-.792-2.09-.792-1.666 0-3.008.896-3.264 2.18-.218 1.096.46 1.938 1.73 2.143l.039.007-.008.04-.205 1.032-.008.036H3.886l-.194.974h6.74l.194-.974H7.907zM12.997 8.443l.008-.036h3.974l.398-2.006h-5.18l-.18.906h3.94l-.01.048-.052.262-.007.036h-3.94l-.406 2.04h5.365l.189-.949H12.937l.01-.047zM17.81 4.567l.185-.931H14.07l.01-.048.254-1.28h-1.24l-.45 2.259zM18.27 5.962l.192-.965h-6.74l-.193.965z"></path></g><path d="m26.8 1.14-.21 1.054h3.268l.21-1.054zM24.337 5.21c1.499 0 2.79-.375 3.454-1.004l.048-.046.034.053c.38.596 1.567.997 2.956.997h.198l.724-1.054h-.088c-1.183 0-1.978-.17-2.364-.506l-.11-.096h2.347l.208-1.043H24.61l-.208 1.043h2.344l-.173.1c-.506.297-1.351.448-2.512.448h-.144l.285 1.108h.135zM26.445 6.658h.062l-.013.062-.067.34-.01.047h-2.592l-.195.977H28.793l-.012.062-.066.33-.01.046h-5.162l-.457 2.294H30.1l.195-.977h-5.403l.013-.062.059-.296.01-.047h5.173l.463-2.327h-2.603l.012-.062.068-.34.01-.047H31.724l.223-1.12H23.19l-.223 1.12zM40.804 3.158h-.062l.012-.062.395-1.978h-1.601L38.575 6h1.6l.302-1.51.009-.048h1.22l.256-1.284zM36.305 3.945l-.133.669-.01.047h-1.59l.012-.062.134-.67.009-.046h1.59l-.012.062zm.448-2.246-.19.951-.01.047H34.964l.012-.061.187-.937h-1.568l-.833 4.18h4.76l.832-4.18h-1.6zM34.614 9.152l.009-.048H39.557l.52-2.611h-6.545l-.23 1.152h4.945l-.012.062-.066.33-.01.047h-4.944l-.525 2.633h13.384a.584.584 0 0 0 .571-.472.586.586 0 0 0-.571-.703H34.536l.012-.061.066-.33z"></path><path d="M45.543 7.73h-3.635a.562.562 0 0 1-.572-.596.643.643 0 0 1 .638-.597h3.636c.334 0 .59.267.572.597a.643.643 0 0 1-.639.596"></path><g transform="translate(43.152 3.602)"><mask id="x459ofzysd" fill="#fff"><use xlink:href="#unexvqbykc"></use></mask><path d="M4.209 1.193H.573A.562.562 0 0 1 .001.596.643.643 0 0 1 .64 0h3.635c.335 0 .59.267.572.596a.643.643 0 0 1-.638.597" mask="url(#x459ofzysd)"></path></g></g></svg>
-                                    </div>
-                                  </div>
-                                  <button class="btn_like">
-                                    <svg role="img" aria-label="좋아요 비활성화" width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15.824 4.005a5.068 5.068 0 0 0-3.753 1.937L12 6.036l-.07-.094A5.066 5.066 0 0 0 7.94 4C5.097 4 2.8 6.386 2.8 9.32a5.42 5.42 0 0 0 1.09 3.275l.124.158.382.449c1.175 1.338 3.37 3.338 6.587 6.004.663.55 1.626.54 2.279-.022l1.002-.869c3.007-2.626 4.895-4.449 5.691-5.505l.154-.215c.16-.208.312-.444.447-.695l.128-.256a.802.802 0 0 0 .059-.133c.294-.65.457-1.41.457-2.192C21.2 6.386 18.903 4 16.06 4l-.236.005zM16.06 5c2.282 0 4.14 1.93 4.14 4.32 0 .549-.098 1.082-.286 1.58l-.119.287-.006.013a4.521 4.521 0 0 1-.355.623l-.136.188c-.68 1.004-2.804 3.055-6.35 6.123l-.34.293a.765.765 0 0 1-.987.009l-1.058-.884c-2.714-2.287-4.564-4.01-5.541-5.155l-.118-.14A4.42 4.42 0 0 1 3.8 9.32C3.8 6.93 5.658 5 7.94 5c1.526 0 2.897.845 3.619 2.196l.441.826.441-.826C13.163 5.845 14.534 5 16.06 5z" fill="#000000" fill-rule="evenodd"></path></svg>
-                                  </button>
-                                </div>
-                              </div>
-                            </a>
-                          </div> -->
-                        <!-- </div> -->
-                        <div class="recommend swiper-pagination"></div>
+                      <div class="swiper-wrapper" id="list">
                       </div>
+                      <div class="recommend swiper-pagination"></div>
                     </div>
                   </div>
                 </div>
@@ -787,156 +428,10 @@
                       <img src="./img/main/WAI_2480_50.jpeg" alt="수리움목걸이이미지">
                     </div>
                     <div class="widget_wrapper product_area">
-                      <a href="">
-                        <div class="product_box">
-                          <figure>
-                            <img src="./img/main/PSI_1.jpeg" alt="위아몬즈 14K 라지 블링 체인 위아몬즈 목걸이" class="product_img">
-                          </figure>
-                          <div class="product_info">
-                            <div class="brand"><strong class="_title">
-                              위아몬즈
-                            </strong></div>
-                            <div class="brand product_name">
-                              <p class="_title">[슈퍼세일] 14K 라지 블링 체인 위아몬즈 목걸이</p>
-                            </div>
-                            <div class="brand product_price">
-                              <p class="">
-                                <span class="discount">20</span>
-                                <span class="final_price">23,000</span>
-                              </p>
-                              <div class="delivery">
-                                <svg role="img" aria-label="오늘 배송 상품" width="48" height="12" fill="#6200f0" viewBox="0 0 48 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute;"><defs><path id="gqczz64tsa" d="M0 0h22.2v12H0z"></path><path id="unexvqbykc" d="M0 0h4.848v1.193H0z"></path></defs><g fill-rule="evenodd"><g><mask id="d8fnmogxyb" fill="#fff"><use xlink:href="#gqczz64tsa"></use></mask><path d="M14.915 11.962 6.548 12C2.36 12.02-.668 8.828.128 5.231.78 2.271 3.836.054 7.284.038L15.652 0c4.189-.02 7.216 3.172 6.42 6.769-.654 2.96-3.709 5.177-7.157 5.193" mask="url(#d8fnmogxyb)"></path></g><g fill="#FFF"><path d="M6.511 5.405c-.154-.193-.207-.444-.15-.726.138-.695.83-1.144 1.764-1.144.533 0 .947.15 1.166.423.157.195.21.448.153.732-.138.69-.83 1.136-1.763 1.136-.537 0-.952-.15-1.17-.42zm1.396 2.527H7.86l.01-.047.204-1.032.007-.032.031-.004c1.37-.198 2.399-1.044 2.62-2.155.105-.526.001-1.002-.299-1.376-.41-.511-1.151-.792-2.09-.792-1.666 0-3.008.896-3.264 2.18-.218 1.096.46 1.938 1.73 2.143l.039.007-.008.04-.205 1.032-.008.036H3.886l-.194.974h6.74l.194-.974H7.907zM12.997 8.443l.008-.036h3.974l.398-2.006h-5.18l-.18.906h3.94l-.01.048-.052.262-.007.036h-3.94l-.406 2.04h5.365l.189-.949H12.937l.01-.047zM17.81 4.567l.185-.931H14.07l.01-.048.254-1.28h-1.24l-.45 2.259zM18.27 5.962l.192-.965h-6.74l-.193.965z"></path></g><path d="m26.8 1.14-.21 1.054h3.268l.21-1.054zM24.337 5.21c1.499 0 2.79-.375 3.454-1.004l.048-.046.034.053c.38.596 1.567.997 2.956.997h.198l.724-1.054h-.088c-1.183 0-1.978-.17-2.364-.506l-.11-.096h2.347l.208-1.043H24.61l-.208 1.043h2.344l-.173.1c-.506.297-1.351.448-2.512.448h-.144l.285 1.108h.135zM26.445 6.658h.062l-.013.062-.067.34-.01.047h-2.592l-.195.977H28.793l-.012.062-.066.33-.01.046h-5.162l-.457 2.294H30.1l.195-.977h-5.403l.013-.062.059-.296.01-.047h5.173l.463-2.327h-2.603l.012-.062.068-.34.01-.047H31.724l.223-1.12H23.19l-.223 1.12zM40.804 3.158h-.062l.012-.062.395-1.978h-1.601L38.575 6h1.6l.302-1.51.009-.048h1.22l.256-1.284zM36.305 3.945l-.133.669-.01.047h-1.59l.012-.062.134-.67.009-.046h1.59l-.012.062zm.448-2.246-.19.951-.01.047H34.964l.012-.061.187-.937h-1.568l-.833 4.18h4.76l.832-4.18h-1.6zM34.614 9.152l.009-.048H39.557l.52-2.611h-6.545l-.23 1.152h4.945l-.012.062-.066.33-.01.047h-4.944l-.525 2.633h13.384a.584.584 0 0 0 .571-.472.586.586 0 0 0-.571-.703H34.536l.012-.061.066-.33z"></path><path d="M45.543 7.73h-3.635a.562.562 0 0 1-.572-.596.643.643 0 0 1 .638-.597h3.636c.334 0 .59.267.572.597a.643.643 0 0 1-.639.596"></path><g transform="translate(43.152 3.602)"><mask id="x459ofzysd" fill="#fff"><use xlink:href="#unexvqbykc"></use></mask><path d="M4.209 1.193H.573A.562.562 0 0 1 .001.596.643.643 0 0 1 .64 0h3.635c.335 0 .59.267.572.596a.643.643 0 0 1-.638.597" mask="url(#x459ofzysd)"></path></g></g></svg>
-                              </div>
-                            </div>
-                            <button class="btn_like">
-                              <svg role="img" aria-label="좋아요 비활성화" width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path class="fill_heart" d="M15.824 4.005a5.068 5.068 0 0 0-3.753 1.937L12 6.036l-.07-.094A5.066 5.066 0 0 0 7.94 4C5.097 4 2.8 6.386 2.8 9.32a5.42 5.42 0 0 0 1.09 3.275l.124.158.382.449c1.175 1.338 3.37 3.338 6.587 6.004.663.55 1.626.54 2.279-.022l1.002-.869c3.007-2.626 4.895-4.449 5.691-5.505l.154-.215c.16-.208.312-.444.447-.695l.128-.256a.802.802 0 0 0 .059-.133c.294-.65.457-1.41.457-2.192C21.2 6.386 18.903 4 16.06 4l-.236.005zM16.06 5c2.282 0 4.14 1.93 4.14 4.32 0 .549-.098 1.082-.286 1.58l-.119.287-.006.013a4.521 4.521 0 0 1-.355.623l-.136.188c-.68 1.004-2.804 3.055-6.35 6.123l-.34.293a.765.765 0 0 1-.987.009l-1.058-.884c-2.714-2.287-4.564-4.01-5.541-5.155l-.118-.14A4.42 4.42 0 0 1 3.8 9.32C3.8 6.93 5.658 5 7.94 5c1.526 0 2.897.845 3.619 2.196l.441.826.441-.826C13.163 5.845 14.534 5 16.06 5z" fill-rule="evenodd">
-                              </path>
-                              </svg>
-                            </button>
-                          </div>
+                      <div class="swiper-container">
+                        <div id="sortData" class="swiper-wrapper">
                         </div>
-                      </a>
-                      <a href="">
-                        <div class="product_box">
-                          <figure>
-                            <img src="./img/main/PSI_1.jpeg" alt="위아몬즈 14K 라지 블링 체인 위아몬즈 목걸이" class="product_img">
-                          </figure>
-                          <div class="product_info">
-                            <div class="brand"><strong class="_title">
-                              위아몬즈
-                            </strong></div>
-                            <div class="brand product_name">
-                              <p class="_title">[슈퍼세일] 14K 라지 블링 체인 위아몬즈 목걸이</p>
-                            </div>
-                            <div class="brand product_price">
-                              <p class="">
-                                <span class="discount">20</span>
-                                <span class="final_price">23,000</span>
-                              </p>
-                              <div class="delivery">
-                                <svg role="img" aria-label="오늘 배송 상품" width="48" height="12" fill="#6200f0" viewBox="0 0 48 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute;"><defs><path id="gqczz64tsa" d="M0 0h22.2v12H0z"></path><path id="unexvqbykc" d="M0 0h4.848v1.193H0z"></path></defs><g fill-rule="evenodd"><g><mask id="d8fnmogxyb" fill="#fff"><use xlink:href="#gqczz64tsa"></use></mask><path d="M14.915 11.962 6.548 12C2.36 12.02-.668 8.828.128 5.231.78 2.271 3.836.054 7.284.038L15.652 0c4.189-.02 7.216 3.172 6.42 6.769-.654 2.96-3.709 5.177-7.157 5.193" mask="url(#d8fnmogxyb)"></path></g><g fill="#FFF"><path d="M6.511 5.405c-.154-.193-.207-.444-.15-.726.138-.695.83-1.144 1.764-1.144.533 0 .947.15 1.166.423.157.195.21.448.153.732-.138.69-.83 1.136-1.763 1.136-.537 0-.952-.15-1.17-.42zm1.396 2.527H7.86l.01-.047.204-1.032.007-.032.031-.004c1.37-.198 2.399-1.044 2.62-2.155.105-.526.001-1.002-.299-1.376-.41-.511-1.151-.792-2.09-.792-1.666 0-3.008.896-3.264 2.18-.218 1.096.46 1.938 1.73 2.143l.039.007-.008.04-.205 1.032-.008.036H3.886l-.194.974h6.74l.194-.974H7.907zM12.997 8.443l.008-.036h3.974l.398-2.006h-5.18l-.18.906h3.94l-.01.048-.052.262-.007.036h-3.94l-.406 2.04h5.365l.189-.949H12.937l.01-.047zM17.81 4.567l.185-.931H14.07l.01-.048.254-1.28h-1.24l-.45 2.259zM18.27 5.962l.192-.965h-6.74l-.193.965z"></path></g><path d="m26.8 1.14-.21 1.054h3.268l.21-1.054zM24.337 5.21c1.499 0 2.79-.375 3.454-1.004l.048-.046.034.053c.38.596 1.567.997 2.956.997h.198l.724-1.054h-.088c-1.183 0-1.978-.17-2.364-.506l-.11-.096h2.347l.208-1.043H24.61l-.208 1.043h2.344l-.173.1c-.506.297-1.351.448-2.512.448h-.144l.285 1.108h.135zM26.445 6.658h.062l-.013.062-.067.34-.01.047h-2.592l-.195.977H28.793l-.012.062-.066.33-.01.046h-5.162l-.457 2.294H30.1l.195-.977h-5.403l.013-.062.059-.296.01-.047h5.173l.463-2.327h-2.603l.012-.062.068-.34.01-.047H31.724l.223-1.12H23.19l-.223 1.12zM40.804 3.158h-.062l.012-.062.395-1.978h-1.601L38.575 6h1.6l.302-1.51.009-.048h1.22l.256-1.284zM36.305 3.945l-.133.669-.01.047h-1.59l.012-.062.134-.67.009-.046h1.59l-.012.062zm.448-2.246-.19.951-.01.047H34.964l.012-.061.187-.937h-1.568l-.833 4.18h4.76l.832-4.18h-1.6zM34.614 9.152l.009-.048H39.557l.52-2.611h-6.545l-.23 1.152h4.945l-.012.062-.066.33-.01.047h-4.944l-.525 2.633h13.384a.584.584 0 0 0 .571-.472.586.586 0 0 0-.571-.703H34.536l.012-.061.066-.33z"></path><path d="M45.543 7.73h-3.635a.562.562 0 0 1-.572-.596.643.643 0 0 1 .638-.597h3.636c.334 0 .59.267.572.597a.643.643 0 0 1-.639.596"></path><g transform="translate(43.152 3.602)"><mask id="x459ofzysd" fill="#fff"><use xlink:href="#unexvqbykc"></use></mask><path d="M4.209 1.193H.573A.562.562 0 0 1 .001.596.643.643 0 0 1 .64 0h3.635c.335 0 .59.267.572.596a.643.643 0 0 1-.638.597" mask="url(#x459ofzysd)"></path></g></g></svg>
-                              </div>
-                            </div>
-                            <button class="btn_like">
-                              <svg role="img" aria-label="좋아요 비활성화" width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path class="fill_heart" d="M15.824 4.005a5.068 5.068 0 0 0-3.753 1.937L12 6.036l-.07-.094A5.066 5.066 0 0 0 7.94 4C5.097 4 2.8 6.386 2.8 9.32a5.42 5.42 0 0 0 1.09 3.275l.124.158.382.449c1.175 1.338 3.37 3.338 6.587 6.004.663.55 1.626.54 2.279-.022l1.002-.869c3.007-2.626 4.895-4.449 5.691-5.505l.154-.215c.16-.208.312-.444.447-.695l.128-.256a.802.802 0 0 0 .059-.133c.294-.65.457-1.41.457-2.192C21.2 6.386 18.903 4 16.06 4l-.236.005zM16.06 5c2.282 0 4.14 1.93 4.14 4.32 0 .549-.098 1.082-.286 1.58l-.119.287-.006.013a4.521 4.521 0 0 1-.355.623l-.136.188c-.68 1.004-2.804 3.055-6.35 6.123l-.34.293a.765.765 0 0 1-.987.009l-1.058-.884c-2.714-2.287-4.564-4.01-5.541-5.155l-.118-.14A4.42 4.42 0 0 1 3.8 9.32C3.8 6.93 5.658 5 7.94 5c1.526 0 2.897.845 3.619 2.196l.441.826.441-.826C13.163 5.845 14.534 5 16.06 5z" fill-rule="evenodd">
-                              </path>
-                              </svg>
-                            </button>
-                          </div>
-                        </div>
-                      </a>
-                      <a href="">
-                        <div class="product_box">
-                          <figure>
-                            <img src="./img/main/PSI_1.jpeg" alt="위아몬즈 14K 라지 블링 체인 위아몬즈 목걸이" class="product_img">
-                          </figure>
-                          <div class="product_info">
-                            <div class="brand"><strong class="_title">
-                              위아몬즈
-                            </strong></div>
-                            <div class="brand product_name">
-                              <p class="_title">[슈퍼세일] 14K 라지 블링 체인 위아몬즈 목걸이</p>
-                            </div>
-                            <div class="brand product_price">
-                              <p class="">
-                                <span class="discount">20</span>
-                                <span class="final_price">23,000</span>
-                              </p>
-                              <div class="delivery">
-                                <svg role="img" aria-label="오늘 배송 상품" width="48" height="12" fill="#6200f0" viewBox="0 0 48 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute;"><defs><path id="gqczz64tsa" d="M0 0h22.2v12H0z"></path><path id="unexvqbykc" d="M0 0h4.848v1.193H0z"></path></defs><g fill-rule="evenodd"><g><mask id="d8fnmogxyb" fill="#fff"><use xlink:href="#gqczz64tsa"></use></mask><path d="M14.915 11.962 6.548 12C2.36 12.02-.668 8.828.128 5.231.78 2.271 3.836.054 7.284.038L15.652 0c4.189-.02 7.216 3.172 6.42 6.769-.654 2.96-3.709 5.177-7.157 5.193" mask="url(#d8fnmogxyb)"></path></g><g fill="#FFF"><path d="M6.511 5.405c-.154-.193-.207-.444-.15-.726.138-.695.83-1.144 1.764-1.144.533 0 .947.15 1.166.423.157.195.21.448.153.732-.138.69-.83 1.136-1.763 1.136-.537 0-.952-.15-1.17-.42zm1.396 2.527H7.86l.01-.047.204-1.032.007-.032.031-.004c1.37-.198 2.399-1.044 2.62-2.155.105-.526.001-1.002-.299-1.376-.41-.511-1.151-.792-2.09-.792-1.666 0-3.008.896-3.264 2.18-.218 1.096.46 1.938 1.73 2.143l.039.007-.008.04-.205 1.032-.008.036H3.886l-.194.974h6.74l.194-.974H7.907zM12.997 8.443l.008-.036h3.974l.398-2.006h-5.18l-.18.906h3.94l-.01.048-.052.262-.007.036h-3.94l-.406 2.04h5.365l.189-.949H12.937l.01-.047zM17.81 4.567l.185-.931H14.07l.01-.048.254-1.28h-1.24l-.45 2.259zM18.27 5.962l.192-.965h-6.74l-.193.965z"></path></g><path d="m26.8 1.14-.21 1.054h3.268l.21-1.054zM24.337 5.21c1.499 0 2.79-.375 3.454-1.004l.048-.046.034.053c.38.596 1.567.997 2.956.997h.198l.724-1.054h-.088c-1.183 0-1.978-.17-2.364-.506l-.11-.096h2.347l.208-1.043H24.61l-.208 1.043h2.344l-.173.1c-.506.297-1.351.448-2.512.448h-.144l.285 1.108h.135zM26.445 6.658h.062l-.013.062-.067.34-.01.047h-2.592l-.195.977H28.793l-.012.062-.066.33-.01.046h-5.162l-.457 2.294H30.1l.195-.977h-5.403l.013-.062.059-.296.01-.047h5.173l.463-2.327h-2.603l.012-.062.068-.34.01-.047H31.724l.223-1.12H23.19l-.223 1.12zM40.804 3.158h-.062l.012-.062.395-1.978h-1.601L38.575 6h1.6l.302-1.51.009-.048h1.22l.256-1.284zM36.305 3.945l-.133.669-.01.047h-1.59l.012-.062.134-.67.009-.046h1.59l-.012.062zm.448-2.246-.19.951-.01.047H34.964l.012-.061.187-.937h-1.568l-.833 4.18h4.76l.832-4.18h-1.6zM34.614 9.152l.009-.048H39.557l.52-2.611h-6.545l-.23 1.152h4.945l-.012.062-.066.33-.01.047h-4.944l-.525 2.633h13.384a.584.584 0 0 0 .571-.472.586.586 0 0 0-.571-.703H34.536l.012-.061.066-.33z"></path><path d="M45.543 7.73h-3.635a.562.562 0 0 1-.572-.596.643.643 0 0 1 .638-.597h3.636c.334 0 .59.267.572.597a.643.643 0 0 1-.639.596"></path><g transform="translate(43.152 3.602)"><mask id="x459ofzysd" fill="#fff"><use xlink:href="#unexvqbykc"></use></mask><path d="M4.209 1.193H.573A.562.562 0 0 1 .001.596.643.643 0 0 1 .64 0h3.635c.335 0 .59.267.572.596a.643.643 0 0 1-.638.597" mask="url(#x459ofzysd)"></path></g></g></svg>
-                              </div>
-                            </div>
-                            <button class="btn_like">
-                              <svg role="img" aria-label="좋아요 비활성화" width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path class="fill_heart" d="M15.824 4.005a5.068 5.068 0 0 0-3.753 1.937L12 6.036l-.07-.094A5.066 5.066 0 0 0 7.94 4C5.097 4 2.8 6.386 2.8 9.32a5.42 5.42 0 0 0 1.09 3.275l.124.158.382.449c1.175 1.338 3.37 3.338 6.587 6.004.663.55 1.626.54 2.279-.022l1.002-.869c3.007-2.626 4.895-4.449 5.691-5.505l.154-.215c.16-.208.312-.444.447-.695l.128-.256a.802.802 0 0 0 .059-.133c.294-.65.457-1.41.457-2.192C21.2 6.386 18.903 4 16.06 4l-.236.005zM16.06 5c2.282 0 4.14 1.93 4.14 4.32 0 .549-.098 1.082-.286 1.58l-.119.287-.006.013a4.521 4.521 0 0 1-.355.623l-.136.188c-.68 1.004-2.804 3.055-6.35 6.123l-.34.293a.765.765 0 0 1-.987.009l-1.058-.884c-2.714-2.287-4.564-4.01-5.541-5.155l-.118-.14A4.42 4.42 0 0 1 3.8 9.32C3.8 6.93 5.658 5 7.94 5c1.526 0 2.897.845 3.619 2.196l.441.826.441-.826C13.163 5.845 14.534 5 16.06 5z" fill-rule="evenodd">
-                              </path>
-                              </svg>
-                            </button>
-                          </div>
-                        </div>
-                      </a>
-                      <a href="">
-                        <div class="product_box">
-                          <figure>
-                            <img src="./img/main/PSI_1.jpeg" alt="위아몬즈 14K 라지 블링 체인 위아몬즈 목걸이" class="product_img">
-                          </figure>
-                          <div class="product_info">
-                            <div class="brand"><strong class="_title">
-                              위아몬즈
-                            </strong></div>
-                            <div class="brand product_name">
-                              <p class="_title">[슈퍼세일] 14K 라지 블링 체인 위아몬즈 목걸이</p>
-                            </div>
-                            <div class="brand product_price">
-                              <p class="">
-                                <span class="discount">20</span>
-                                <span class="final_price">23,000</span>
-                              </p>
-                              <div class="delivery">
-                                <svg role="img" aria-label="오늘 배송 상품" width="48" height="12" fill="#6200f0" viewBox="0 0 48 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute;"><defs><path id="gqczz64tsa" d="M0 0h22.2v12H0z"></path><path id="unexvqbykc" d="M0 0h4.848v1.193H0z"></path></defs><g fill-rule="evenodd"><g><mask id="d8fnmogxyb" fill="#fff"><use xlink:href="#gqczz64tsa"></use></mask><path d="M14.915 11.962 6.548 12C2.36 12.02-.668 8.828.128 5.231.78 2.271 3.836.054 7.284.038L15.652 0c4.189-.02 7.216 3.172 6.42 6.769-.654 2.96-3.709 5.177-7.157 5.193" mask="url(#d8fnmogxyb)"></path></g><g fill="#FFF"><path d="M6.511 5.405c-.154-.193-.207-.444-.15-.726.138-.695.83-1.144 1.764-1.144.533 0 .947.15 1.166.423.157.195.21.448.153.732-.138.69-.83 1.136-1.763 1.136-.537 0-.952-.15-1.17-.42zm1.396 2.527H7.86l.01-.047.204-1.032.007-.032.031-.004c1.37-.198 2.399-1.044 2.62-2.155.105-.526.001-1.002-.299-1.376-.41-.511-1.151-.792-2.09-.792-1.666 0-3.008.896-3.264 2.18-.218 1.096.46 1.938 1.73 2.143l.039.007-.008.04-.205 1.032-.008.036H3.886l-.194.974h6.74l.194-.974H7.907zM12.997 8.443l.008-.036h3.974l.398-2.006h-5.18l-.18.906h3.94l-.01.048-.052.262-.007.036h-3.94l-.406 2.04h5.365l.189-.949H12.937l.01-.047zM17.81 4.567l.185-.931H14.07l.01-.048.254-1.28h-1.24l-.45 2.259zM18.27 5.962l.192-.965h-6.74l-.193.965z"></path></g><path d="m26.8 1.14-.21 1.054h3.268l.21-1.054zM24.337 5.21c1.499 0 2.79-.375 3.454-1.004l.048-.046.034.053c.38.596 1.567.997 2.956.997h.198l.724-1.054h-.088c-1.183 0-1.978-.17-2.364-.506l-.11-.096h2.347l.208-1.043H24.61l-.208 1.043h2.344l-.173.1c-.506.297-1.351.448-2.512.448h-.144l.285 1.108h.135zM26.445 6.658h.062l-.013.062-.067.34-.01.047h-2.592l-.195.977H28.793l-.012.062-.066.33-.01.046h-5.162l-.457 2.294H30.1l.195-.977h-5.403l.013-.062.059-.296.01-.047h5.173l.463-2.327h-2.603l.012-.062.068-.34.01-.047H31.724l.223-1.12H23.19l-.223 1.12zM40.804 3.158h-.062l.012-.062.395-1.978h-1.601L38.575 6h1.6l.302-1.51.009-.048h1.22l.256-1.284zM36.305 3.945l-.133.669-.01.047h-1.59l.012-.062.134-.67.009-.046h1.59l-.012.062zm.448-2.246-.19.951-.01.047H34.964l.012-.061.187-.937h-1.568l-.833 4.18h4.76l.832-4.18h-1.6zM34.614 9.152l.009-.048H39.557l.52-2.611h-6.545l-.23 1.152h4.945l-.012.062-.066.33-.01.047h-4.944l-.525 2.633h13.384a.584.584 0 0 0 .571-.472.586.586 0 0 0-.571-.703H34.536l.012-.061.066-.33z"></path><path d="M45.543 7.73h-3.635a.562.562 0 0 1-.572-.596.643.643 0 0 1 .638-.597h3.636c.334 0 .59.267.572.597a.643.643 0 0 1-.639.596"></path><g transform="translate(43.152 3.602)"><mask id="x459ofzysd" fill="#fff"><use xlink:href="#unexvqbykc"></use></mask><path d="M4.209 1.193H.573A.562.562 0 0 1 .001.596.643.643 0 0 1 .64 0h3.635c.335 0 .59.267.572.596a.643.643 0 0 1-.638.597" mask="url(#x459ofzysd)"></path></g></g></svg>
-                              </div>
-                            </div>
-                            <button class="btn_like">
-                              <svg role="img" aria-label="좋아요 비활성화" width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path class="fill_heart" d="M15.824 4.005a5.068 5.068 0 0 0-3.753 1.937L12 6.036l-.07-.094A5.066 5.066 0 0 0 7.94 4C5.097 4 2.8 6.386 2.8 9.32a5.42 5.42 0 0 0 1.09 3.275l.124.158.382.449c1.175 1.338 3.37 3.338 6.587 6.004.663.55 1.626.54 2.279-.022l1.002-.869c3.007-2.626 4.895-4.449 5.691-5.505l.154-.215c.16-.208.312-.444.447-.695l.128-.256a.802.802 0 0 0 .059-.133c.294-.65.457-1.41.457-2.192C21.2 6.386 18.903 4 16.06 4l-.236.005zM16.06 5c2.282 0 4.14 1.93 4.14 4.32 0 .549-.098 1.082-.286 1.58l-.119.287-.006.013a4.521 4.521 0 0 1-.355.623l-.136.188c-.68 1.004-2.804 3.055-6.35 6.123l-.34.293a.765.765 0 0 1-.987.009l-1.058-.884c-2.714-2.287-4.564-4.01-5.541-5.155l-.118-.14A4.42 4.42 0 0 1 3.8 9.32C3.8 6.93 5.658 5 7.94 5c1.526 0 2.897.845 3.619 2.196l.441.826.441-.826C13.163 5.845 14.534 5 16.06 5z" fill-rule="evenodd">
-                              </path>
-                              </svg>
-                            </button>
-                          </div>
-                        </div>
-                      </a>
-                      <a href="">
-                        <div class="product_box">
-                          <figure>
-                            <img src="./img/main/PSI_1.jpeg" alt="위아몬즈 14K 라지 블링 체인 위아몬즈 목걸이" class="product_img">
-                          </figure>
-                          <div class="product_info">
-                            <div class="brand"><strong class="_title">
-                              위아몬즈
-                            </strong></div>
-                            <div class="brand product_name">
-                              <p class="_title">[슈퍼세일] 14K 라지 블링 체인 위아몬즈 목걸이</p>
-                            </div>
-                            <div class="brand product_price">
-                              <p class="">
-                                <span class="discount">20</span>
-                                <span class="final_price">23,000</span>
-                              </p>
-                              <div class="delivery">
-                                <svg role="img" aria-label="오늘 배송 상품" width="48" height="12" fill="#6200f0" viewBox="0 0 48 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute;"><defs><path id="gqczz64tsa" d="M0 0h22.2v12H0z"></path><path id="unexvqbykc" d="M0 0h4.848v1.193H0z"></path></defs><g fill-rule="evenodd"><g><mask id="d8fnmogxyb" fill="#fff"><use xlink:href="#gqczz64tsa"></use></mask><path d="M14.915 11.962 6.548 12C2.36 12.02-.668 8.828.128 5.231.78 2.271 3.836.054 7.284.038L15.652 0c4.189-.02 7.216 3.172 6.42 6.769-.654 2.96-3.709 5.177-7.157 5.193" mask="url(#d8fnmogxyb)"></path></g><g fill="#FFF"><path d="M6.511 5.405c-.154-.193-.207-.444-.15-.726.138-.695.83-1.144 1.764-1.144.533 0 .947.15 1.166.423.157.195.21.448.153.732-.138.69-.83 1.136-1.763 1.136-.537 0-.952-.15-1.17-.42zm1.396 2.527H7.86l.01-.047.204-1.032.007-.032.031-.004c1.37-.198 2.399-1.044 2.62-2.155.105-.526.001-1.002-.299-1.376-.41-.511-1.151-.792-2.09-.792-1.666 0-3.008.896-3.264 2.18-.218 1.096.46 1.938 1.73 2.143l.039.007-.008.04-.205 1.032-.008.036H3.886l-.194.974h6.74l.194-.974H7.907zM12.997 8.443l.008-.036h3.974l.398-2.006h-5.18l-.18.906h3.94l-.01.048-.052.262-.007.036h-3.94l-.406 2.04h5.365l.189-.949H12.937l.01-.047zM17.81 4.567l.185-.931H14.07l.01-.048.254-1.28h-1.24l-.45 2.259zM18.27 5.962l.192-.965h-6.74l-.193.965z"></path></g><path d="m26.8 1.14-.21 1.054h3.268l.21-1.054zM24.337 5.21c1.499 0 2.79-.375 3.454-1.004l.048-.046.034.053c.38.596 1.567.997 2.956.997h.198l.724-1.054h-.088c-1.183 0-1.978-.17-2.364-.506l-.11-.096h2.347l.208-1.043H24.61l-.208 1.043h2.344l-.173.1c-.506.297-1.351.448-2.512.448h-.144l.285 1.108h.135zM26.445 6.658h.062l-.013.062-.067.34-.01.047h-2.592l-.195.977H28.793l-.012.062-.066.33-.01.046h-5.162l-.457 2.294H30.1l.195-.977h-5.403l.013-.062.059-.296.01-.047h5.173l.463-2.327h-2.603l.012-.062.068-.34.01-.047H31.724l.223-1.12H23.19l-.223 1.12zM40.804 3.158h-.062l.012-.062.395-1.978h-1.601L38.575 6h1.6l.302-1.51.009-.048h1.22l.256-1.284zM36.305 3.945l-.133.669-.01.047h-1.59l.012-.062.134-.67.009-.046h1.59l-.012.062zm.448-2.246-.19.951-.01.047H34.964l.012-.061.187-.937h-1.568l-.833 4.18h4.76l.832-4.18h-1.6zM34.614 9.152l.009-.048H39.557l.52-2.611h-6.545l-.23 1.152h4.945l-.012.062-.066.33-.01.047h-4.944l-.525 2.633h13.384a.584.584 0 0 0 .571-.472.586.586 0 0 0-.571-.703H34.536l.012-.061.066-.33z"></path><path d="M45.543 7.73h-3.635a.562.562 0 0 1-.572-.596.643.643 0 0 1 .638-.597h3.636c.334 0 .59.267.572.597a.643.643 0 0 1-.639.596"></path><g transform="translate(43.152 3.602)"><mask id="x459ofzysd" fill="#fff"><use xlink:href="#unexvqbykc"></use></mask><path d="M4.209 1.193H.573A.562.562 0 0 1 .001.596.643.643 0 0 1 .64 0h3.635c.335 0 .59.267.572.596a.643.643 0 0 1-.638.597" mask="url(#x459ofzysd)"></path></g></g></svg>
-                              </div>
-                            </div>
-                            <button class="btn_like">
-                              <svg role="img" aria-label="좋아요 비활성화" width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path class="fill_heart" d="M15.824 4.005a5.068 5.068 0 0 0-3.753 1.937L12 6.036l-.07-.094A5.066 5.066 0 0 0 7.94 4C5.097 4 2.8 6.386 2.8 9.32a5.42 5.42 0 0 0 1.09 3.275l.124.158.382.449c1.175 1.338 3.37 3.338 6.587 6.004.663.55 1.626.54 2.279-.022l1.002-.869c3.007-2.626 4.895-4.449 5.691-5.505l.154-.215c.16-.208.312-.444.447-.695l.128-.256a.802.802 0 0 0 .059-.133c.294-.65.457-1.41.457-2.192C21.2 6.386 18.903 4 16.06 4l-.236.005zM16.06 5c2.282 0 4.14 1.93 4.14 4.32 0 .549-.098 1.082-.286 1.58l-.119.287-.006.013a4.521 4.521 0 0 1-.355.623l-.136.188c-.68 1.004-2.804 3.055-6.35 6.123l-.34.293a.765.765 0 0 1-.987.009l-1.058-.884c-2.714-2.287-4.564-4.01-5.541-5.155l-.118-.14A4.42 4.42 0 0 1 3.8 9.32C3.8 6.93 5.658 5 7.94 5c1.526 0 2.897.845 3.619 2.196l.441.826.441-.826C13.163 5.845 14.534 5 16.06 5z" fill-rule="evenodd">
-                              </path>
-                              </svg>
-                            </button>
-                          </div>
-                        </div>
-                      </a>
+                      </div>
                     </div>
                   </div>
                   <div class="btn_view">
@@ -951,156 +446,53 @@
                 <div class="contents_inner">
                   <div class="widget_area">
                     <div class="widget_wrapper product_area">
-                      <!-- <a href=""> -->
-                        <!-- <div class="product_box">
-                          <figure>
-                            <img src="./img/main/PSI_1.jpeg" alt="위아몬즈 14K 라지 블링 체인 위아몬즈 목걸이" class="product_img">
-                          </figure>
-                          <div class="product_info">
-                            <div class="brand"><strong class="_title">
-                              위아몬즈
-                            </strong></div>
-                            <div class="brand product_name">
-                              <p class="_title">[슈퍼세일] 14K 라지 블링 체인 위아몬즈 목걸이</p>
-                            </div>
-                            <div class="brand product_price">
-                              <p class="">
-                                <span class="discount">20</span>
-                                <span class="final_price">23,000</span>
-                              </p>
-                              <div class="delivery">
-                                <svg role="img" aria-label="오늘 배송 상품" width="48" height="12" fill="#6200f0" viewBox="0 0 48 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute;"><defs><path id="gqczz64tsa" d="M0 0h22.2v12H0z"></path><path id="unexvqbykc" d="M0 0h4.848v1.193H0z"></path></defs><g fill-rule="evenodd"><g><mask id="d8fnmogxyb" fill="#fff"><use xlink:href="#gqczz64tsa"></use></mask><path d="M14.915 11.962 6.548 12C2.36 12.02-.668 8.828.128 5.231.78 2.271 3.836.054 7.284.038L15.652 0c4.189-.02 7.216 3.172 6.42 6.769-.654 2.96-3.709 5.177-7.157 5.193" mask="url(#d8fnmogxyb)"></path></g><g fill="#FFF"><path d="M6.511 5.405c-.154-.193-.207-.444-.15-.726.138-.695.83-1.144 1.764-1.144.533 0 .947.15 1.166.423.157.195.21.448.153.732-.138.69-.83 1.136-1.763 1.136-.537 0-.952-.15-1.17-.42zm1.396 2.527H7.86l.01-.047.204-1.032.007-.032.031-.004c1.37-.198 2.399-1.044 2.62-2.155.105-.526.001-1.002-.299-1.376-.41-.511-1.151-.792-2.09-.792-1.666 0-3.008.896-3.264 2.18-.218 1.096.46 1.938 1.73 2.143l.039.007-.008.04-.205 1.032-.008.036H3.886l-.194.974h6.74l.194-.974H7.907zM12.997 8.443l.008-.036h3.974l.398-2.006h-5.18l-.18.906h3.94l-.01.048-.052.262-.007.036h-3.94l-.406 2.04h5.365l.189-.949H12.937l.01-.047zM17.81 4.567l.185-.931H14.07l.01-.048.254-1.28h-1.24l-.45 2.259zM18.27 5.962l.192-.965h-6.74l-.193.965z"></path></g><path d="m26.8 1.14-.21 1.054h3.268l.21-1.054zM24.337 5.21c1.499 0 2.79-.375 3.454-1.004l.048-.046.034.053c.38.596 1.567.997 2.956.997h.198l.724-1.054h-.088c-1.183 0-1.978-.17-2.364-.506l-.11-.096h2.347l.208-1.043H24.61l-.208 1.043h2.344l-.173.1c-.506.297-1.351.448-2.512.448h-.144l.285 1.108h.135zM26.445 6.658h.062l-.013.062-.067.34-.01.047h-2.592l-.195.977H28.793l-.012.062-.066.33-.01.046h-5.162l-.457 2.294H30.1l.195-.977h-5.403l.013-.062.059-.296.01-.047h5.173l.463-2.327h-2.603l.012-.062.068-.34.01-.047H31.724l.223-1.12H23.19l-.223 1.12zM40.804 3.158h-.062l.012-.062.395-1.978h-1.601L38.575 6h1.6l.302-1.51.009-.048h1.22l.256-1.284zM36.305 3.945l-.133.669-.01.047h-1.59l.012-.062.134-.67.009-.046h1.59l-.012.062zm.448-2.246-.19.951-.01.047H34.964l.012-.061.187-.937h-1.568l-.833 4.18h4.76l.832-4.18h-1.6zM34.614 9.152l.009-.048H39.557l.52-2.611h-6.545l-.23 1.152h4.945l-.012.062-.066.33-.01.047h-4.944l-.525 2.633h13.384a.584.584 0 0 0 .571-.472.586.586 0 0 0-.571-.703H34.536l.012-.061.066-.33z"></path><path d="M45.543 7.73h-3.635a.562.562 0 0 1-.572-.596.643.643 0 0 1 .638-.597h3.636c.334 0 .59.267.572.597a.643.643 0 0 1-.639.596"></path><g transform="translate(43.152 3.602)"><mask id="x459ofzysd" fill="#fff"><use xlink:href="#unexvqbykc"></use></mask><path d="M4.209 1.193H.573A.562.562 0 0 1 .001.596.643.643 0 0 1 .64 0h3.635c.335 0 .59.267.572.596a.643.643 0 0 1-.638.597" mask="url(#x459ofzysd)"></path></g></g></svg>
-                              </div>
-                            </div>
-                            <button class="btn_like">
-                              <svg role="img" aria-label="좋아요 비활성화" width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path class="fill_heart" d="M15.824 4.005a5.068 5.068 0 0 0-3.753 1.937L12 6.036l-.07-.094A5.066 5.066 0 0 0 7.94 4C5.097 4 2.8 6.386 2.8 9.32a5.42 5.42 0 0 0 1.09 3.275l.124.158.382.449c1.175 1.338 3.37 3.338 6.587 6.004.663.55 1.626.54 2.279-.022l1.002-.869c3.007-2.626 4.895-4.449 5.691-5.505l.154-.215c.16-.208.312-.444.447-.695l.128-.256a.802.802 0 0 0 .059-.133c.294-.65.457-1.41.457-2.192C21.2 6.386 18.903 4 16.06 4l-.236.005zM16.06 5c2.282 0 4.14 1.93 4.14 4.32 0 .549-.098 1.082-.286 1.58l-.119.287-.006.013a4.521 4.521 0 0 1-.355.623l-.136.188c-.68 1.004-2.804 3.055-6.35 6.123l-.34.293a.765.765 0 0 1-.987.009l-1.058-.884c-2.714-2.287-4.564-4.01-5.541-5.155l-.118-.14A4.42 4.42 0 0 1 3.8 9.32C3.8 6.93 5.658 5 7.94 5c1.526 0 2.897.845 3.619 2.196l.441.826.441-.826C13.163 5.845 14.534 5 16.06 5z" fill-rule="evenodd">
-                              </path>
-                              </svg>
-                            </button>
-                          </div>
-                        </div> -->
-                      <!-- </a> -->
-                      <!-- <a href="">
-                        <div class="product_box">
-                          <figure>
-                            <img src="./img/main/PSI_1.jpeg" alt="위아몬즈 14K 라지 블링 체인 위아몬즈 목걸이" class="product_img">
-                          </figure>
-                          <div class="product_info">
-                            <div class="brand"><strong class="_title">
-                              위아몬즈
-                            </strong></div>
-                            <div class="brand product_name">
-                              <p class="_title">[슈퍼세일] 14K 라지 블링 체인 위아몬즈 목걸이</p>
-                            </div>
-                            <div class="brand product_price">
-                              <p class="">
-                                <span class="discount">20</span>
-                                <span class="final_price">23,000</span>
-                              </p>
-                              <div class="delivery">
-                                <svg role="img" aria-label="오늘 배송 상품" width="48" height="12" fill="#6200f0" viewBox="0 0 48 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute;"><defs><path id="gqczz64tsa" d="M0 0h22.2v12H0z"></path><path id="unexvqbykc" d="M0 0h4.848v1.193H0z"></path></defs><g fill-rule="evenodd"><g><mask id="d8fnmogxyb" fill="#fff"><use xlink:href="#gqczz64tsa"></use></mask><path d="M14.915 11.962 6.548 12C2.36 12.02-.668 8.828.128 5.231.78 2.271 3.836.054 7.284.038L15.652 0c4.189-.02 7.216 3.172 6.42 6.769-.654 2.96-3.709 5.177-7.157 5.193" mask="url(#d8fnmogxyb)"></path></g><g fill="#FFF"><path d="M6.511 5.405c-.154-.193-.207-.444-.15-.726.138-.695.83-1.144 1.764-1.144.533 0 .947.15 1.166.423.157.195.21.448.153.732-.138.69-.83 1.136-1.763 1.136-.537 0-.952-.15-1.17-.42zm1.396 2.527H7.86l.01-.047.204-1.032.007-.032.031-.004c1.37-.198 2.399-1.044 2.62-2.155.105-.526.001-1.002-.299-1.376-.41-.511-1.151-.792-2.09-.792-1.666 0-3.008.896-3.264 2.18-.218 1.096.46 1.938 1.73 2.143l.039.007-.008.04-.205 1.032-.008.036H3.886l-.194.974h6.74l.194-.974H7.907zM12.997 8.443l.008-.036h3.974l.398-2.006h-5.18l-.18.906h3.94l-.01.048-.052.262-.007.036h-3.94l-.406 2.04h5.365l.189-.949H12.937l.01-.047zM17.81 4.567l.185-.931H14.07l.01-.048.254-1.28h-1.24l-.45 2.259zM18.27 5.962l.192-.965h-6.74l-.193.965z"></path></g><path d="m26.8 1.14-.21 1.054h3.268l.21-1.054zM24.337 5.21c1.499 0 2.79-.375 3.454-1.004l.048-.046.034.053c.38.596 1.567.997 2.956.997h.198l.724-1.054h-.088c-1.183 0-1.978-.17-2.364-.506l-.11-.096h2.347l.208-1.043H24.61l-.208 1.043h2.344l-.173.1c-.506.297-1.351.448-2.512.448h-.144l.285 1.108h.135zM26.445 6.658h.062l-.013.062-.067.34-.01.047h-2.592l-.195.977H28.793l-.012.062-.066.33-.01.046h-5.162l-.457 2.294H30.1l.195-.977h-5.403l.013-.062.059-.296.01-.047h5.173l.463-2.327h-2.603l.012-.062.068-.34.01-.047H31.724l.223-1.12H23.19l-.223 1.12zM40.804 3.158h-.062l.012-.062.395-1.978h-1.601L38.575 6h1.6l.302-1.51.009-.048h1.22l.256-1.284zM36.305 3.945l-.133.669-.01.047h-1.59l.012-.062.134-.67.009-.046h1.59l-.012.062zm.448-2.246-.19.951-.01.047H34.964l.012-.061.187-.937h-1.568l-.833 4.18h4.76l.832-4.18h-1.6zM34.614 9.152l.009-.048H39.557l.52-2.611h-6.545l-.23 1.152h4.945l-.012.062-.066.33-.01.047h-4.944l-.525 2.633h13.384a.584.584 0 0 0 .571-.472.586.586 0 0 0-.571-.703H34.536l.012-.061.066-.33z"></path><path d="M45.543 7.73h-3.635a.562.562 0 0 1-.572-.596.643.643 0 0 1 .638-.597h3.636c.334 0 .59.267.572.597a.643.643 0 0 1-.639.596"></path><g transform="translate(43.152 3.602)"><mask id="x459ofzysd" fill="#fff"><use xlink:href="#unexvqbykc"></use></mask><path d="M4.209 1.193H.573A.562.562 0 0 1 .001.596.643.643 0 0 1 .64 0h3.635c.335 0 .59.267.572.596a.643.643 0 0 1-.638.597" mask="url(#x459ofzysd)"></path></g></g></svg>
-                              </div>
-                            </div>
-                            <button class="btn_like">
-                              <svg role="img" aria-label="좋아요 비활성화" width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path class="fill_heart" d="M15.824 4.005a5.068 5.068 0 0 0-3.753 1.937L12 6.036l-.07-.094A5.066 5.066 0 0 0 7.94 4C5.097 4 2.8 6.386 2.8 9.32a5.42 5.42 0 0 0 1.09 3.275l.124.158.382.449c1.175 1.338 3.37 3.338 6.587 6.004.663.55 1.626.54 2.279-.022l1.002-.869c3.007-2.626 4.895-4.449 5.691-5.505l.154-.215c.16-.208.312-.444.447-.695l.128-.256a.802.802 0 0 0 .059-.133c.294-.65.457-1.41.457-2.192C21.2 6.386 18.903 4 16.06 4l-.236.005zM16.06 5c2.282 0 4.14 1.93 4.14 4.32 0 .549-.098 1.082-.286 1.58l-.119.287-.006.013a4.521 4.521 0 0 1-.355.623l-.136.188c-.68 1.004-2.804 3.055-6.35 6.123l-.34.293a.765.765 0 0 1-.987.009l-1.058-.884c-2.714-2.287-4.564-4.01-5.541-5.155l-.118-.14A4.42 4.42 0 0 1 3.8 9.32C3.8 6.93 5.658 5 7.94 5c1.526 0 2.897.845 3.619 2.196l.441.826.441-.826C13.163 5.845 14.534 5 16.06 5z" fill-rule="evenodd">
-                              </path>
-                              </svg>
-                            </button>
-                          </div>
+                      <div class="swiper-container">
+                        <div id="newItem" class="swiper-wrapper">
                         </div>
-                      </a>
-                      <a href="">
-                        <div class="product_box">
-                          <figure>
-                            <img src="./img/main/PSI_1.jpeg" alt="위아몬즈 14K 라지 블링 체인 위아몬즈 목걸이" class="product_img">
-                          </figure>
-                          <div class="product_info">
-                            <div class="brand"><strong class="_title">
-                              위아몬즈
-                            </strong></div>
-                            <div class="brand product_name">
-                              <p class="_title">[슈퍼세일] 14K 라지 블링 체인 위아몬즈 목걸이</p>
-                            </div>
-                            <div class="brand product_price">
-                              <p class="">
-                                <span class="discount">20</span>
-                                <span class="final_price">23,000</span>
-                              </p>
-                              <div class="delivery">
-                                <svg role="img" aria-label="오늘 배송 상품" width="48" height="12" fill="#6200f0" viewBox="0 0 48 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute;"><defs><path id="gqczz64tsa" d="M0 0h22.2v12H0z"></path><path id="unexvqbykc" d="M0 0h4.848v1.193H0z"></path></defs><g fill-rule="evenodd"><g><mask id="d8fnmogxyb" fill="#fff"><use xlink:href="#gqczz64tsa"></use></mask><path d="M14.915 11.962 6.548 12C2.36 12.02-.668 8.828.128 5.231.78 2.271 3.836.054 7.284.038L15.652 0c4.189-.02 7.216 3.172 6.42 6.769-.654 2.96-3.709 5.177-7.157 5.193" mask="url(#d8fnmogxyb)"></path></g><g fill="#FFF"><path d="M6.511 5.405c-.154-.193-.207-.444-.15-.726.138-.695.83-1.144 1.764-1.144.533 0 .947.15 1.166.423.157.195.21.448.153.732-.138.69-.83 1.136-1.763 1.136-.537 0-.952-.15-1.17-.42zm1.396 2.527H7.86l.01-.047.204-1.032.007-.032.031-.004c1.37-.198 2.399-1.044 2.62-2.155.105-.526.001-1.002-.299-1.376-.41-.511-1.151-.792-2.09-.792-1.666 0-3.008.896-3.264 2.18-.218 1.096.46 1.938 1.73 2.143l.039.007-.008.04-.205 1.032-.008.036H3.886l-.194.974h6.74l.194-.974H7.907zM12.997 8.443l.008-.036h3.974l.398-2.006h-5.18l-.18.906h3.94l-.01.048-.052.262-.007.036h-3.94l-.406 2.04h5.365l.189-.949H12.937l.01-.047zM17.81 4.567l.185-.931H14.07l.01-.048.254-1.28h-1.24l-.45 2.259zM18.27 5.962l.192-.965h-6.74l-.193.965z"></path></g><path d="m26.8 1.14-.21 1.054h3.268l.21-1.054zM24.337 5.21c1.499 0 2.79-.375 3.454-1.004l.048-.046.034.053c.38.596 1.567.997 2.956.997h.198l.724-1.054h-.088c-1.183 0-1.978-.17-2.364-.506l-.11-.096h2.347l.208-1.043H24.61l-.208 1.043h2.344l-.173.1c-.506.297-1.351.448-2.512.448h-.144l.285 1.108h.135zM26.445 6.658h.062l-.013.062-.067.34-.01.047h-2.592l-.195.977H28.793l-.012.062-.066.33-.01.046h-5.162l-.457 2.294H30.1l.195-.977h-5.403l.013-.062.059-.296.01-.047h5.173l.463-2.327h-2.603l.012-.062.068-.34.01-.047H31.724l.223-1.12H23.19l-.223 1.12zM40.804 3.158h-.062l.012-.062.395-1.978h-1.601L38.575 6h1.6l.302-1.51.009-.048h1.22l.256-1.284zM36.305 3.945l-.133.669-.01.047h-1.59l.012-.062.134-.67.009-.046h1.59l-.012.062zm.448-2.246-.19.951-.01.047H34.964l.012-.061.187-.937h-1.568l-.833 4.18h4.76l.832-4.18h-1.6zM34.614 9.152l.009-.048H39.557l.52-2.611h-6.545l-.23 1.152h4.945l-.012.062-.066.33-.01.047h-4.944l-.525 2.633h13.384a.584.584 0 0 0 .571-.472.586.586 0 0 0-.571-.703H34.536l.012-.061.066-.33z"></path><path d="M45.543 7.73h-3.635a.562.562 0 0 1-.572-.596.643.643 0 0 1 .638-.597h3.636c.334 0 .59.267.572.597a.643.643 0 0 1-.639.596"></path><g transform="translate(43.152 3.602)"><mask id="x459ofzysd" fill="#fff"><use xlink:href="#unexvqbykc"></use></mask><path d="M4.209 1.193H.573A.562.562 0 0 1 .001.596.643.643 0 0 1 .64 0h3.635c.335 0 .59.267.572.596a.643.643 0 0 1-.638.597" mask="url(#x459ofzysd)"></path></g></g></svg>
-                              </div>
-                            </div>
-                            <button class="btn_like">
-                              <svg role="img" aria-label="좋아요 비활성화" width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path class="fill_heart" d="M15.824 4.005a5.068 5.068 0 0 0-3.753 1.937L12 6.036l-.07-.094A5.066 5.066 0 0 0 7.94 4C5.097 4 2.8 6.386 2.8 9.32a5.42 5.42 0 0 0 1.09 3.275l.124.158.382.449c1.175 1.338 3.37 3.338 6.587 6.004.663.55 1.626.54 2.279-.022l1.002-.869c3.007-2.626 4.895-4.449 5.691-5.505l.154-.215c.16-.208.312-.444.447-.695l.128-.256a.802.802 0 0 0 .059-.133c.294-.65.457-1.41.457-2.192C21.2 6.386 18.903 4 16.06 4l-.236.005zM16.06 5c2.282 0 4.14 1.93 4.14 4.32 0 .549-.098 1.082-.286 1.58l-.119.287-.006.013a4.521 4.521 0 0 1-.355.623l-.136.188c-.68 1.004-2.804 3.055-6.35 6.123l-.34.293a.765.765 0 0 1-.987.009l-1.058-.884c-2.714-2.287-4.564-4.01-5.541-5.155l-.118-.14A4.42 4.42 0 0 1 3.8 9.32C3.8 6.93 5.658 5 7.94 5c1.526 0 2.897.845 3.619 2.196l.441.826.441-.826C13.163 5.845 14.534 5 16.06 5z" fill-rule="evenodd">
-                              </path>
-                              </svg>
-                            </button>
-                          </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="btn_view">
+                    <button>VIEW MORE</button>
+                  </div>
+                </div>
+              </article>
+              <article>
+                <div class="contents_inner">
+                  <div class="event_area">
+                    <div class="swiper-container">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <a href="">
+                            <span>
+                              <img src="./img/main/event_1.jpeg" alt="애끼">
+                            </span>
+                          </a>
                         </div>
-                      </a>
-                      <a href="">
-                        <div class="product_box">
-                          <figure>
-                            <img src="./img/main/PSI_1.jpeg" alt="위아몬즈 14K 라지 블링 체인 위아몬즈 목걸이" class="product_img">
-                          </figure>
-                          <div class="product_info">
-                            <div class="brand"><strong class="_title">
-                              위아몬즈
-                            </strong></div>
-                            <div class="brand product_name">
-                              <p class="_title">[슈퍼세일] 14K 라지 블링 체인 위아몬즈 목걸이</p>
-                            </div>
-                            <div class="brand product_price">
-                              <p class="">
-                                <span class="discount">20</span>
-                                <span class="final_price">23,000</span>
-                              </p>
-                              <div class="delivery">
-                                <svg role="img" aria-label="오늘 배송 상품" width="48" height="12" fill="#6200f0" viewBox="0 0 48 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute;"><defs><path id="gqczz64tsa" d="M0 0h22.2v12H0z"></path><path id="unexvqbykc" d="M0 0h4.848v1.193H0z"></path></defs><g fill-rule="evenodd"><g><mask id="d8fnmogxyb" fill="#fff"><use xlink:href="#gqczz64tsa"></use></mask><path d="M14.915 11.962 6.548 12C2.36 12.02-.668 8.828.128 5.231.78 2.271 3.836.054 7.284.038L15.652 0c4.189-.02 7.216 3.172 6.42 6.769-.654 2.96-3.709 5.177-7.157 5.193" mask="url(#d8fnmogxyb)"></path></g><g fill="#FFF"><path d="M6.511 5.405c-.154-.193-.207-.444-.15-.726.138-.695.83-1.144 1.764-1.144.533 0 .947.15 1.166.423.157.195.21.448.153.732-.138.69-.83 1.136-1.763 1.136-.537 0-.952-.15-1.17-.42zm1.396 2.527H7.86l.01-.047.204-1.032.007-.032.031-.004c1.37-.198 2.399-1.044 2.62-2.155.105-.526.001-1.002-.299-1.376-.41-.511-1.151-.792-2.09-.792-1.666 0-3.008.896-3.264 2.18-.218 1.096.46 1.938 1.73 2.143l.039.007-.008.04-.205 1.032-.008.036H3.886l-.194.974h6.74l.194-.974H7.907zM12.997 8.443l.008-.036h3.974l.398-2.006h-5.18l-.18.906h3.94l-.01.048-.052.262-.007.036h-3.94l-.406 2.04h5.365l.189-.949H12.937l.01-.047zM17.81 4.567l.185-.931H14.07l.01-.048.254-1.28h-1.24l-.45 2.259zM18.27 5.962l.192-.965h-6.74l-.193.965z"></path></g><path d="m26.8 1.14-.21 1.054h3.268l.21-1.054zM24.337 5.21c1.499 0 2.79-.375 3.454-1.004l.048-.046.034.053c.38.596 1.567.997 2.956.997h.198l.724-1.054h-.088c-1.183 0-1.978-.17-2.364-.506l-.11-.096h2.347l.208-1.043H24.61l-.208 1.043h2.344l-.173.1c-.506.297-1.351.448-2.512.448h-.144l.285 1.108h.135zM26.445 6.658h.062l-.013.062-.067.34-.01.047h-2.592l-.195.977H28.793l-.012.062-.066.33-.01.046h-5.162l-.457 2.294H30.1l.195-.977h-5.403l.013-.062.059-.296.01-.047h5.173l.463-2.327h-2.603l.012-.062.068-.34.01-.047H31.724l.223-1.12H23.19l-.223 1.12zM40.804 3.158h-.062l.012-.062.395-1.978h-1.601L38.575 6h1.6l.302-1.51.009-.048h1.22l.256-1.284zM36.305 3.945l-.133.669-.01.047h-1.59l.012-.062.134-.67.009-.046h1.59l-.012.062zm.448-2.246-.19.951-.01.047H34.964l.012-.061.187-.937h-1.568l-.833 4.18h4.76l.832-4.18h-1.6zM34.614 9.152l.009-.048H39.557l.52-2.611h-6.545l-.23 1.152h4.945l-.012.062-.066.33-.01.047h-4.944l-.525 2.633h13.384a.584.584 0 0 0 .571-.472.586.586 0 0 0-.571-.703H34.536l.012-.061.066-.33z"></path><path d="M45.543 7.73h-3.635a.562.562 0 0 1-.572-.596.643.643 0 0 1 .638-.597h3.636c.334 0 .59.267.572.597a.643.643 0 0 1-.639.596"></path><g transform="translate(43.152 3.602)"><mask id="x459ofzysd" fill="#fff"><use xlink:href="#unexvqbykc"></use></mask><path d="M4.209 1.193H.573A.562.562 0 0 1 .001.596.643.643 0 0 1 .64 0h3.635c.335 0 .59.267.572.596a.643.643 0 0 1-.638.597" mask="url(#x459ofzysd)"></path></g></g></svg>
-                              </div>
-                            </div>
-                            <button class="btn_like">
-                              <svg role="img" aria-label="좋아요 비활성화" width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path class="fill_heart" d="M15.824 4.005a5.068 5.068 0 0 0-3.753 1.937L12 6.036l-.07-.094A5.066 5.066 0 0 0 7.94 4C5.097 4 2.8 6.386 2.8 9.32a5.42 5.42 0 0 0 1.09 3.275l.124.158.382.449c1.175 1.338 3.37 3.338 6.587 6.004.663.55 1.626.54 2.279-.022l1.002-.869c3.007-2.626 4.895-4.449 5.691-5.505l.154-.215c.16-.208.312-.444.447-.695l.128-.256a.802.802 0 0 0 .059-.133c.294-.65.457-1.41.457-2.192C21.2 6.386 18.903 4 16.06 4l-.236.005zM16.06 5c2.282 0 4.14 1.93 4.14 4.32 0 .549-.098 1.082-.286 1.58l-.119.287-.006.013a4.521 4.521 0 0 1-.355.623l-.136.188c-.68 1.004-2.804 3.055-6.35 6.123l-.34.293a.765.765 0 0 1-.987.009l-1.058-.884c-2.714-2.287-4.564-4.01-5.541-5.155l-.118-.14A4.42 4.42 0 0 1 3.8 9.32C3.8 6.93 5.658 5 7.94 5c1.526 0 2.897.845 3.619 2.196l.441.826.441-.826C13.163 5.845 14.534 5 16.06 5z" fill-rule="evenodd">
-                              </path>
-                              </svg>
-                            </button>
-                          </div>
+                        <div class="swiper-slide">
+                          <a href="">
+                            <span>
+                              <img src="./img/main/event_2.jpeg" alt="딥브로우">
+                            </span>
+                          </a>
                         </div>
-                      </a>
-                      <a href="">
-                        <div class="product_box">
-                          <figure>
-                            <img src="./img/main/PSI_1.jpeg" alt="위아몬즈 14K 라지 블링 체인 위아몬즈 목걸이" class="product_img">
-                          </figure>
-                          <div class="product_info">
-                            <div class="brand"><strong class="_title">
-                              위아몬즈
-                            </strong></div>
-                            <div class="brand product_name">
-                              <p class="_title">[슈퍼세일] 14K 라지 블링 체인 위아몬즈 목걸이</p>
-                            </div>
-                            <div class="brand product_price">
-                              <p class="">
-                                <span class="discount">20</span>
-                                <span class="final_price">23,000</span>
-                              </p>
-                              <div class="delivery">
-                                <svg role="img" aria-label="오늘 배송 상품" width="48" height="12" fill="#6200f0" viewBox="0 0 48 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute;"><defs><path id="gqczz64tsa" d="M0 0h22.2v12H0z"></path><path id="unexvqbykc" d="M0 0h4.848v1.193H0z"></path></defs><g fill-rule="evenodd"><g><mask id="d8fnmogxyb" fill="#fff"><use xlink:href="#gqczz64tsa"></use></mask><path d="M14.915 11.962 6.548 12C2.36 12.02-.668 8.828.128 5.231.78 2.271 3.836.054 7.284.038L15.652 0c4.189-.02 7.216 3.172 6.42 6.769-.654 2.96-3.709 5.177-7.157 5.193" mask="url(#d8fnmogxyb)"></path></g><g fill="#FFF"><path d="M6.511 5.405c-.154-.193-.207-.444-.15-.726.138-.695.83-1.144 1.764-1.144.533 0 .947.15 1.166.423.157.195.21.448.153.732-.138.69-.83 1.136-1.763 1.136-.537 0-.952-.15-1.17-.42zm1.396 2.527H7.86l.01-.047.204-1.032.007-.032.031-.004c1.37-.198 2.399-1.044 2.62-2.155.105-.526.001-1.002-.299-1.376-.41-.511-1.151-.792-2.09-.792-1.666 0-3.008.896-3.264 2.18-.218 1.096.46 1.938 1.73 2.143l.039.007-.008.04-.205 1.032-.008.036H3.886l-.194.974h6.74l.194-.974H7.907zM12.997 8.443l.008-.036h3.974l.398-2.006h-5.18l-.18.906h3.94l-.01.048-.052.262-.007.036h-3.94l-.406 2.04h5.365l.189-.949H12.937l.01-.047zM17.81 4.567l.185-.931H14.07l.01-.048.254-1.28h-1.24l-.45 2.259zM18.27 5.962l.192-.965h-6.74l-.193.965z"></path></g><path d="m26.8 1.14-.21 1.054h3.268l.21-1.054zM24.337 5.21c1.499 0 2.79-.375 3.454-1.004l.048-.046.034.053c.38.596 1.567.997 2.956.997h.198l.724-1.054h-.088c-1.183 0-1.978-.17-2.364-.506l-.11-.096h2.347l.208-1.043H24.61l-.208 1.043h2.344l-.173.1c-.506.297-1.351.448-2.512.448h-.144l.285 1.108h.135zM26.445 6.658h.062l-.013.062-.067.34-.01.047h-2.592l-.195.977H28.793l-.012.062-.066.33-.01.046h-5.162l-.457 2.294H30.1l.195-.977h-5.403l.013-.062.059-.296.01-.047h5.173l.463-2.327h-2.603l.012-.062.068-.34.01-.047H31.724l.223-1.12H23.19l-.223 1.12zM40.804 3.158h-.062l.012-.062.395-1.978h-1.601L38.575 6h1.6l.302-1.51.009-.048h1.22l.256-1.284zM36.305 3.945l-.133.669-.01.047h-1.59l.012-.062.134-.67.009-.046h1.59l-.012.062zm.448-2.246-.19.951-.01.047H34.964l.012-.061.187-.937h-1.568l-.833 4.18h4.76l.832-4.18h-1.6zM34.614 9.152l.009-.048H39.557l.52-2.611h-6.545l-.23 1.152h4.945l-.012.062-.066.33-.01.047h-4.944l-.525 2.633h13.384a.584.584 0 0 0 .571-.472.586.586 0 0 0-.571-.703H34.536l.012-.061.066-.33z"></path><path d="M45.543 7.73h-3.635a.562.562 0 0 1-.572-.596.643.643 0 0 1 .638-.597h3.636c.334 0 .59.267.572.597a.643.643 0 0 1-.639.596"></path><g transform="translate(43.152 3.602)"><mask id="x459ofzysd" fill="#fff"><use xlink:href="#unexvqbykc"></use></mask><path d="M4.209 1.193H.573A.562.562 0 0 1 .001.596.643.643 0 0 1 .64 0h3.635c.335 0 .59.267.572.596a.643.643 0 0 1-.638.597" mask="url(#x459ofzysd)"></path></g></g></svg>
-                              </div>
-                            </div>
-                            <button class="btn_like">
-                              <svg role="img" aria-label="좋아요 비활성화" width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path class="fill_heart" d="M15.824 4.005a5.068 5.068 0 0 0-3.753 1.937L12 6.036l-.07-.094A5.066 5.066 0 0 0 7.94 4C5.097 4 2.8 6.386 2.8 9.32a5.42 5.42 0 0 0 1.09 3.275l.124.158.382.449c1.175 1.338 3.37 3.338 6.587 6.004.663.55 1.626.54 2.279-.022l1.002-.869c3.007-2.626 4.895-4.449 5.691-5.505l.154-.215c.16-.208.312-.444.447-.695l.128-.256a.802.802 0 0 0 .059-.133c.294-.65.457-1.41.457-2.192C21.2 6.386 18.903 4 16.06 4l-.236.005zM16.06 5c2.282 0 4.14 1.93 4.14 4.32 0 .549-.098 1.082-.286 1.58l-.119.287-.006.013a4.521 4.521 0 0 1-.355.623l-.136.188c-.68 1.004-2.804 3.055-6.35 6.123l-.34.293a.765.765 0 0 1-.987.009l-1.058-.884c-2.714-2.287-4.564-4.01-5.541-5.155l-.118-.14A4.42 4.42 0 0 1 3.8 9.32C3.8 6.93 5.658 5 7.94 5c1.526 0 2.897.845 3.619 2.196l.441.826.441-.826C13.163 5.845 14.534 5 16.06 5z" fill-rule="evenodd">
-                              </path>
-                              </svg>
-                            </button>
-                          </div>
+                      </div>
+                      <div class="event swiper-pagination"></div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <article>
+                <div class="contents_tit">
+                  <strong>새로 만나는 가을 헤어 아이템</strong>
+                </div>
+                <div class="contents_inner">
+                  <div class="widget_area">
+                    <div class="widget_wrapper product_area">
+                      <div class="swiper-container">
+                        <div id="newItem2" class="swiper-wrapper">
                         </div>
-                      </a> -->
+                      </div>
                     </div>
                   </div>
                   <div class="btn_view">
@@ -1154,8 +546,8 @@
               </div>
               <div class="footer_title"><span>글로벌<img src="./img/common/footer_section_open_btn.png" alt="더보기버튼"></span>
                 <ul class="footer_list" style="display: none;">
-                  <li><a href="">아몬즈재팬</a></li>
-                  <li><a href="">아몬즈미국</a></li>
+                  <li><a href="">아몬즈Japan</a></li>
+                  <li><a href="">아몬즈US</a></li>
                 </ul>
               </div>
             </div>
